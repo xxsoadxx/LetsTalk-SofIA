@@ -1,21 +1,24 @@
 var PubNub = require('pubnub');
 var RiveScript = require("./lib/rivescript.js");
 var request = require('request');
+var db = require('diskdb');
+db = db.connect('./db', ['data','log']);
 
 // Create the bot.
 var bot = new RiveScript();
 bot.setSubroutine('myFunction', function(rs, args){
+
         return "Ejecuto!"
 });
 
 //Accents
 function accents(text) {
-    var dict = {"á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u" }
+    var dict = {"á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" "     }
 
-    text.replace(/[^\w ]/g, function(char) {
-    return dict[char] || char;
+    text = text.replace(/[^\w ]/g, function(char) {
+        var val = dict[char] || char;
+        return val;
     });
-
     return text;
 }
 
@@ -81,8 +84,19 @@ function InitPubNub(){
                     console.log(message.message.data.person.id);
                     if(message.message.data.type==="NORMAL" && message.message.data.content_type==="text/plain" && message.message.data.person.id !== 3970){
                         //Tengo que setear las variables con información
-                        var respuesta = bot.reply(message.message.data.person.id, message.message.data.content, this);
-                        
+                        var msg = accents(message.message.data.content)
+                        var respuesta = bot.reply(message.message.data.person.id,msg , this);
+                        var log = {
+                            person:message.message.data.person,
+                            msgin:message.message.data.content,
+                            msgout:respuesta,
+                            date: new Date()
+                        };
+                        db.log.save(log);
+                        if(respuesta === 'Unknown'){
+                            db.data.save(log);
+                            respuesta = 'No te he entendido.';
+                        }
                         var formData = {"conversation_id":message.message.data.conversation_id,"content_type":"text/plain","content":respuesta,"remote_id":"088ad22c-b978-993c-c44c-bd0ea327d2ec","internal":false}
                         var options = {
                             url: 'https://bci-test.letsta.lk/api/v1/conversations/'+message.message.data.conversation_id+'/messages',

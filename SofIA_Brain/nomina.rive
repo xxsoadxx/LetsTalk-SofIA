@@ -1,0 +1,65 @@
+//Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
+//Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
+
+
+! array necesidad = no estan|tengo que|debo|puedo|pueden|necesito|quiero|estoy tratando|intentando|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
+
+! var respuesta1 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
+
+! array accion = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir
+
+! array persona = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
+
++ (@accion) (@persona)
+- <bot respuesta1>
+
++ (@persona) (@accion) 
+- <bot respuesta1> 
+
++ [*] (@necesidad) [*] (@accion) [*] (@persona) [*]
+- <bot respuesta1>
+
++ [*] (@necesidad) [*] (@persona) [*] (@accion) [*]
+- <bot respuesta1>
+
++ [*] (@persona) [*] (@necesidad) [*] (@accion) [*]
+- <bot respuesta1>
+
++ [*] (@accion) [*] (@necesidad) [*] (@persona) [*]
+- <bot respuesta1>
+
++ [*] (@accion) [*] (@persona) [*] (@necesidad) [*]
+- <bot respuesta1>
+
++ [*] (@persona) [*] (@accion) [*] (@necesidad) [*]
+- <bot respuesta1>
+
+//Como activo a un Destinatario Nuevo
+//Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
+
+! var respuesta2 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
+! array accion2 = activar|autorizar|autorizo|autorizados
+
++ (@accion2) (@persona)
+- <bot respuesta2>
+
++ (@persona) (@accion2) 
+- <bot respuesta2> 
+
++ [*] (@necesidad) [*] (@accion2) [*] (@persona) [*]
+- <bot respuesta2>
+
++ [*] (@necesidad) [*] (@persona) [*] (@accion2) [*]
+- <bot respuesta2>
+
++ [*] (@persona) [*] (@necesidad) [*] (@accion2) [*]
+- <bot respuesta2>
+
++ [*] (@accion2) [*] (@necesidad) [*] (@persona) [*]
+- <bot respuesta2>
+
++ [*] (@accion2) [*] (@persona) [*] (@necesidad) [*]
+- <bot respuesta2>
+
++ [*] (@persona) [*] (@accion2) [*] (@necesidad) [*]
+- <bot respuesta2>

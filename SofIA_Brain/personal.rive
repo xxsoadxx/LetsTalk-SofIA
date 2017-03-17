@@ -39,13 +39,19 @@
 ! array colors     = blanco negro naranja rojo azul verde amarillo cyan fuchsia gris grey marron turquoise rosado purpura dorado plateado plata
 ! array height     = alto largo wide thick
 ! array measure    = inch in centimeter cm millimeter mm meter m inches centimeters millimeters meters
-! array yes        = si sii sabelo ok dale
+
+
+! array welcome    = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas
+! array thanks     = gracias|muchas gracias|listo gracias
+! array help       = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias
+! array yes        = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
 ! array no         = no nah nope no none na 
 
-! array saludos    = hola|como estas|que haces
++ (@welcome)
+- Hola! ¿Le puedo ayudar en algo?
 
-+ (@saludos)
-- Hola!
++ (@welcome) *
+- Hola, {@<star2>}
 
 + run javascript
 - <call>myFunction</call>
@@ -57,6 +63,5 @@
 - Tu nombre es <get name>, tonto!
 
 + *
-- No te he entendido.
-- Me repites por favor
+- Unknown
 
