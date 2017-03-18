@@ -1,0 +1,25 @@
+{
+  "name": "sofia",
+  "version": "1.0.0",
+  "description": "Sofia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+   
+  },
+  "keywords": [
+    "Sofia"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diskdb": "^0.1.17",
+    "fs-readdir-recursive": "^1.0.0",
+    "pubnub": "^4.5.0",
+    "request": "^2.81.0",
+    "rsvp": "^3.5.0"
+  }
+}
