@@ -1,0 +1,18 @@
+
+! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|estoy tratando|intentando|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
+
+! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir
+
+! array autorize    = activar|autorizar|autorizo|autorizados
+
+! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
+
+! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas
+
+! array thanks      = gracias|muchas gracias|listo gracias
+
+! array help        = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias
+
+! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
+
+! array no          = no nah nope no none na 

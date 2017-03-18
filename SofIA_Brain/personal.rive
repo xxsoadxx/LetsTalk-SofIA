@@ -41,11 +41,6 @@
 ! array measure    = inch in centimeter cm millimeter mm meter m inches centimeters millimeters meters
 
 
-! array welcome    = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas
-! array thanks     = gracias|muchas gracias|listo gracias
-! array help       = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias
-! array yes        = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
-! array no         = no nah nope no none na 
 
 + (@welcome)
 - Hola! ¿Le puedo ayudar en algo?
