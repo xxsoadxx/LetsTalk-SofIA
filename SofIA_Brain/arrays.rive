@@ -1,9 +1,12 @@
 
-! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|estoy tratando|intentando|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
+! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
 
 ! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir
 
-! array autorize    = activar|autorizar|autorizo|autorizados
+! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo
+
+! array activate    = activar|habilitar|habilitarlos|habilitarlo
+
 
 ! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
 
@@ -16,3 +19,37 @@
 ! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
 
 ! array no          = no nah nope no none na 
+
+! array cant        = no puedo|no estoy pudiendo lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no pude|no pudimos lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no lo puedo|no estoy pudiendo|no pude|fracase|no lo logre|no logro|no logre|no lo consegui|no estoy consiguiendo|no lo estoy consiguiendo|no estoy logrando|no lo estoy logrando
+
+! array recover     = recuperar|restaurar|restauro|recuperaria|recupere|recuperare|restaurare|restauraria|recobrar|restablecer|recobrare|restablecere|restablezco|restableci
+
+! array authcode    = codigo|codigo de autorizacion|codigo autorizacion
+
+! array arrivenot   = no me llego|no llego|no arrivo|no me arrivo|no recibi|no lo tengo|no lo recibi|no tengo|no lo veo|no me estaria arrivando|no me estaria llegando|no estaria llegando|no estaria arrivando|no obtuve|no lo obtuve
+
+! array try         = intentando|intentandolos|tratando|reiterando|probando|reintentando
+
+! array change        = cambiar|modificar|alterar|modificacion|actualizar|cambie|modifique|altere|actualize|actualice|actualizacion|modificacion|alteracion
+
+! array mail          = email|mail|correo electronico|e-mail|e mail|casilla|correo|gmail|hotmail
+
+! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle
+
+! array file   = archivo|planilla|documento|nomina
+
+! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|planificado
+
+! array manual = manualmente|manual|casero
+
+! array get = obtener|tener|sacar|conseguir|recibir|adquirir
+
+! array notfound = no aparece|no la encuentro|no encuentro|no pude encontrarla|no me aparece|nada aun|nada de nada|no la veo|no veo
+
+! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
+
+! array view = aparece|se ve|visualiza|visualizar|mostrando|muestra|apareciendo|visualizando
+
+! array warnings = observaciones|alertas|observacion|alerta|aviso|advertencia|comentario|nota
+
+! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio

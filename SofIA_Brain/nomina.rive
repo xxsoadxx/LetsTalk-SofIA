@@ -32,26 +32,263 @@
 
 ! var respuesta2 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
 
-+ (@autorize) (@beneficiary)
++ (@activate) (@beneficiary)
 - <bot respuesta2>
 
-+ (@beneficiary) (@autorize) 
-- <bot respuesta2> 
-
-+ [*] (@need) [*] (@autorize) [*] (@beneficiary) [*]
++ (@beneficiary) (@activate) 
 - <bot respuesta2>
 
-+ [*] (@need) [*] (@beneficiary) [*] (@autorize) [*]
++ [*] (@need) [*] (@activate) [*] (@beneficiary) [*]
+- <bot respuesta2>c
+
++ [*] (@need) [*] (@beneficiary) [*] (@activate) [*]
 - <bot respuesta2>
 
-+ [*] (@beneficiary) [*] (@need) [*] (@autorize) [*]
++ [*] (@beneficiary) [*] (@need) [*] (@activate) [*]
 - <bot respuesta2>
 
-+ [*] (@autorize) [*] (@need) [*] (@beneficiary) [*]
++ [*] (@activate) [*] (@need) [*] (@beneficiary) [*]
 - <bot respuesta2>
 
-+ [*] (@autorize) [*] (@beneficiary) [*] (@need) [*]
++ [*] (@activate) [*] (@beneficiary) [*] (@need) [*]
 - <bot respuesta2>
 
-+ [*] (@beneficiary) [*] (@autorize) [*] (@need) [*]
++ [*] (@beneficiary) [*] (@activate) [*] (@need) [*]
 - <bot respuesta2>
+
+//Estoy intentando autorizar un Beneficiario y no puedo
+//El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
+
+! var respuesta3 = El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
+
++ [*] (@try) [*] (@authorize) [*] (@beneficiary) [*]
+- <bot respuesta3>a
+
++ [*] (@try) [*] (@beneficiary) [*] (@authorize) [*]
+- <bot respuesta3>b
+
++ [*] (@beneficiary) [*] (@try) [*] (@authorize) [*]
+- <bot respuesta3>c
+
++ [*] (@authorize) [*] (@try) [*] (@beneficiary) [*]
+- <bot respuesta3>d
+
++ [*] (@authorize) [*] (@beneficiary) [*] (@try) [*]
+- <bot respuesta3>e
+
++ [*] (@beneficiary) [*] (@authorize) [*] (@try) [*]
+- <bot respuesta3>f
+
++ [*] (@cant) [*] (@authorize) [*] (@beneficiary) [*]
+- <bot respuesta3>g
+
++ [*] (@cant) [*] (@beneficiary) [*] (@authorize) [*]
+- <bot respuesta3>h
+
++ [*] (@beneficiary) [*] (@cant) [*] (@authorize) [*]
+- <bot respuesta3>i
+
++ [*] (@authorize) [*] (@cant) [*] (@beneficiary) [*]
+- <bot respuesta3>j
+
++ [*] (@beneficiary) [*] (@authorize) [*] (@cant) [*]
+- <bot respuesta3>k
+
++ [*] (@authorize) [*] (@beneficiary) [*] (@cant) [*]
+- <bot respuesta3>l
+
+
+//Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
+//Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
+
+! var respuesta4 = Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
+
++ [*] (@recover) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@recover) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@register) [*] (@beneficiary) [*] (@arrivenot) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@register) [*] (@arrivenot) [*] (@beneficiary) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@register) [*] (@authcode) [*] (@beneficiary) [*] (@arrivenot) [*]
+- <bot respuesta4>
+
++ [*] (@register) [*] (@arrivenot) [*] (@authcode) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@register) [*] (@authcode) [*] (@arrivenot) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@register) [*] (@arrivenot) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@register) [*] (@authcode) [*] (@arrivenot) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@arrivenot) [*] (@register) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@authcode) [*] (@register) [*] (@arrivenot) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@authcode) [*] (@arrivenot) [*] (@register) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@arrivenot) [*] (@authcode) [*] (@register) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@beneficiary) [*] (@authcode) [*] (@register) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@beneficiary) [*] (@register) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@register) [*] (@beneficiary) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@authcode) [*] (@beneficiary) [*] (@register) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@authcode) [*] (@register) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@register) [*] (@authcode) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@arrivenot) [*] (@register) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@arrivenot) [*] (@beneficiary) [*] (@register) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@register) [*] (@arrivenot) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@beneficiary) [*] (@arrivenot) [*] (@register) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@register) [*] (@beneficiary) [*] (@arrivenot) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@beneficiary) [*] (@register) [*] (@arrivenot) [*]
+- <bot respuesta4>
+
+//Deseo cambiar mi correo electrónico
+//En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
+! var respuesta5 = En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
+
++ [*] (@mail) [*] (@change) [*]
+- <bot respuesta5>
+
++ [*] (@change) [*] (@mail) [*]
+- <bot respuesta5>
+
+//Cómo programar un pago de nóminas. Tengo adelantos quincenalmente, mismas personas y monto.
+//Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
+
+! var respuesta7 = Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
+
++ [*] (@file) [*] (@program) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@file) [*]
+- <bot respuesta7>
+
+//Cómo cargo una nómina manualmente? 
+//Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.
+! var respuesta8 = Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.
+
++ [*] (@upload) [*] (@file) [*] (@manual) [*]
+- <bot respuesta8>
+
++ [*] (@file) [*] (@upload) [*] (@manual) [*]
+- <bot respuesta8>
+
++ [*] (@file) [*] (@manual) [*] (@upload) [*] 
+- <bot respuesta8>
+
++ [*] (@upload) [*] (@manual) [*] (@file) [*] 
+- <bot respuesta8>
+
++ [*] (@manual) [*] (@upload) [*] (@file) [*] 
+- <bot respuesta8>
+
++ [*] (@manual) [*] (@file) [*] (@upload) [*]
+- <bot respuesta8>
+
+//Ingrese una nómina y no aparece nada aun; donde puedo obtener información al respecto? 
+//Para saber detalles, existen dos modalidades donde puede visualizar la nómina.
+//Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas.
+//Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
+! var respuesta9 = Para saber detalles, existen dos modalidades donde puede visualizar la nómina. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
++ [*] (@file) [*] (@get) [*] (@info) [*]
+- <bot respuesta9>
+
++ [*] (@file) [*] (@notfound) [*]
+- <bot respuesta9>
+
+
+//Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
+//Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta.
+
+//Para saber detalles, existen dos modalidades donde puede visualizar el error.
+//Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación.
+//Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
+! var respuesta10 = Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta. Para saber detalles, existen dos modalidades donde puede visualizar el error. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
++ [*] (@view) [*] (@warnings) [*] (@file) [*]
+- <bot respuesta10>
+
++ [*] (@file) [*] (@warnings) [*] (@view) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@file) [*] (@view) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@view) [*] (@file) [*]
+- <bot respuesta10>
+
++ [*] (@view) [*] (@file) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@file) [*] (@view) [*] (@warnings) [*]
+- <bot respuesta10>
+
+//Que debo hacer cuando existen personas que aparecen con observaciones por falta de alias o alias cuenta vacía?
+//Esto aparece porque se está cargando en la nómina beneficiarios nuevos, en donde es obligación el incorporar el campo "alias". Este campo es para poder identificar de manera rápida un beneficiario. Ejemplo: Mamá, Local Nro#, Caja chica, etc.
+//La solución es completar los datos que están en la columna M llamada “cuenta destino inscrita como”. En esta columna debe indicar un nombre y un apellido para poder inscribir las cuentas nuevas, cabe recalcar que independiente que la cuenta ya existe es obligatorio incluir este dato en dicha columna. 
+//Se sugiere en estos casos eliminar dicha nómina en la web, completar los datos de la nómina y realizar una nueva carga. Teniendo en cuenta que debe cambiar el nombre de la nómina.
+
+! var respuesta11 = Esto aparece porque se está cargando en la nómina beneficiarios nuevos, en donde es obligación el incorporar el campo "alias". Este campo es para poder identificar de manera rápida un beneficiario. Ejemplo: Mamá, Local Nro#, Caja chica, etc. La solución es completar los datos que están en la columna M llamada “cuenta destino inscrita como”. En esta columna debe indicar un nombre y un apellido para poder inscribir las cuentas nuevas, cabe recalcar que independiente que la cuenta ya existe es obligatorio incluir este dato en dicha columna. Se sugiere en estos casos eliminar dicha nómina en la web, completar los datos de la nómina y realizar una nueva carga. Teniendo en cuenta que debe cambiar el nombre de la nómina.
+
++ [*] (@emptyalias) [*]
+- <bot respuesta11>
+
+
+//ATENCION!!!! esta se va para abajo porque es demaciado generica
+//Cómo cargo mi archivo de pago de nómina en línea?
+//Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
+! var respuesta6 = Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas. En caso que requiera asistencia telefónica, favor indicar teléfono de contacto, para que un Ejecutivo lo contacte a la brevedad.
+
++ [*] (@upload) [*] (@file) [*]
+- <bot respuesta6>
+
++ [*] (@file) [*] (@upload) [*]
+- <bot respuesta6>
+
+
+
+
+
+

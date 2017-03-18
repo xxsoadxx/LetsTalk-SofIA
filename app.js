@@ -85,6 +85,7 @@ function InitPubNub(){
                     if(message.message.data.type==="NORMAL" && message.message.data.content_type==="text/plain" && message.message.data.person.id !== 3970){
                         //Tengo que setear las variables con información
                         var msg = accents(message.message.data.content)
+
                         var respuesta = bot.reply(message.message.data.person.id,msg , this);
                         var log = {
                             person:message.message.data.person,
