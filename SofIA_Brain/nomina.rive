@@ -276,6 +276,85 @@
 - <bot respuesta11>
 
 
+! var respuesta12= Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago
+
+
++  [*] (@need)  [*] (@detail)  [*] (@file)  [*] (@alreadyPay) [*]
+- <bot respuesta12>
+
++  [*] (@need)  [*] (@detail)  [*] (@alreadyPay)  [*] (@file) [*]
+- <bot respuesta12>
+
++  [*] (@need)  [*] (@file)  [*] (@detail)  [*] (@alreadyPay) [*]
+- <bot respuesta12>
+
++  [*] (@need)  [*] (@file)  [*] (@alreadyPay)  [*] (@detail) [*]
+- <bot respuesta12>
+
++  [*] (@need)  [*] (@alreadyPay)  [*] (@detail)  [*] (@file) [*]
+- <bot respuesta12>
+
++  [*] (@need)  [*] (@alreadyPay)  [*] (@file)  [*] (@detail) [*]
+- <bot respuesta12>
+
++  [*] (@detail)  [*] (@need)  [*] (@file)  [*] (@alreadyPay) [*]
+- <bot respuesta12>
+
++  [*] (@detail)  [*] (@need)  [*] (@alreadyPay)  [*] (@file) [*]
+- <bot respuesta12>
+
++  [*] (@detail)  [*] (@file)  [*] (@need)  [*] (@alreadyPay) [*]
+- <bot respuesta12>
+
++  [*] (@detail)  [*] (@file)  [*] (@alreadyPay)  [*] (@need) [*]
+- <bot respuesta12>
+
++  [*] (@detail)  [*] (@alreadyPay)  [*] (@need)  [*] (@file) [*]
+- <bot respuesta12>
+
++  [*] (@detail)  [*] (@alreadyPay)  [*] (@file)  [*] (@need) [*]
+- <bot respuesta12>
+
++  [*] (@file)  [*] (@need)  [*] (@detail)  [*] (@alreadyPay) [*]
+- <bot respuesta12>
+
++  [*] (@file)  [*] (@need)  [*] (@alreadyPay)  [*] (@detail) [*]
+- <bot respuesta12>
+
++  [*] (@file)  [*] (@detail)  [*] (@need)  [*] (@alreadyPay) [*]
+- <bot respuesta12>
+
++  [*] (@file)  [*] (@detail)  [*] (@alreadyPay)  [*] (@need) [*]
+- <bot respuesta12>
+
++  [*] (@file)  [*] (@alreadyPay)  [*] (@need)  [*] (@detail) [*]
+- <bot respuesta12>
+
++  [*] (@file)  [*] (@alreadyPay)  [*] (@detail)  [*] (@need) [*]
+- <bot respuesta12>
+
++  [*] (@alreadyPay)  [*] (@need)  [*] (@detail)  [*] (@file) [*]
+- <bot respuesta12>
+
++  [*] (@alreadyPay)  [*] (@need)  [*] (@file)  [*] (@detail) [*]
+- <bot respuesta12>
+
++  [*] (@alreadyPay)  [*] (@detail)  [*] (@need)  [*] (@file) [*]
+- <bot respuesta12>
+
++  [*] (@alreadyPay)  [*] (@detail)  [*] (@file)  [*] (@need) [*]
+- <bot respuesta12>
+
++  [*] (@alreadyPay)  [*] (@file)  [*] (@need)  [*] (@detail) [*]
+- <bot respuesta12>
+
++  [*] (@alreadyPay)  [*] (@file)  [*] (@detail)  [*] (@need) [*]
+- <bot respuesta12>
+
+
+
+
+
 //ATENCION!!!! esta se va para abajo porque es demaciado generica
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
@@ -288,7 +367,12 @@
 - <bot respuesta6>
 
 
+! var respuesta7= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
 
 
++  [*] (@delete)  [*] (@file) [*]
+- <bot respuesta7>
 
++  [*] (@file)  [*] (@delete) [*]
+- <bot respuesta7>
 
