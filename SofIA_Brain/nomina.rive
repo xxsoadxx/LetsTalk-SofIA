@@ -450,10 +450,7 @@
 +  [*] (@do)  [*] (@foundmonex)  [*] (@transfers) [*]
 - <bot respuesta16>
 
-+  [*] (@transfers)  [*] (@do)  [*] (@foundmonex) [*]
-- <bot respuesta16>
-
-+  [*] (@transfers)  [*] (@foundmonex)  [*] (@do) [*]
++  [*] (@transfers)  [*] (@foundmonex) [*]
 - <bot respuesta16>
 
 +  [*] (@foundmonex)  [*] (@do)  [*] (@transfers) [*]
@@ -686,21 +683,10 @@
 ! var respuesta6 = Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas. En caso que requiera asistencia telefónica, favor indicar teléfono de contacto, para que un Ejecutivo lo contacte a la brevedad.
 
 + [*] (@upload) [*] (@file) [*]
-- <bot respuesta6>
+- <bot respuesta6> 
 
 + [*] (@file) [*] (@upload) [*]
-- <bot respuesta6>
-
-//Cómo elimino la nómina? 
-! var respuesta7= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
-
-
-+  [*] (@delete)  [*] (@file) [*]
-- <bot respuesta7>
-
-+  [*] (@file)  [*] (@delete) [*]
-- <bot respuesta7>
-
+- <bot respuesta6> 
 
 //Ingrese una nómina y no aparece nada aun; donde puedo obtener información al respecto? 
 //Para saber detalles, existen dos modalidades donde puede visualizar la nómina.
@@ -715,3 +701,12 @@
 + [*] (@file) [*] (@notfound) [*]
 - <bot respuesta9>
 
+//Cómo elimino la nómina? 
+! var respuesta22= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
+
+
++  [*] (@delete)  [*] (@file) [*]
+- <bot respuesta22>
+
++  [*] (@file)  [*] (@delete) [*]
+- <bot respuesta22> 

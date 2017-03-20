@@ -1,10 +1,10 @@
 
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
-! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir
+! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo
 
-! array activate    = activar|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
+! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
 
 
 ! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
@@ -19,7 +19,7 @@
 
 ! array no          = no nah nope no none na 
 
-! array cant        = no puedo|no estoy pudiendo lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no pude|no pudimos lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no lo puedo|no estoy pudiendo|no pude|fracase|no lo logre|no logro|no logre|no lo consegui|no estoy consiguiendo|no lo estoy consiguiendo|no estoy logrando|no lo estoy logrando
+! array cant        = no puedo|no estoy pudiendo lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no pude|no pudimos lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no lo puedo|no estoy pudiendo|no pude|fracase|no lo logre|no logro|no logre|no lo consegui|no estoy consiguiendo|no lo estoy consiguiendo|no estoy logrando|no lo estoy logrando|no me es posible
 
 ! array recover     = recuperar|restaurar|restauro|recuperaria|recupere|recuperare|restaurare|restauraria|recobrar|restablecer|recobrare|restablecere|restablezco|restableci
 
@@ -37,7 +37,7 @@
 
 ! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas
 
-! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|planificado
+! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|programados|agendados|planificado|programo|programa|programas|planee|agendo
 
 ! array manual = manualmente|manual|casero
 
@@ -57,9 +57,9 @@
 
 ! array detail= detalle detalles detallado detallada detallando detallaria detallare
 
-! array alreadypay = ya pago|ya pague|ya pagos|ya paga
+! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
 
-! array  dontshow=no me aparece| no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver
+! array  dontshow=no me aparece| no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo
 
 ! array sign=firmar firman firmaron firma firmas
 
@@ -75,20 +75,20 @@
 
 ! array foundmonex= fondos monex|fondo monex|monex fondo|monex fondos
 
-! array amount = montos importe importes total totales suma sumas coste costes
+! array amount = montos monto importe importes total totales suma sumas coste costes
  
-! array max = maximo maximos|mas alto|mas altos
+! array max = maximo|maximos|mas alto|mas altos
 
-! array mean = signfican significa significado signficados definiciiones definicion definciones concepto conceptos
+! array mean = significan|significa|significado|significados|definiciiones|definicion|definciones|concepto|conceptos|quiere decir
 
-! array initials = sigla siglas inicial iniciales abreviatura abreviaturas
+! array initials = sigla|siglas|inicial|iniciales|abreviatura|abreviaturas
 
-! array prorecpag = pro - rec - pag|pro- rec - pag|pro-rec - pag|pro-rec- pag|pro-rec-pag|pro rec pag|prorecpag
+! array prorecpag = pro rec pag|prorecpag|prorec pag|pro recpag|pro - rec - pag|pro - rec- pag|pro-rec-pag|pro-rec- pag|pro -rec-pag
 
-! array forward= adelante posterior siguiente
+! array forward= adelante posterior siguiente|hasta hoy|hasta el dia de hoy
 
 ! array recent=acabo|reciente|recientemente|hace poco|recientes|actual|actualmente
 
-! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica
+! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica|reiterada
 
 ! array error=error errores equivocacion equivocada equivocado falla fallar fallido
