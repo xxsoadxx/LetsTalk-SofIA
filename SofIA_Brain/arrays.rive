@@ -1,11 +1,10 @@
 
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
-
 ! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo
 
-! array activate    = activar|habilitar|habilitarlos|habilitarlo
+! array activate    = activar|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
 
 
 ! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
@@ -36,7 +35,7 @@
 
 ! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle
 
-! array file   = archivo|planilla|documento|nomina
+! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas
 
 ! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|planificado
 
@@ -48,20 +47,48 @@
 
 ! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
 
-! array view = aparece|se ve|visualiza|visualizar|mostrando|muestra|apareciendo|visualizando
+! array view = aparece|aparecen|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran
 
-! array warnings = observaciones|alertas|observacion|alerta|aviso|advertencia|comentario|nota
+! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas
 
 ! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio
 
-! array delete = eliminar eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando
+! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando
 
 ! array detail= detalle detalles detallado detallada detallando detallaria detallare
 
-! array alreadyPay = ya pago|ya pague|ya pagos
+! array alreadypay = ya pago|ya pague|ya pagos|ya paga
 
+! array  dontshow=no me aparece| no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver
 
+! array sign=firmar firman firmaron firma firmas
 
+! array afterload=luego de cargarla|luego de cargar|luego de cargarlo|luego de procesar|luego de procesarla|luego de procesarlo
 
+! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos
 
+! array multipass = multipass multipas
 
+! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos
+
+! array transfers =transferencia transferencias transferimos transferiremos transferir transferi traspaso traspase traspasamos traspasemos
+
+! array foundmonex= fondos monex|fondo monex|monex fondo|monex fondos
+
+! array amount = montos importe importes total totales suma sumas coste costes
+ 
+! array max = maximo maximos|mas alto|mas altos
+
+! array mean = signfican significa significado signficados definiciiones definicion definciones concepto conceptos
+
+! array initials = sigla siglas inicial iniciales abreviatura abreviaturas
+
+! array prorecpag = pro - rec - pag|pro- rec - pag|pro-rec - pag|pro-rec- pag|pro-rec-pag|pro rec pag|prorecpag
+
+! array forward= adelante posterior siguiente
+
+! array recent=acabo|reciente|recientemente|hace poco|recientes|actual|actualmente
+
+! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica
+
+! array error=error errores equivocacion equivocada equivocado falla fallar fallido

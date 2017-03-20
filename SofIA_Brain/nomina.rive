@@ -4,28 +4,28 @@
 ! var respuesta1 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
 
 + (@register) (@beneficiary)
-- <bot respuesta1>
+- <bot respuesta1> a
 
 + (@beneficiary) (@register) 
-- <bot respuesta1> 
+- <bot respuesta1> b
 
 + [*] (@need) [*] (@register) [*] (@beneficiary) [*]
-- <bot respuesta1>
+- <bot respuesta1> c
 
 + [*] (@need) [*] (@beneficiary) [*] (@register) [*]
-- <bot respuesta1>
+- <bot respuesta1> d
 
 + [*] (@beneficiary) [*] (@need) [*] (@register) [*]
-- <bot respuesta1>
+- <bot respuesta1> e
 
 + [*] (@register) [*] (@need) [*] (@beneficiary) [*]
-- <bot respuesta1>
+- <bot respuesta1> f
 
 + [*] (@register) [*] (@beneficiary) [*] (@need) [*]
-- <bot respuesta1>
+- <bot respuesta1> g
 
 + [*] (@beneficiary) [*] (@register) [*] (@need) [*]
-- <bot respuesta1>
+- <bot respuesta1> h
 
 //Como activo a un Destinatario Nuevo
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
@@ -224,20 +224,6 @@
 + [*] (@manual) [*] (@file) [*] (@upload) [*]
 - <bot respuesta8>
 
-//Ingrese una nómina y no aparece nada aun; donde puedo obtener información al respecto? 
-//Para saber detalles, existen dos modalidades donde puede visualizar la nómina.
-//Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas.
-//Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
-
-! var respuesta9 = Para saber detalles, existen dos modalidades donde puede visualizar la nómina. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
-
-+ [*] (@file) [*] (@get) [*] (@info) [*]
-- <bot respuesta9>
-
-+ [*] (@file) [*] (@notfound) [*]
-- <bot respuesta9>
-
-
 //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
 //Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta.
 
@@ -275,87 +261,426 @@
 + [*] (@emptyalias) [*]
 - <bot respuesta11>
 
-
+//Necesito el detalle de una nómina ya pagada
 ! var respuesta12= Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago
 
 
-+  [*] (@need)  [*] (@detail)  [*] (@file)  [*] (@alreadyPay) [*]
++  [*] (@need)  [*] (@detail)  [*] (@file)  [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-+  [*] (@need)  [*] (@detail)  [*] (@alreadyPay)  [*] (@file) [*]
++  [*] (@need)  [*] (@detail)  [*] (@alreadypay)  [*] (@file) [*]
 - <bot respuesta12>
 
-+  [*] (@need)  [*] (@file)  [*] (@detail)  [*] (@alreadyPay) [*]
++  [*] (@need)  [*] (@file)  [*] (@detail)  [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-+  [*] (@need)  [*] (@file)  [*] (@alreadyPay)  [*] (@detail) [*]
++  [*] (@need)  [*] (@file)  [*] (@alreadypay)  [*] (@detail) [*]
 - <bot respuesta12>
 
-+  [*] (@need)  [*] (@alreadyPay)  [*] (@detail)  [*] (@file) [*]
++  [*] (@need)  [*] (@alreadypay)  [*] (@detail)  [*] (@file) [*]
 - <bot respuesta12>
 
-+  [*] (@need)  [*] (@alreadyPay)  [*] (@file)  [*] (@detail) [*]
++  [*] (@need)  [*] (@alreadypay)  [*] (@file)  [*] (@detail) [*]
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@need)  [*] (@file)  [*] (@alreadyPay) [*]
++  [*] (@detail)  [*] (@alreadypay)  [*] (@file) [*]
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@need)  [*] (@alreadyPay)  [*] (@file) [*]
++  [*] (@detail)  [*] (@file) [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@file)  [*] (@need)  [*] (@alreadyPay) [*]
++  [*] (@detail)  [*] (@file)  [*] (@alreadypay)  [*] (@need) [*]
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@file)  [*] (@alreadyPay)  [*] (@need) [*]
+//+  [*] (@file)  [*] (@need)  [*] (@detail)  [*] (@alreadypay) [*]
+//- <bot respuesta12>
+
+//+  [*] (@file)  [*] (@need)  [*] (@alreadypay)  [*] (@detail) [*]
+//- <bot respuesta12>
+
+
+
++  [*] (@file)  [*] (@detail)  [*] (@alreadypay) 
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@alreadyPay)  [*] (@need)  [*] (@file) [*]
++  [*] (@file)  [*] (@alreadypay)  [*] (@need|dame|deme)  [*] (@detail) [*]
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@alreadyPay)  [*] (@file)  [*] (@need) [*]
++  [*] (@file)  [*] (@alreadypay)  [*] (@detail)  [*] (@need) [*]
 - <bot respuesta12>
 
-+  [*] (@file)  [*] (@need)  [*] (@detail)  [*] (@alreadyPay) [*]
-- <bot respuesta12>
+//+  [*] (@alreadypay)  [*] (@need)  [*] (@detail)  [*] (@file) [*]
+//- <bot respuesta12>
 
-+  [*] (@file)  [*] (@need)  [*] (@alreadyPay)  [*] (@detail) [*]
-- <bot respuesta12>
+//+  [*] (@alreadypay)  [*] (@need)  [*] (@file)  [*] (@detail) [*]
+//- <bot respuesta12>
 
-+  [*] (@file)  [*] (@detail)  [*] (@need)  [*] (@alreadyPay) [*]
-- <bot respuesta12>
+//+  [*] (@alreadypay)  [*] (@detail)  [*] (@need)  [*] (@file) [*]
+//- <bot respuesta12>
 
-+  [*] (@file)  [*] (@detail)  [*] (@alreadyPay)  [*] (@need) [*]
-- <bot respuesta12>
+//+  [*] (@alreadypay)  [*] (@detail)  [*] (@file)  [*] (@need) [*]
+//- <bot respuesta12>
 
-+  [*] (@file)  [*] (@alreadyPay)  [*] (@need)  [*] (@detail) [*]
-- <bot respuesta12>
+//+  [*] (@alreadypay)  [*] (@file)  [*] (@need)  [*] (@detail) [*]
+//- <bot respuesta12>
 
-+  [*] (@file)  [*] (@alreadyPay)  [*] (@detail)  [*] (@need) [*]
-- <bot respuesta12>
-
-+  [*] (@alreadyPay)  [*] (@need)  [*] (@detail)  [*] (@file) [*]
-- <bot respuesta12>
-
-+  [*] (@alreadyPay)  [*] (@need)  [*] (@file)  [*] (@detail) [*]
-- <bot respuesta12>
-
-+  [*] (@alreadyPay)  [*] (@detail)  [*] (@need)  [*] (@file) [*]
-- <bot respuesta12>
-
-+  [*] (@alreadyPay)  [*] (@detail)  [*] (@file)  [*] (@need) [*]
-- <bot respuesta12>
-
-+  [*] (@alreadyPay)  [*] (@file)  [*] (@need)  [*] (@detail) [*]
-- <bot respuesta12>
-
-+  [*] (@alreadyPay)  [*] (@file)  [*] (@detail)  [*] (@need) [*]
-- <bot respuesta12>
+//+  [*] (@alreadypay)  [*] (@file)  [*] (@detail)  [*] (@need) [*]
+//- <bot respuesta12>
 
 
+//No me aparece la nómina para firmar luego de cargarla
+
+! var respuesta13= no me aparece file firmar luego de cargarla SIN RESPUESTA
 
 
++  [*] (@dontshow)  [*] (@file)  [*] (@sign)  [*] (@afterload) [*]
+- <bot respuesta13>
 
-//ATENCION!!!! esta se va para abajo porque es demaciado generica
++  [*] (@dontshow)  [*] (@file)  [*] (@afterload)  [*] (@sign) [*]
+- <bot respuesta13>
+
++  [*] (@dontshow)  [*] (@sign)  [*] (@file)  [*] (@afterload) [*]
+- <bot respuesta13>
+
++  [*] (@dontshow)  [*] (@sign)  [*] (@afterload)  [*] (@file) [*]
+- <bot respuesta13>
+
++  [*] (@dontshow)  [*] (@afterload)  [*] (@file)  [*] (@sign) [*]
+- <bot respuesta13>
+
++  [*] (@dontshow)  [*] (@afterload)  [*] (@sign)  [*] (@file) [*]
+- <bot respuesta13>
+
++  [*] (@file)  [*] (@dontshow)  [*] (@sign)  [*] (@afterload) [*]
+- <bot respuesta13>
+
++  [*] (@file)  [*] (@dontshow)  [*] (@afterload)  [*] (@sign) [*]
+- <bot respuesta13>
+
++  [*] (@file)  [*] (@sign)  [*] (@dontshow)  [*] (@afterload) [*]
+- <bot respuesta13>
+
++  [*] (@file)  [*] (@sign)  [*] (@afterload)  [*] (@dontshow) [*]
+- <bot respuesta13>
+
++  [*] (@file)  [*] (@afterload)  [*] (@dontshow)  [*] (@sign) [*]
+- <bot respuesta13>
+
++  [*] (@file)  [*] (@afterload)  [*] (@sign)  [*] (@dontshow) [*]
+- <bot respuesta13>
+
++  [*] (@sign)  [*] (@dontshow)  [*] (@file)
+- <bot respuesta13>
+
++  [*] (@sign)  [*] (@dontshow)  [*] (@afterload)  [*] (@file) [*]
+- <bot respuesta13>
+
++  [*] (@sign)  [*] (@file)  [*] (@dontshow)  [*] (@afterload) [*]
+- <bot respuesta13>
+
++  [*] (@sign)  [*] (@file)  [*] (@afterload)  [*] (@dontshow) [*]
+- <bot respuesta13>
+
++  [*] (@sign)  [*] (@file) [*] (@dontshow)
+- <bot respuesta13>
+
++  [*] (@sign)  [*] (@afterload)  [*] (@file)  [*] (@dontshow) [*]
+- <bot respuesta13>
+
++  [*] (@afterload)  [*] (@dontshow)  [*] (@file)  [*] (@sign) [*]
+- <bot respuesta13>
+
++  [*] (@afterload)  [*] (@dontshow)  [*] (@sign)  [*] (@file) [*]
+- <bot respuesta13>
+
++  [*] (@afterload)  [*] (@file)  [*] (@dontshow)  [*] (@sign) [*]
+- <bot respuesta13>
+
++  [*] (@afterload)  [*] (@file)  [*] (@sign)  [*] (@dontshow) [*]
+- <bot respuesta13>
+
++  [*] (@afterload)  [*] (@sign)  [*] (@dontshow)  [*] (@file) [*]
+- <bot respuesta13>
+
++  [*] (@afterload)  [*] (@sign)  [*] (@file)  [*] (@dontshow) [*]
+- <bot respuesta13>
+
+//No puedo activar una nómina
+
+! var respuesta14= no puedo activar una nomina SIN RESPUESTA
+
+
++  [*] (@cant)  [*] (@activate)  [*] (@file) [*]
+- <bot respuesta14>
+
++  [*] (@cant)  [*] (@file)  [*] (@activate) [*]
+- <bot respuesta14>
+
++  [*] (@activate)  [*] (@cant)  [*] (@file) [*]
+- <bot respuesta14>
+
++  [*] (@activate)  [*] (@file)  [*] (@cant) [*]
+- <bot respuesta14>
+
++  [*] (@file)  [*] (@cant)  [*] (@activate) [*]
+- <bot respuesta14>
+
++  [*] (@file)  [*] (@activate)  [*] (@cant) [*]
+- <bot respuesta14>
+
+
+//Problemas de Multipass
+
+! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronirzación Bci Multipass, y continúe con los pasos solicitados
+
++ [*] (@problems) [*] (@multipass) [*]
+- <bot respuesta15>
+
++ [*] (@multipass) [*] (@problems) [*]
+- <bot respuesta15> 
+
+//Transferencia de Fondos Monex
+
+! var respuesta16= Para realizar una transferencia en Moneda Extranjera favor ingresar por Menú Comex, ingresar a Transferencia en Moneda Extranjera y luego a Transferir a Otros Bancos
+
+
++  [*] (@do)  [*] (@transfers)  [*] (@foundmonex) [*]
+- <bot respuesta16>
+
++  [*] (@do)  [*] (@foundmonex)  [*] (@transfers) [*]
+- <bot respuesta16>
+
++  [*] (@transfers)  [*] (@do)  [*] (@foundmonex) [*]
+- <bot respuesta16>
+
++  [*] (@transfers)  [*] (@foundmonex)  [*] (@do) [*]
+- <bot respuesta16>
+
++  [*] (@foundmonex)  [*] (@do)  [*] (@transfers) [*]
+- <bot respuesta16>
+
++  [*] (@foundmonex)  [*] (@transfers)  [*] (@do) [*]
+- <bot respuesta16>
+
+//Monto máximo de la nómina
+
+! var respuesta17= El monto máximo está determinado por el límite monto transferencias diaria que fijó su empresa, puede corroborarlo en pestaña Transferencias - Monto transferencias diarias
+
+
++  [*] (@amount)  [*] (@max)  [*] (@file) [*]
+- <bot respuesta17>
+
++  [*] (@amount)  [*] (@file)  [*] (@max) [*]
+- <bot respuesta17>
+
++  [*] (@max)  [*] (@amount)  [*] (@file) [*]
+- <bot respuesta17>
+
++  [*] (@max)  [*] (@file)  [*] (@amount) [*]
+- <bot respuesta17>
+
++  [*] (@file)  [*] (@amount)  [*] (@max) [*]
+- <bot respuesta17>
+
++  [*] (@file)  [*] (@max)  [*] (@amount) [*]
+- <bot respuesta17>
+
+//Que significan siglas PRO - REC- PAG
+
+! var respuesta18= PRO: Pago procesado, el banco receptor nos informa pago ok luego de 48 hrs de haberse generado proceso de pago REC: Aparecen pagos rechazados PAG: Estado pagado
+
+
++  [*] (@mean)  [*] (@initials)  [*] (@prorecpag) [*]
+- <bot respuesta18>
+
++  [*] (@mean)  [*] (@prorecpag)  [*] (@initials) [*]
+- <bot respuesta18>
+
++  [*] (@initials)  [*] (@mean)  [*] (@prorecpag) [*]
+- <bot respuesta18>
+
++  [*] (@initials)  [*] (@prorecpag)  [*] (@mean) [*]
+- <bot respuesta18>
+
++  [*] (@prorecpag)  [*] (@mean)  [*] (@initials) [*]
+- <bot respuesta18>
+
++  [*] (@prorecpag)  [*] (@initials)  [*] (@mean) [*]
+- <bot respuesta18>
+
+//No puedo visualizar nóminas de pago de julio en adelante
+
+! var respuesta19= Para poder visualizarlas debe ingresar en pestaña Pagos y servicios seleccionar Pago de Nóminas ANTIGUO y luego Obtener certificado de pago
+
+
++  [*] (@cant)  [*] (@view)  [*] (@file)  [*] (@forward) [*]
+- <bot respuesta19>
+
++  [*] (@cant)  [*] (@view)  [*] (@forward)  [*] (@file) [*]
+- <bot respuesta19>
+
++  [*] (@cant)  [*] (@file)  [*] (@view)  [*] (@forward) [*]
+- <bot respuesta19>
+
++  [*] (@cant)  [*] (@file)  [*] (@forward)  [*] (@view) [*]
+- <bot respuesta19>
+
++  [*] (@cant)  [*] (@forward)  [*] (@view)  [*] (@file) [*]
+- <bot respuesta19>
+
++  [*] (@cant)  [*] (@forward)  [*] (@file)  [*] (@view) [*]
+- <bot respuesta19>
+
++  [*] (@view)  [*] (@cant)  [*] (@file)  [*] (@forward) [*]
+- <bot respuesta19>
+
++  [*] (@view)  [*] (@cant)  [*] (@forward)  [*] (@file) [*]
+- <bot respuesta19>
+
++  [*] (@view)  [*] (@file)  [*] (@cant)  [*] (@forward) [*]
+- <bot respuesta19>
+
++  [*] (@view)  [*] (@file)  [*] (@forward)  [*] (@cant) [*]
+- <bot respuesta19>
+
++  [*] (@view)  [*] (@forward)  [*] (@cant)  [*] (@file) [*]
+- <bot respuesta19>
+
++  [*] (@view)  [*] (@forward)  [*] (@file)  [*] (@cant) [*]
+- <bot respuesta19>
+
++  [*] (@file)  [*] (@cant)  [*] (@view)  [*] (@forward) [*]
+- <bot respuesta19>
+
++  [*] (@file)  [*] (@view)  [*] (@cant)  [*] (@forward) [*]
+- <bot respuesta19>
+
++  [*] (@file)  [*] (@view)  [*] (@cant)  [*]
+- <bot respuesta19>
+
++  [*] (@file)  [*] (@cant)  [*] (@view)  [*]
+- <bot respuesta19>
+
++  [*] (@file)  [*] (@forward)  [*] (@cant)  [*] (@view) [*]
+- <bot respuesta19>
+
++  [*] (@forward)  [*] (@cant)  [*] (@view)  [*] (@file) [*]
+- <bot respuesta19>
+
++  [*] (@forward)  [*] (@cant)  [*] (@file)  [*] (@view) [*]
+- <bot respuesta19>
+
++  [*] (@forward)  [*] (@view)  [*] (@file)  [*] (@cant) [*]
+- <bot respuesta19>
+
+//+  [*] (@forward)  [*] (@file)  [*] (@cant)  [*] (@view) [*]
+//- <bot respuesta19>
+
++  [*] (@forward)  [*] (@file)  [*] (@view)  [*] (@cant) [*]
+- <bot respuesta19>
+
+//No me aparece la nómina que acabo de subir para firma
+
+! var respuesta20= Favor le pido ir actualizando constantemente la opción Estado de nómina, ya que por la fecha hay un alto flujo de operaciones (pago quincena)
+
+
++  [*] (@dontshow)  [*] (@file)  [*] (@upload)  [*] (@recent) [*]
+- <bot respuesta20>
+
++  [*] (@dontshow)  [*] (@file)  [*] (@recent)  [*] (@upload) [*]
+- <bot respuesta20>
+
++  [*] (@dontshow)  [*] (@upload)  [*] (@file)  [*] (@recent) [*]
+- <bot respuesta20>
+
++  [*] (@dontshow)  [*] (@upload)  [*] (@recent)  [*] (@file) [*]
+- <bot respuesta20>
+
++  [*] (@dontshow)  [*] (@recent)  [*] (@file)  [*] (@upload) [*]
+- <bot respuesta20>
+
++  [*] (@dontshow)  [*] (@recent)  [*] (@upload)  [*] (@file) [*]
+- <bot respuesta20>
+
++  [*] (@file)  [*] (@dontshow)  [*] (@upload)  [*] (@recent) [*]
+- <bot respuesta20>
+
++  [*] (@file)  [*] (@dontshow)  [*] (@recent)  [*] (@upload) [*]
+- <bot respuesta20>
+
++  [*] (@file)  [*] (@upload)  [*] (@dontshow)  [*] (@recent) [*]
+- <bot respuesta20>
+
++  [*] (@file)  [*] (@upload)  [*] (@recent)  [*] (@dontshow) [*]
+- <bot respuesta20>
+
++  [*] (@file)  [*] (@recent)  [*] (@dontshow)  [*] (@upload) [*]
+- <bot respuesta20>
+
++  [*] (@file)  [*] (@recent)  [*] (@upload)  [*] (@dontshow) [*]
+- <bot respuesta20>
+
++  [*] (@upload)  [*] (@dontshow)  [*] (@file)  [*] (@recent) [*]
+- <bot respuesta20>
+
++  [*] (@upload)  [*] (@dontshow)  [*] (@recent)  [*] (@file) [*]
+- <bot respuesta20>
+
++  [*] (@upload)  [*] (@file)  [*] (@dontshow)  [*] (@recent) [*]
+- <bot respuesta20>
+
++  [*] (@upload)  [*] (@file)  [*] (@recent)  [*] (@dontshow) [*]
+- <bot respuesta20>
+
++  [*] (@upload)  [*] (@recent)  [*] (@dontshow)  [*] (@file) [*]
+- <bot respuesta20>
+
++  [*] (@upload)  [*] (@recent)  [*] (@file)  [*] (@dontshow) [*]
+- <bot respuesta20>
+
++  [*] (@recent)  [*] (@dontshow)  [*] (@file)  [*] (@upload) [*]
+- <bot respuesta20>
+
++  [*] (@recent)  [*] (@dontshow)  [*] (@upload)  [*] (@file) [*]
+- <bot respuesta20>
+
++  [*] (@recent)  [*] (@file)  [*] (@dontshow)  [*] (@upload) [*]
+- <bot respuesta20>
+
++  [*] (@recent)  [*] (@file)  [*] (@upload)  [*] (@dontshow) [*]
+- <bot respuesta20>
+
++  [*] (@recent)  [*] (@upload)  [*] (@dontshow)  [*] (@file) [*]
+- <bot respuesta20>
+
++  [*] (@recent)  [*] (@upload)  [*] (@file)  [*] (@dontshow) [*]
+- <bot respuesta20>
+
+//Muestra error por Firma repetida
+
+! var respuesta21= Debe eliminar nómina y cargar una nueva con la precaución de cambiar el nombre de esta para que el sistema no incurra en errores
+
+
++  [*] (@error)  [*] (@sign)  [*] (@repeat) [*]
+- <bot respuesta21>
+
++  [*] (@error)  [*] (@repeat)  [*] (@sign) [*]
+- <bot respuesta21>
+
++  [*] (@sign)  [*] (@error)  [*] (@repeat) [*]
+- <bot respuesta21>
+
++  [*] (@sign)  [*] (@repeat)  [*] (@error) [*]
+- <bot respuesta21>
+
++  [*] (@repeat)  [*] (@error)  [*] (@sign) [*]
+- <bot respuesta21>
+
++  [*] (@repeat)  [*] (@sign)  [*] (@error) [*]
+- <bot respuesta21>
+
+
+//ATENCION!!!! esta se va para abajo porque es demasiado generica
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
 ! var respuesta6 = Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas. En caso que requiera asistencia telefónica, favor indicar teléfono de contacto, para que un Ejecutivo lo contacte a la brevedad.
@@ -366,7 +691,7 @@
 + [*] (@file) [*] (@upload) [*]
 - <bot respuesta6>
 
-
+//Cómo elimino la nómina? 
 ! var respuesta7= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
 
 
@@ -375,4 +700,18 @@
 
 +  [*] (@file)  [*] (@delete) [*]
 - <bot respuesta7>
+
+
+//Ingrese una nómina y no aparece nada aun; donde puedo obtener información al respecto? 
+//Para saber detalles, existen dos modalidades donde puede visualizar la nómina.
+//Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas.
+//Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
+! var respuesta9 = Para saber detalles, existen dos modalidades donde puede visualizar la nómina. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
++ [*] (@file) [*] (@get) [*] (@info) [*]
+- <bot respuesta9>
+
++ [*] (@file) [*] (@notfound) [*]
+- <bot respuesta9>
 
