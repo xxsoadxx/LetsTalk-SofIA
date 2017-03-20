@@ -1,11 +1,23 @@
 
+! array malenoun   = hombre caballero chico pibe flaco nene
+
+! array femalenoun = mujer chica dama piba flaca nena 
+
+! array mennoun    = hombres caballeros chicos pibes flacos nenes
+
+! array womennoun  = mujeres chicas damas pibas flacas nenas
+
+! array lol        = lol jaja ja jajaja haha hahaha
+
+! array colors     = blanco negro naranja rojo azul verde amarillo cyan fuchsia gris grey marron turquoise rosado purpura dorado plateado plata
+
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
+
 ! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo
 
 ! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
-
 
 ! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
 

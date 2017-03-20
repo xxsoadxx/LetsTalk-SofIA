@@ -1,0 +1,47 @@
+
+! var respuesta0 = Hola! ¿Le puedo ayudar en algo?
+
+! var respuesta1 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
+
+! var respuesta2 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
+
+! var respuesta3 = El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
+
+! var respuesta4 = Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
+
+! var respuesta5 = En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
+
+! var respuesta6 = Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas. En caso que requiera asistencia telefónica, favor indicar teléfono de contacto, para que un Ejecutivo lo contacte a la brevedad.
+
+! var respuesta7 = Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
+
+! var respuesta8 = Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.
+
+! var respuesta9 = Para saber detalles, existen dos modalidades donde puede visualizar la nómina. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
+! var respuesta10 = Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta. Para saber detalles, existen dos modalidades donde puede visualizar el error. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
+! var respuesta11 = Esto aparece porque se está cargando en la nómina beneficiarios nuevos, en donde es obligación el incorporar el campo "alias". Este campo es para poder identificar de manera rápida un beneficiario. Ejemplo: Mamá, Local Nro#, Caja chica, etc. La solución es completar los datos que están en la columna M llamada “cuenta destino inscrita como”. En esta columna debe indicar un nombre y un apellido para poder inscribir las cuentas nuevas, cabe recalcar que independiente que la cuenta ya existe es obligatorio incluir este dato en dicha columna. Se sugiere en estos casos eliminar dicha nómina en la web, completar los datos de la nómina y realizar una nueva carga. Teniendo en cuenta que debe cambiar el nombre de la nómina.
+
+! var respuesta12= Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago
+
+! var respuesta13= no me aparece file firmar luego de cargarla SIN RESPUESTA
+
+! var respuesta14= no puedo activar una nomina SIN RESPUESTA
+
+! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronirzación Bci Multipass, y continúe con los pasos solicitados
+
+! var respuesta16= Para realizar una transferencia en Moneda Extranjera favor ingresar por Menú Comex, ingresar a Transferencia en Moneda Extranjera y luego a Transferir a Otros Bancos
+
+! var respuesta17= El monto máximo está determinado por el límite monto transferencias diaria que fijó su empresa, puede corroborarlo en pestaña Transferencias - Monto transferencias diarias
+
+! var respuesta18= PRO: Pago procesado, el banco receptor nos informa pago ok luego de 48 hrs de haberse generado proceso de pago REC: Aparecen pagos rechazados PAG: Estado pagado
+
+! var respuesta19= Para poder visualizarlas debe ingresar en pestaña Pagos y servicios seleccionar Pago de Nóminas ANTIGUO y luego Obtener certificado de pago
+
+! var respuesta20= Favor le pido ir actualizando constantemente la opción Estado de nómina, ya que por la fecha hay un alto flujo de operaciones (pago quincena)
+
+! var respuesta21= Debe eliminar nómina y cargar una nueva con la precaución de cambiar el nombre de esta para que el sistema no incurra en errores
+
+! var respuesta22= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
+
