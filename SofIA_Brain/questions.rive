@@ -3,28 +3,28 @@
 
 
 + (@register) (@beneficiary)
-- <bot respuesta1> a
+- <bot respuesta1>
 
 + (@beneficiary) (@register) 
-- <bot respuesta1> b
+- <bot respuesta1>
 
 + [*] (@need) [*] (@register) [*] (@beneficiary) [*]
-- <bot respuesta1> c
+- <bot respuesta1>
 
 + [*] (@need) [*] (@beneficiary) [*] (@register) [*]
-- <bot respuesta1> d
+- <bot respuesta1>
 
 + [*] (@beneficiary) [*] (@need) [*] (@register) [*]
-- <bot respuesta1> e
+- <bot respuesta1>
 
 + [*] (@register) [*] (@need) [*] (@beneficiary) [*]
-- <bot respuesta1> f
+- <bot respuesta1>
 
 + [*] (@register) [*] (@beneficiary) [*] (@need) [*]
-- <bot respuesta1> g
+- <bot respuesta1>
 
 + [*] (@beneficiary) [*] (@register) [*] (@need) [*]
-- <bot respuesta1> h
+- <bot respuesta1>
 
 //Como activo a un Destinatario Nuevo
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
@@ -37,7 +37,7 @@
 - <bot respuesta2>
 
 + [*] (@need) [*] (@activate) [*] (@beneficiary) [*]
-- <bot respuesta2>c
+- <bot respuesta2>
 
 + [*] (@need) [*] (@beneficiary) [*] (@activate) [*]
 - <bot respuesta2>
@@ -58,40 +58,40 @@
 //El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
 
 + [*] (@try) [*] (@authorize) [*] (@beneficiary) [*]
-- <bot respuesta3>a
+- <bot respuesta3>
 
 + [*] (@try) [*] (@beneficiary) [*] (@authorize) [*]
-- <bot respuesta3>b
+- <bot respuesta3>
 
 + [*] (@beneficiary) [*] (@try) [*] (@authorize) [*]
-- <bot respuesta3>c
+- <bot respuesta3>
 
 + [*] (@authorize) [*] (@try) [*] (@beneficiary) [*]
-- <bot respuesta3>d
+- <bot respuesta3>
 
 + [*] (@authorize) [*] (@beneficiary) [*] (@try) [*]
-- <bot respuesta3>e
+- <bot respuesta3>
 
 + [*] (@beneficiary) [*] (@authorize) [*] (@try) [*]
-- <bot respuesta3>f
+- <bot respuesta3>
 
 + [*] (@cant) [*] (@authorize) [*] (@beneficiary) [*]
-- <bot respuesta3>g
+- <bot respuesta3>
 
 + [*] (@cant) [*] (@beneficiary) [*] (@authorize) [*]
-- <bot respuesta3>h
+- <bot respuesta3>
 
 + [*] (@beneficiary) [*] (@cant) [*] (@authorize) [*]
-- <bot respuesta3>i
+- <bot respuesta3>
 
 + [*] (@authorize) [*] (@cant) [*] (@beneficiary) [*]
-- <bot respuesta3>j
+- <bot respuesta3>
 
 + [*] (@beneficiary) [*] (@authorize) [*] (@cant) [*]
-- <bot respuesta3>k
+- <bot respuesta3>
 
 + [*] (@authorize) [*] (@beneficiary) [*] (@cant) [*]
-- <bot respuesta3>l
+- <bot respuesta3>
 
 
 //Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
