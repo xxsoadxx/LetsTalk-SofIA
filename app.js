@@ -3,7 +3,7 @@ var RiveScript = require("./lib/rivescript.js");
 var request = require('request');
 var db = require('diskdb');
 db = db.connect('./db', ['data','log']);
-
+var config = require('./config');
 // Create the bot.
 var bot = new RiveScript();
 bot.setSubroutine('myFunction', function(rs, args){
@@ -35,16 +35,16 @@ function error_handler (loadcount, err) {
 }
 
 function InitPubNub(){
-    var uuid = 'user-3970';
+    var uuid = 'user-'+config.user_id;
     var userChannelName = uuid + '-present';
     var organizationChannelName = 'organization-154';
     
     pubnub = new PubNub({
-        publishKey : 'pub-c-ccd7cfb1-fb6a-4a98-a09e-31d1280cc160',
-        subscribeKey : 'sub-c-2225a2e4-741c-11e5-960b-02ee2ddab7fe',
+        publishKey : config.publishKey ,
+        subscribeKey : config.subscribeKey,
         heartbeat: 15,
         uuid: uuid,
-        authKey: 'ntrXRDBzVFvmgxQ6Bo9p',
+        authKey: config.authKey,
         ssl: true,
         restore: true,
     })
@@ -82,7 +82,7 @@ function InitPubNub(){
                     console.log(message.message.data.type);
                     console.log(message.message.data.content_type);
                     console.log(message.message.data.person.id);
-                    if(message.message.data.type==="NORMAL" && message.message.data.content_type==="text/plain" && message.message.data.person.id !== 3970){
+                    if(message.message.data.type==="NORMAL" && message.message.data.content_type==="text/plain" && message.message.data.person.id !== config.user_id){
                         //Tengo que setear las variables con información
                         var msg = accents(message.message.data.content)
 
