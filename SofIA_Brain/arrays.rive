@@ -104,3 +104,35 @@
 ! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica|reiterada
 
 ! array error=error errores equivocacion equivocada equivocado falla fallar fallido
+
+! array composition= estructura|estructurado|estructuras|estructurar|composicion|composicionado|componer|compone|composiciones|esqueleto|esqueletos
+
+! array valuecol= valor|valores|dato|datos|data|informacion|info|compone
+
+! array first= primer|primero|primera|primeros|primeras|1|1eros|1er
+
+! array second= segunda|segundas|segundo|segundos|2|1dos|2do
+
+! array third= tercer|terceros|tercera|3|3eras|3ero
+
+! array fourth= cuarta|cuarto|cuartas|cuartos|4to|4tos|4
+
+! array five= cinco|quinta|quinto|quintas|quintos|5to|5tos|5
+
+! array six= seis|sexta|sextas|6ta|6tas|6
+
+! array seven= siete|septima|sietes|septimas|7ta|7tas|7
+
+! array eight= ocho|octavo|octavos|octavas|octava|8vo|7va|8
+
+! array nine= nueve|noveno|nueves|novenos|9vo|9va|9
+
+! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10
+
+! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11
+
+! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12
+
+! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13
+
+! array column= columna|columnas|col
