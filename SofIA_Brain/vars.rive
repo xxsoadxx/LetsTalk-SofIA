@@ -1,4 +1,3 @@
-
 ! var respuesta0 = Hola! ¿Le puedo ayudar en algo?
 
 ! var respuesta1 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
@@ -45,3 +44,31 @@
 
 ! var respuesta22= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
 
+! var respuesta23= En caso de ser una planilla, el archivo debe guardarse como libro Excel 97-2003, tener encabezado en la primera línea y las celdas deben tener formato “GENERAL”.IMPORTANTE: El archivo no puede ser guardado en versión Excel 2007 (.xlsx) ya que el sistema no lo procesará y su pago no podrá realizarse. Adicionalmente es importante destacar que es de carácter obligatorio usar primera pestaña de archivo, de lo contrario el sistema no procesará su información. En caso de ser un archivo de texto plano "txt", para ello los campos deben estar delimitados por un separador que puede ser
+de dos tipos: punto y coma (;) o pipe (|).
+
+! var respuesta24= En esta columna ingrese el valor de Cuenta Cargo. Es un campo obligatorio, que permite un maximo de 12 de los siguientes caracteres: Numerico, sin puntos,rellenar con ceros a la izquierda.
+
+! var respuesta25= En esta columna ingrese el valor de Cuenta de Destino. Es un campo obligatorio, que permite un maximo de 18 de los siguientes caracteres: Alfanumerico, rellenar con ceros a la izquierda.
+
+! var respuesta26= En esta columna ingrese el valor del Banco Destino. Es un campo obligatorio, que permite un maximo de 3 de los siguientes caracteres: Numerico, Codigo Banco, rellenar con ceros a la izquierda
+
+! var respuesta27= En esta columna ingrese el valor Rut Beneficiario. Es un campo obligatorio que permite un maximo de 12 de los siguientes caracteres: Alfanumerico. Sin puntos, sin guion
+
+! var respuesta28= En esta columna ingrese el valor Digito Verificador. Es un campo obligatorio, que se compone de 1 caracter de la siguiente manera: Alfanumerico.
+
+! var respuesta29= En esta columna ingrese el valor Nombre Beneficiario. Es un campo obligatorio, que se compone de 45 de los siguientes caracteres: Alfanumerico.
+
+! var respuesta30= En esta columna ingrese el valor Monto. Es un campo obligatorio, que se compone de 16 de los siguientes caracteres: Numerico.
+
+! var respuesta31= En esta columna ingrese el valor Factura-Boleta. Es un campo obligatorio para Tipo Pago Proveedores (PRV), que se compone de 20 de los siguientes caracteres: Numerico.
+
+! var respuesta32= En esta columna ingrese el valor Orden de compra.Es un campo obligatorio para Tipo Pago Proveedores (PRV), que se compone de 20 de los siguientes caracteres: Numerico. 
+
+! var respuesta33= En esta columna ingrese el valor Tipo Pago. Los códigos de Tipos de Pago que deben ingresarse son: PRV (Proveedores) REM (Remuneraciones) DIV (Dividendos) OTR (Otros). Se compone de 3 de los siguientes caracteres: Alfanumerico. 
+
+! var respuesta34= En esta columna ingrese el valor Mensaje. Campo opcional. Incluir sólo si se quiere enviar correo de confirma ción al beneficiario.. Se compone de 30 de los siguientes caracteres: Alfanumerico. 
+
+! var respuesta35= En esta columna ingrese el valor Email. Campo opcional. Incluir sólo si se quiere enviar correo de confirma ción al beneficiario.. Se compone de 35 de los siguientes caracteres: Alfanumerico. 
+
+! var respuesta36= En esta columna ingrese el valor Cuenta inscripta como.Campo obligatorio. Debe agregarse sólo si la cuenta de destino no se encuentra inscrita. Se compone de 25 de los siguientes caracteres: Alfanumerico. 

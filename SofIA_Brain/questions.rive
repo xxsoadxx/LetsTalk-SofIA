@@ -1,7 +1,6 @@
 //Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
 
-
 + (@register) (@beneficiary)
 - <bot respuesta1>
 
@@ -644,10 +643,6 @@
 
 //Como es la estructura archivo de nomina
 
-! var respuesta23= En caso de ser una planilla, el archivo debe guardarse como libro Excel 97-2003, tener encabezado en la primera línea y las celdas deben tener formato “GENERAL”.IMPORTANTE: El archivo no puede ser guardado en versión Excel 2007 (.xlsx) ya que el sistema no lo procesará y su pago no podrá realizarse. Adicionalmente es importante destacar que es de carácter obligatorio usar primera pestaña de archivo, de lo contrario el sistema no procesará su información. En caso de ser un archivo de texto plano "txt", para ello los campos deben estar delimitados por un separador que puede ser
-de dos tipos: punto y coma (;) o pipe (|).
-
-
 +  [*] (@composition)  [*] (@file)  [*] (@upload) [*]
 - <bot respuesta23>
 
@@ -667,9 +662,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 - <bot respuesta23>
 
 //Que valor lleva la primer columna
-
-! var respuesta24= En esta columna ingrese el valor de Cuenta Cargo. Es un campo obligatorio, que permite un maximo de 12 de los siguientes caracteres: Numerico, sin puntos,rellenar con ceros a la izquierda.
-
 
 +  [*] (@value)  [*] (@first)  [*] (@column) [*]
 - <bot respuesta24>
@@ -692,9 +684,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la segunda columna
 
-! var respuesta25= En esta columna ingrese el valor de Cuenta de Destino. Es un campo obligatorio, que permite un maximo de 18 de los siguientes caracteres: Alfanumerico, rellenar con ceros a la izquierda.
-
-
 +  [*] (@value)  [*] (@second)  [*] (@column) [*]
 - <bot respuesta25>
 
@@ -714,9 +703,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 - <bot respuesta25>
 
 //Que valor lleva la tercer columna
-
-! var respuesta26= En esta columna ingrese el valor del Banco Destino. Es un campo obligatorio, que permite un maximo de 3 de los siguientes caracteres: Numerico, Codigo Banco, rellenar con ceros a la izquierda
-
 
 +  [*] (@value)  [*] (@third)  [*] (@column) [*]
 - <bot respuesta26>
@@ -738,9 +724,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la cuarta columna
 
-! var respuesta27= En esta columna ingrese el valor Rut Beneficiario. Es un campo obligatorio que permite un maximo de 12 de los siguientes caracteres: Alfanumerico. Sin puntos, sin guion
-
-
 +  [*] (@value)  [*] (@fourth)  [*] (@column) [*]
 - <bot respuesta27>
 
@@ -760,9 +743,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 - <bot respuesta27>
 
 //Que valor lleva la quinta columna
-
-! var respuesta28= En esta columna ingrese el valor Digito Verificador. Es un campo obligatorio, que se compone de 1 caracter de la siguiente manera: Alfanumerico.
-
 
 +  [*] (@value)  [*] (@five)  [*] (@column) [*]
 - <bot respuesta28>
@@ -784,9 +764,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la sexta columna
 
-! var respuesta29= En esta columna ingrese el valor Nombre Beneficiario. Es un campo obligatorio, que se compone de 45 de los siguientes caracteres: Alfanumerico.
-
-
 +  [*] (@value)  [*] (@six)  [*] (@column) [*]
 - <bot respuesta29>
 
@@ -806,9 +783,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 - <bot respuesta29>
 
 //Que valor lleva la septima columna
-
-! var respuesta30= En esta columna ingrese el valor Monto. Es un campo obligatorio, que se compone de 16 de los siguientes caracteres: Numerico.
-
 
 +  [*] (@value)  [*] (@seven)  [*] (@column) [*]
 - <bot respuesta30>
@@ -830,9 +804,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la octava columna
 
-! var respuesta31= En esta columna ingrese el valor Factura-Boleta. Es un campo obligatorio para Tipo Pago Proveedores (PRV), que se compone de 20 de los siguientes caracteres: Numerico.
-
-
 +  [*] (@value)  [*] (@eight)  [*] (@column) [*]
 - <bot respuesta31>
 
@@ -852,9 +823,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 - <bot respuesta31>
 
 //Que valor lleva la novena columna
-
-! var respuesta32= En esta columna ingrese el valor Orden de compra.Es un campo obligatorio para Tipo Pago Proveedores (PRV), que se compone de 20 de los siguientes caracteres: Numerico. 
-
 
 +  [*] (@value)  [*] (@nine)  [*] (@column) [*]
 - <bot respuesta32>
@@ -876,9 +844,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la decima columna
 
-! var respuesta33= En esta columna ingrese el valor Tipo Pago. Los códigos de Tipos de Pago que deben ingresarse son: PRV (Proveedores) REM (Remuneraciones) DIV (Dividendos) OTR (Otros). Se compone de 3 de los siguientes caracteres: Alfanumerico. 
-
-
 +  [*] (@value)  [*] (@ten)  [*] (@column) [*]
 - <bot respuesta33>
 
@@ -898,9 +863,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 - <bot respuesta33>
 
 //Que valor lleva la undecima columna
-
-! var respuesta34= En esta columna ingrese el valor Mensaje. Campo opcional. Incluir sólo si se quiere enviar correo de confirma ción al beneficiario.. Se compone de 30 de los siguientes caracteres: Alfanumerico. 
-
 
 +  [*] (@value)  [*] (@eleven)  [*] (@column) [*]
 - <bot respuesta34>
@@ -922,9 +884,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la duodecima columna
 
-! var respuesta35= En esta columna ingrese el valor Email. Campo opcional. Incluir sólo si se quiere enviar correo de confirma ción al beneficiario.. Se compone de 35 de los siguientes caracteres: Alfanumerico. 
-
-
 +  [*] (@value)  [*] (@twelve)  [*] (@column) [*]
 - <bot respuesta35>
 
@@ -945,9 +904,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 //Que valor lleva la decimotercer columna
 
-! var respuesta36= En esta columna ingrese el valor Cuenta inscripta como.Campo obligatorio. Debe agregarse sólo si la cuenta de destino no se encuentra inscrita. Se compone de 25 de los siguientes caracteres: Alfanumerico. 
-
-
 +  [*] (@value)  [*] (@thirdteen)  [*] (@column) [*]
 - <bot respuesta36>
 
@@ -965,7 +921,6 @@ de dos tipos: punto y coma (;) o pipe (|).
 
 +  [*] (@column)  [*] (@thirdteen)  [*] (@value) [*]
 - <bot respuesta36>
-
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 //Cómo cargo mi archivo de pago de nómina en línea?
