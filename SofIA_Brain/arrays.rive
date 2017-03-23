@@ -20,11 +20,11 @@
 
 ! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas
 
-! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas
+! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
 
 ! array thanks      = gracias|muchas gracias|listo gracias
 
-! array help        = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias
+! array help        = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar
 
 ! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
 
@@ -108,30 +108,38 @@
 
 ! array valuecol= valor|valores|dato|datos|data|informacion|info|compone
 
-! array first= primer|primero|primera|primeros|primeras|1|1eros|1er
+! array first= primer|primero|primera|primeros|primeras|1|1eros|1er|a
 
-! array second= segunda|segundas|segundo|segundos|2|1dos|2do
+! array second= segunda|segundas|segundo|segundos|2|1dos|2do|b
 
-! array third= tercer|terceros|tercera|3|3eras|3ero
+! array third= tercer|terceros|tercera|3|3eras|3ero|c
 
-! array fourth= cuarta|cuarto|cuartas|cuartos|4to|4tos|4
+! array fourth= cuarta|cuarto|cuartas|cuartos|4to|4tos|4|d
 
-! array five= cinco|quinta|quinto|quintas|quintos|5to|5tos|5
+! array five= cinco|quinta|quinto|quintas|quintos|5to|5tos|5|e
 
-! array six= seis|sexta|sextas|6ta|6tas|6
+! array six= seis|sexta|sextas|6ta|6tas|6|f
 
-! array seven= siete|septima|sietes|septimas|7ta|7tas|7
+! array seven= siete|septima|sietes|septimas|7ta|7tas|7|g
 
-! array eight= ocho|octavo|octavos|octavas|octava|8vo|7va|8
+! array eight= ocho|octavo|octavos|octavas|octava|8vo|7va|8|h
 
-! array nine= nueve|noveno|nueves|novenos|9vo|9va|9
+! array nine= nueve|noveno|nueves|novenos|9vo|9va|9|i
 
-! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10
+! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10|j
 
-! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11
+! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11|k
 
-! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12
+! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12|l
 
-! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13
+! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13|m
 
 ! array column= columna|columnas|col
+
+! array howyoufeel= como estas|como te sientes|todo bien|todo en orden|como tu estas|como te va|como va
+
+! array myname= mi nombre es|me llamo|me dicen|me llaman
+
+! array namebot= nombre|llame|diga|llamas|quien eres|quien sos|que eres|que sos
+
+! array goodbye= adios|hasta luego|me voy|chau|me despido|nos vemos|hasta pronto|hasta la vuelta|bye

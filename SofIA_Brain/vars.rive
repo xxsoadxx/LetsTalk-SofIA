@@ -1,5 +1,3 @@
-! var respuesta0 = Hola! ¿Le puedo ayudar en algo?
-
 ! var respuesta1 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
 
 ! var respuesta2 = Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
@@ -72,3 +70,10 @@ de dos tipos: punto y coma (;) o pipe (|).
 ! var respuesta35= En esta columna ingrese el valor Email. Campo opcional. Incluir sólo si se quiere enviar correo de confirma ción al beneficiario.. Se compone de 35 de los siguientes caracteres: Alfanumerico. 
 
 ! var respuesta36= En esta columna ingrese el valor Cuenta inscripta como.Campo obligatorio. Debe agregarse sólo si la cuenta de destino no se encuentra inscrita. Se compone de 25 de los siguientes caracteres: Alfanumerico. 
+
+! var respuesta45= Hola! Gusto en saludarte. ¿En que le puedo ayudar?
+
+! var respuesta47= Que tal? Muy bien, gracias por preguntar! ¿Como puedo ayudarle?
+
+! var respuesta46= Saludos! Es un placer hablar con usted. ¿En que le puedo servir?
+
