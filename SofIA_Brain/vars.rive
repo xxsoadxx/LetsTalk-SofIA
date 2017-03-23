@@ -42,8 +42,7 @@
 
 ! var respuesta22= Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina y al visualizar el detalle de las observaciones, en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa
 
-! var respuesta23= En caso de ser una planilla, el archivo debe guardarse como libro Excel 97-2003, tener encabezado en la primera línea y las celdas deben tener formato “GENERAL”.IMPORTANTE: El archivo no puede ser guardado en versión Excel 2007 (.xlsx) ya que el sistema no lo procesará y su pago no podrá realizarse. Adicionalmente es importante destacar que es de carácter obligatorio usar primera pestaña de archivo, de lo contrario el sistema no procesará su información. En caso de ser un archivo de texto plano "txt", para ello los campos deben estar delimitados por un separador que puede ser
-de dos tipos: punto y coma (;) o pipe (|).
+! var respuesta23= En caso de ser una planilla, el archivo debe guardarse como libro Excel 97-2003, tener encabezado en la primera línea y las celdas deben tener formato “GENERAL”.IMPORTANTE: El archivo no puede ser guardado en versión Excel 2007 (.xlsx) ya que el sistema no lo procesará y su pago no podrá realizarse. Adicionalmente es importante destacar que es de carácter obligatorio usar primera pestaña de archivo, de lo contrario el sistema no procesará su información. En caso de ser un archivo de texto plano "txt", para ello los campos deben estar delimitados por un separador que puede ser de dos tipos: punto y coma (;) o pipe (|).
 
 ! var respuesta24= En esta columna ingrese el valor de Cuenta Cargo. Es un campo obligatorio, que permite un maximo de 12 de los siguientes caracteres: Numerico, sin puntos,rellenar con ceros a la izquierda.
 
