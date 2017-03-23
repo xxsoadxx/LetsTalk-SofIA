@@ -4,7 +4,7 @@
 
 //Hola como estas?
 
-+ (@welcome) (@howyoufeel)
++ (@welcome) [*] (@howyoufeel)
 - <bot respuesta45>
 - <bot respuesta47>
 - Hola! Muy bien. ¿Le puedo ayudar en algo?
@@ -23,7 +23,7 @@
 - Puedo ayudarte en todo lo que necesites. Solo preguntame claramente y con gusto te respondere. :)
 
 //Hola
-+ (@welcome) 
++ (@welcome) [*]
 - <bot respuesta46>
 - Hola! ¿En que le puedo ayudar?
 
