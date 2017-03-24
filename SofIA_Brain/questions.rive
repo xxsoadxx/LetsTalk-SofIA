@@ -29,12 +29,6 @@
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
 
 
-+ (@activate) (@beneficiary)
-- <bot respuesta2>
-
-+ (@beneficiary) (@activate) 
-- <bot respuesta2>
-
 + [*] (@need) [*] (@activate) [*] (@beneficiary) [*]
 - <bot respuesta2>
 
@@ -315,7 +309,6 @@
 
 //No me aparece la nómina para firmar luego de cargarla
 
-
 +  [*] (@dontshow)  [*] (@file)  [*] (@sign)  [*] (@afterload) [*]
 - <bot respuesta13>
 
@@ -477,75 +470,6 @@
 
 +  [*] (@prorecpag)  [*] (@initials)  [*] (@mean) [*]
 - <bot respuesta18>
-
-//No puedo visualizar nóminas de pago de julio en adelante
-
-
-+  [*] (@cant)  [*] (@view)  [*] (@file)  [*] (@forward) [*]
-- <bot respuesta19>
-
-+  [*] (@cant)  [*] (@view)  [*] (@forward)  [*] (@file) [*]
-- <bot respuesta19>
-
-+  [*] (@cant)  [*] (@file)  [*] (@view)  [*] (@forward) [*]
-- <bot respuesta19>
-
-+  [*] (@cant)  [*] (@file)  [*] (@forward)  [*] (@view) [*]
-- <bot respuesta19>
-
-+  [*] (@cant)  [*] (@forward)  [*] (@view)  [*] (@file) [*]
-- <bot respuesta19>
-
-+  [*] (@cant)  [*] (@forward)  [*] (@file)  [*] (@view) [*]
-- <bot respuesta19>
-
-+  [*] (@view)  [*] (@cant)  [*] (@file)  [*] (@forward) [*]
-- <bot respuesta19>
-
-+  [*] (@view)  [*] (@cant)  [*] (@forward)  [*] (@file) [*]
-- <bot respuesta19>
-
-+  [*] (@view)  [*] (@file)  [*] (@cant)  [*] (@forward) [*]
-- <bot respuesta19>
-
-+  [*] (@view)  [*] (@file)  [*] (@forward)  [*] (@cant) [*]
-- <bot respuesta19>
-
-+  [*] (@view)  [*] (@forward)  [*] (@cant)  [*] (@file) [*]
-- <bot respuesta19>
-
-+  [*] (@view)  [*] (@forward)  [*] (@file)  [*] (@cant) [*]
-- <bot respuesta19>
-
-+  [*] (@file)  [*] (@cant)  [*] (@view)  [*] (@forward) [*]
-- <bot respuesta19>
-
-+  [*] (@file)  [*] (@view)  [*] (@cant)  [*] (@forward) [*]
-- <bot respuesta19>
-
-+  [*] (@file)  [*] (@view)  [*] (@cant)  [*]
-- <bot respuesta19>
-
-+  [*] (@file)  [*] (@cant)  [*] (@view)  [*]
-- <bot respuesta19>
-
-+  [*] (@file)  [*] (@forward)  [*] (@cant)  [*] (@view) [*]
-- <bot respuesta19>
-
-+  [*] (@forward)  [*] (@cant)  [*] (@view)  [*] (@file) [*]
-- <bot respuesta19>
-
-+  [*] (@forward)  [*] (@cant)  [*] (@file)  [*] (@view) [*]
-- <bot respuesta19>
-
-+  [*] (@forward)  [*] (@view)  [*] (@file)  [*] (@cant) [*]
-- <bot respuesta19>
-
-//+  [*] (@forward)  [*] (@file)  [*] (@cant)  [*] (@view) [*]
-//- <bot respuesta19>
-
-+  [*] (@forward)  [*] (@file)  [*] (@view)  [*] (@cant) [*]
-- <bot respuesta19>
 
 //No me aparece la nómina que acabo de subir para firma
 
@@ -922,7 +846,543 @@
 +  [*] (@column)  [*] (@thirdteen)  [*] (@value) [*]
 - <bot respuesta36>
 
+//Acabo de subir una nómina, posteriormente me pide autorizar algunas cuentas y luego desaparece la nómina para firmar
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
++ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
+- <bot respuesta37>
+
+//En el día de ayer cargue una nómina de pago y no pudimos autorizar algunas personas que estaban en la nómina y hoy no encuentro la nómina
++ [*] (@authorize) [*] (@file) [*] (@notfound) [*] (@past) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@authorize) [*] (@notfound) [*] (@past) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@notfound) [*] (@authorize) [*] (@past) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@notfound) [*] (@past) [*] (@authorize) [*]
+- <bot respuesta41>
+
++ [*] (@notfound) [*] (@file) [*] (@past) [*] (@authorize) [*]
+- <bot respuesta41>
+
++ [*] (@notfound) [*] (@file) [*] (@authorize) [*] (@past) [*]
+- <bot respuesta41>
+
++ [*] (@notfound) [*] (@authorize) [*] (@file) [*] (@past) [*]
+- <bot respuesta41>
+
++ [*] (@authorize) [*] (@notfound) [*] (@file) [*] (@past) [*]
+- <bot respuesta41>
+
++ [*] (@authorize) [*] (@notfound) [*] (@past) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@notfound) [*] (@authorize) [*] (@past) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@notfound) [*] (@past) [*] (@authorize) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@notfound) [*] (@past) [*] (@file) [*] (@authorize) [*]
+- <bot respuesta41>
+
++ [*] (@past) [*] (@notfound) [*] (@file) [*] (@authorize) [*]
+- <bot respuesta41>
+
++ [*] (@past) [*] (@notfound) [*] (@authorize) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@past) [*] (@authorize) [*] (@notfound) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@authorize) [*] (@past) [*] (@notfound) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@authorize) [*] (@past) [*] (@file) [*] (@notfound) [*]
+- <bot respuesta41>
+
++ [*] (@past) [*] (@authorize) [*] (@file) [*] (@notfound) [*]
+- <bot respuesta41>
+
++ [*] (@past) [*] (@file) [*] (@authorize) [*] (@notfound) [*]
+- <bot respuesta41>
+
++ [*] (@past) [*] (@file) [*] (@notfound) [*] (@authorize) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@past) [*] (@notfound) [*] (@authorize) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@past) [*] (@authorize) [*] (@notfound) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@authorize) [*] (@past) [*] (@notfound) [*]
+- <bot respuesta41>
+
++ [*] (@authorize) [*] (@file) [*] (@past) [*] (@notfound) [*]
+- <bot respuesta41>
+
+//Realice la carga  de nómina y aparecen validando y monto 0
++ [*] (@file) [*] (@view) [*] (@validate) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@file) [*] (@validate) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@validate) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@validate) [*] (@view) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@validate) [*] (@file) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@validate) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@view) [*] (@amount) [*] (@zero) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@file) [*] (@amount) [*] (@zero) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@amount) [*] (@file) [*] (@zero) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@amount) [*] (@zero) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@amount) [*] (@view) [*] (@zero) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@amount) [*] (@view) [*] (@file) [*] (@zero) [*]
+- <bot respuesta39>
+
++ [*] (@amount) [*] (@file) [*] (@view) [*] (@zero) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@amount) [*] (@view) [*] (@zero) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@amount) [*] (@zero) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@amount) [*] (@file) [*] (@zero) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@amount) [*] (@zero) [*] (@file) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@amount) [*] (@zero) [*] (@view) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@zero) [*] (@amount) [*] (@view) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@zero) [*] (@amount) [*] (@file) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@zero) [*] (@file) [*] (@amount) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@zero) [*] (@amount) [*] (@view) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@zero) [*] (@view) [*] (@amount) [*]
+- <bot respuesta39>
+
++ [*] (@zero) [*] (@file) [*] (@view) [*] (@amount) [*]
+- <bot respuesta39>
+
++ [*] (@zero) [*] (@view) [*] (@file) [*] (@amount) [*]
+- <bot respuesta39>
+
++ [*] (@zero) [*] (@view) [*] (@amount) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@zero) [*] (@amount) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@zero) [*] (@file) [*] (@amount) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@file) [*] (@zero) [*] (@amount) [*]
+- <bot respuesta39>
+
++ [*] (@file) [*] (@view) [*] (@zero) [*] (@amount) [*]
+- <bot respuesta39>
+
+
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
++ [*] (@activate) [*] (@beneficiary) [*]
+- <bot respuesta2>
+
++ [*] (@beneficiary) [*] (@activate) [*]
+- <bot respuesta2>
+
++ [*] (@payprocess) [*]
+- <bot respuesta40> 
+
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
 
@@ -950,7 +1410,6 @@
 
 +  [*] (@file)  [*] (@delete) [*]
 - <bot respuesta22> 
-
 
 + *
 - Unknown

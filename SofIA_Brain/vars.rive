@@ -22,10 +22,6 @@
 
 ! var respuesta12= Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago
 
-! var respuesta13= no me aparece file firmar luego de cargarla SIN RESPUESTA
-
-! var respuesta14= no puedo activar una nomina SIN RESPUESTA
-
 ! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronirzación Bci Multipass, y continúe con los pasos solicitados
 
 ! var respuesta16= Para realizar una transferencia en Moneda Extranjera favor ingresar por Menú Comex, ingresar a Transferencia en Moneda Extranjera y luego a Transferir a Otros Bancos
@@ -69,6 +65,16 @@
 ! var respuesta35= En esta columna ingrese el valor Email. Campo opcional. Incluir sólo si se quiere enviar correo de confirma ción al beneficiario.. Se compone de 35 de los siguientes caracteres: Alfanumerico. 
 
 ! var respuesta36= En esta columna ingrese el valor Cuenta inscripta como.Campo obligatorio. Debe agregarse sólo si la cuenta de destino no se encuentra inscrita. Se compone de 25 de los siguientes caracteres: Alfanumerico. 
+
+! var respuesta37= Cuando el sistema realiza la confirmación de activación de nuevos destinatarios autorizados demora en pasar de un proceso a otro aproximadamente 3 minutos.
+
+! var respuesta38= Ingresó a portal Empresas o Empresarios? Debe hacerlo por www.bci.cl/empresarios con perfil de Apoderado en opcion Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar
+
+! var respuesta39= Esto sucede ya que el sistema muestra monto 0 mientras valida los registros de la nómina, favor confirmar si hubieran nuevos destinatarios por activar o un registro errado dentro de la nómina (Estado de Nómina)
+
+! var respuesta40= Los pagos que figuran en proceso de pago se actualizará su estado en la web una vez que el Banco receptor nos informe la recepción de fondos, 24 hrs aproximadamente.
+
+! var respuesta41= Esto se debe a que las nóminas solo están disponibles por el día en que estas se cargan. Lamentablemente para poder concretar el pago debe realizar una nueva carga, teniendo la premisa de cambiar el nombre para evitar que el sistema la reconozca como una nómina duplicada. La nómina caduca de forma autónoma al no ser firmadas el día en el cual se cargan.
 
 ! var respuesta45= Hola! Gusto en saludarte. ¿En que le puedo ayudar?
 

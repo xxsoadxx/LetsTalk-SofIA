@@ -58,7 +58,7 @@
 
 ! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
 
-! array view = aparece|aparecen|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran
+! array view = veo|aparece|aparecen|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran
 
 ! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas
 
@@ -94,7 +94,7 @@
 
 ! array initials = sigla|siglas|inicial|iniciales|abreviatura|abreviaturas
 
-! array prorecpag = pro rec pag|prorecpag|prorec pag|pro recpag|pro - rec - pag|pro - rec- pag|pro-rec-pag|pro-rec- pag|pro -rec-pag
+! array prorecpag = pag|rec|pro|pro rec pag|prorecpag|prorec pag|pro recpag|pro - rec - pag|pro - rec- pag|pro-rec-pag|pro-rec- pag|pro -rec-pag
 
 ! array forward= adelante posterior siguiente|hasta hoy|hasta el dia de hoy
 
@@ -143,3 +143,15 @@
 ! array namebot= nombre|llame|diga|llamas|quien eres|quien sos|que eres|que sos
 
 ! array goodbye= adios|hasta luego|me voy|chau|me despido|nos vemos|hasta pronto|hasta la vuelta|bye
+
+! array after = luego|despues|posteriormente|ulteriormente|mas tarde
+
+! array beneficiaryMessage = mensaje de destinatario|mensaje de destinatarios|mensajes de destinatarios
+
+! array validate = validando|valide|valida|validaba
+
+! array payprocess = en proceso de pago|proceso de pago
+
+! array past = ayer|antes de ayer|otro dia|hace unos dias|semana pasada|dias atras|pasado|atras|anterior|hace dias
+
+! array zero = 0|cero|zero|nullo|vacio
