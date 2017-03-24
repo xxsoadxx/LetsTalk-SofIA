@@ -1,33 +1,5 @@
-//Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
-//Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
-
-+ (@register) (@beneficiary)
-- <bot respuesta1>
-
-+ (@beneficiary) (@register) 
-- <bot respuesta1>
-
-+ [*] (@need) [*] (@register) [*] (@beneficiary) [*]
-- <bot respuesta1>
-
-+ [*] (@need) [*] (@beneficiary) [*] (@register) [*]
-- <bot respuesta1>
-
-+ [*] (@beneficiary) [*] (@need) [*] (@register) [*]
-- <bot respuesta1>
-
-+ [*] (@register) [*] (@need) [*] (@beneficiary) [*]
-- <bot respuesta1>
-
-+ [*] (@register) [*] (@beneficiary) [*] (@need) [*]
-- <bot respuesta1>
-
-+ [*] (@beneficiary) [*] (@register) [*] (@need) [*]
-- <bot respuesta1>
-
 //Como activo a un Destinatario Nuevo
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
-
 
 + [*] (@need) [*] (@activate) [*] (@beneficiary) [*]
 - <bot respuesta2>
@@ -86,107 +58,6 @@
 + [*] (@authorize) [*] (@beneficiary) [*] (@cant) [*]
 - <bot respuesta3>
 
-
-//Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
-//Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
-
-
-+ [*] (@recover) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@recover) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@register) [*] (@beneficiary) [*] (@arrivenot) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@register) [*] (@arrivenot) [*] (@beneficiary) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@register) [*] (@authcode) [*] (@beneficiary) [*] (@arrivenot) [*]
-- <bot respuesta4>
-
-+ [*] (@register) [*] (@arrivenot) [*] (@authcode) [*] (@beneficiary) [*]
-- <bot respuesta4>
-
-+ [*] (@register) [*] (@authcode) [*] (@arrivenot) [*] (@beneficiary) [*]
-- <bot respuesta4>
-
-+ [*] (@beneficiary) [*] (@register) [*] (@arrivenot) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@beneficiary) [*] (@register) [*] (@authcode) [*] (@arrivenot) [*]
-- <bot respuesta4>
-
-+ [*] (@beneficiary) [*] (@arrivenot) [*] (@register) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@beneficiary) [*] (@authcode) [*] (@register) [*] (@arrivenot) [*]
-- <bot respuesta4>
-
-+ [*] (@beneficiary) [*] (@authcode) [*] (@arrivenot) [*] (@register) [*]
-- <bot respuesta4>
-
-+ [*] (@beneficiary) [*] (@arrivenot) [*] (@authcode) [*] (@register) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@beneficiary) [*] (@authcode) [*] (@register) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@beneficiary) [*] (@register) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@register) [*] (@beneficiary) [*] (@authcode) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@authcode) [*] (@beneficiary) [*] (@register) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@authcode) [*] (@register) [*] (@beneficiary) [*]
-- <bot respuesta4>
-
-+ [*] (@arrivenot) [*] (@register) [*] (@authcode) [*] (@beneficiary) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@arrivenot) [*] (@register) [*] (@beneficiary) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@arrivenot) [*] (@beneficiary) [*] (@register) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@register) [*] (@arrivenot) [*] (@beneficiary) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@beneficiary) [*] (@arrivenot) [*] (@register) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@register) [*] (@beneficiary) [*] (@arrivenot) [*]
-- <bot respuesta4>
-
-+ [*] (@authcode) [*] (@beneficiary) [*] (@register) [*] (@arrivenot) [*]
-- <bot respuesta4>
-
-//Deseo cambiar mi correo electrónico
-//En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
-
-+ [*] (@mail) [*] (@change) [*]
-- <bot respuesta5>
-
-+ [*] (@change) [*] (@mail) [*]
-- <bot respuesta5>
-
-//Cómo programar un pago de nóminas. Tengo adelantos quincenalmente, mismas personas y monto.
-//Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
-
-+ [*] (@file) [*] (@program) [*]
-- <bot respuesta7>
-
-+ [*] (@program) [*] (@file) [*]
-- <bot respuesta7>
-
 //Cómo cargo una nómina manualmente? 
 //Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.
 
@@ -233,6 +104,20 @@
 
 + [*] (@file) [*] (@view) [*] (@warnings) [*]
 - <bot respuesta10>
+
++ [*] (@file) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@file) [*]
+- <bot respuesta10>
+
++ [*] (@upload) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@upload) [*] (@file) [*]
+- <bot respuesta10>
+
+
 
 //Que debo hacer cuando existen personas que aparecen con observaciones por falta de alias o alias cuenta vacía?
 //Esto aparece porque se está cargando en la nómina beneficiarios nuevos, en donde es obligación el incorporar el campo "alias". Este campo es para poder identificar de manera rápida un beneficiario. Ejemplo: Mamá, Local Nro#, Caja chica, etc.
@@ -306,103 +191,6 @@
 //+  [*] (@alreadypay)  [*] (@file)  [*] (@detail)  [*] (@need) [*]
 //- <bot respuesta12>
 
-
-//No me aparece la nómina para firmar luego de cargarla
-
-+  [*] (@dontshow)  [*] (@file)  [*] (@sign)  [*] (@afterload) [*]
-- <bot respuesta13>
-
-+  [*] (@dontshow)  [*] (@file)  [*] (@afterload)  [*] (@sign) [*]
-- <bot respuesta13>
-
-+  [*] (@dontshow)  [*] (@sign)  [*] (@file)  [*] (@afterload) [*]
-- <bot respuesta13>
-
-+  [*] (@dontshow)  [*] (@sign)  [*] (@afterload)  [*] (@file) [*]
-- <bot respuesta13>
-
-+  [*] (@dontshow)  [*] (@afterload)  [*] (@file)  [*] (@sign) [*]
-- <bot respuesta13>
-
-+  [*] (@dontshow)  [*] (@afterload)  [*] (@sign)  [*] (@file) [*]
-- <bot respuesta13>
-
-+  [*] (@file)  [*] (@dontshow)  [*] (@sign)  [*] (@afterload) [*]
-- <bot respuesta13>
-
-+  [*] (@file)  [*] (@dontshow)  [*] (@afterload)  [*] (@sign) [*]
-- <bot respuesta13>
-
-+  [*] (@file)  [*] (@sign)  [*] (@dontshow)  [*] (@afterload) [*]
-- <bot respuesta13>
-
-+  [*] (@file)  [*] (@sign)  [*] (@afterload)  [*] (@dontshow) [*]
-- <bot respuesta13>
-
-+  [*] (@file)  [*] (@afterload)  [*] (@dontshow)  [*] (@sign) [*]
-- <bot respuesta13>
-
-+  [*] (@file)  [*] (@afterload)  [*] (@sign)  [*] (@dontshow) [*]
-- <bot respuesta13>
-
-+  [*] (@sign)  [*] (@dontshow)  [*] (@file)
-- <bot respuesta13>
-
-+  [*] (@sign)  [*] (@dontshow)  [*] (@afterload)  [*] (@file) [*]
-- <bot respuesta13>
-
-+  [*] (@sign)  [*] (@file)  [*] (@dontshow)  [*] (@afterload) [*]
-- <bot respuesta13>
-
-+  [*] (@sign)  [*] (@file)  [*] (@afterload)  [*] (@dontshow) [*]
-- <bot respuesta13>
-
-+  [*] (@sign)  [*] (@file) [*] (@dontshow)
-- <bot respuesta13>
-
-+  [*] (@sign)  [*] (@afterload)  [*] (@file)  [*] (@dontshow) [*]
-- <bot respuesta13>
-
-+  [*] (@afterload)  [*] (@dontshow)  [*] (@file)  [*] (@sign) [*]
-- <bot respuesta13>
-
-+  [*] (@afterload)  [*] (@dontshow)  [*] (@sign)  [*] (@file) [*]
-- <bot respuesta13>
-
-+  [*] (@afterload)  [*] (@file)  [*] (@dontshow)  [*] (@sign) [*]
-- <bot respuesta13>
-
-+  [*] (@afterload)  [*] (@file)  [*] (@sign)  [*] (@dontshow) [*]
-- <bot respuesta13>
-
-+  [*] (@afterload)  [*] (@sign)  [*] (@dontshow)  [*] (@file) [*]
-- <bot respuesta13>
-
-+  [*] (@afterload)  [*] (@sign)  [*] (@file)  [*] (@dontshow) [*]
-- <bot respuesta13>
-
-//No puedo activar una nómina
-
-
-+  [*] (@cant)  [*] (@activate)  [*] (@file) [*]
-- <bot respuesta14>
-
-+  [*] (@cant)  [*] (@file)  [*] (@activate) [*]
-- <bot respuesta14>
-
-+  [*] (@activate)  [*] (@cant)  [*] (@file) [*]
-- <bot respuesta14>
-
-+  [*] (@activate)  [*] (@file)  [*] (@cant) [*]
-- <bot respuesta14>
-
-+  [*] (@file)  [*] (@cant)  [*] (@activate) [*]
-- <bot respuesta14>
-
-+  [*] (@file)  [*] (@activate)  [*] (@cant) [*]
-- <bot respuesta14>
-
-
 //Problemas de Multipass
 
 + [*] (@problems) [*] (@multipass) [*]
@@ -412,7 +200,6 @@
 - <bot respuesta15> 
 
 //Transferencia de Fondos Monex
-
 
 
 +  [*] (@do)  [*] (@transfers)  [*] (@foundmonex) [*]
@@ -432,7 +219,6 @@
 
 //Monto máximo de la nómina
 
-
 +  [*] (@amount)  [*] (@max)  [*] (@file) [*]
 - <bot respuesta17>
 
@@ -451,119 +237,88 @@
 +  [*] (@file)  [*] (@max)  [*] (@amount) [*]
 - <bot respuesta17>
 
-//Que significan siglas PRO - REC- PAG
-
-+  [*] (@mean)  [*] (@initials)  [*] (@prorecpag) [*]
-- <bot respuesta18>
-
-+  [*] (@mean)  [*] (@prorecpag)  [*] (@initials) [*]
-- <bot respuesta18>
-
-+  [*] (@initials)  [*] (@mean)  [*] (@prorecpag) [*]
-- <bot respuesta18>
-
-+  [*] (@initials)  [*] (@prorecpag)  [*] (@mean) [*]
-- <bot respuesta18>
-
-+  [*] (@prorecpag)  [*] (@mean)  [*] (@initials) [*]
-- <bot respuesta18>
-
-+  [*] (@prorecpag)  [*] (@initials)  [*] (@mean) [*]
-- <bot respuesta18>
-
 //No me aparece la nómina que acabo de subir para firma
 
-+  [*] (@dontshow)  [*] (@file)  [*] (@upload)  [*] (@recent) [*]
++  [*] (@notfound)  [*] (@file)  [*] (@upload)  [*] (@recent) [*]
 - <bot respuesta20>
 
-+  [*] (@dontshow)  [*] (@file)  [*] (@recent)  [*] (@upload) [*]
++  [*] (@notfound)  [*] (@file)  [*] (@recent)  [*] (@upload) [*]
 - <bot respuesta20>
 
-+  [*] (@dontshow)  [*] (@upload)  [*] (@file)  [*] (@recent) [*]
++  [*] (@notfound)  [*] (@upload)  [*] (@file)  [*] (@recent) [*]
 - <bot respuesta20>
 
-+  [*] (@dontshow)  [*] (@upload)  [*] (@recent)  [*] (@file) [*]
++  [*] (@notfound)  [*] (@upload)  [*] (@recent)  [*] (@file) [*]
 - <bot respuesta20>
 
-+  [*] (@dontshow)  [*] (@recent)  [*] (@file)  [*] (@upload) [*]
++  [*] (@notfound)  [*] (@recent)  [*] (@file)  [*] (@upload) [*]
 - <bot respuesta20>
 
-+  [*] (@dontshow)  [*] (@recent)  [*] (@upload)  [*] (@file) [*]
++  [*] (@notfound)  [*] (@recent)  [*] (@upload)  [*] (@file) [*]
 - <bot respuesta20>
 
-+  [*] (@file)  [*] (@dontshow)  [*] (@upload)  [*] (@recent) [*]
++  [*] (@file)  [*] (@notfound)  [*] (@upload)  [*] (@recent) [*]
 - <bot respuesta20>
 
-+  [*] (@file)  [*] (@dontshow)  [*] (@recent)  [*] (@upload) [*]
++  [*] (@file)  [*] (@notfound)  [*] (@recent)  [*] (@upload) [*]
 - <bot respuesta20>
 
-+  [*] (@file)  [*] (@upload)  [*] (@dontshow)  [*] (@recent) [*]
++  [*] (@file)  [*] (@upload)  [*] (@notfound)  [*] (@recent) [*]
 - <bot respuesta20>
 
-+  [*] (@file)  [*] (@upload)  [*] (@recent)  [*] (@dontshow) [*]
++  [*] (@file)  [*] (@upload)  [*] (@recent)  [*] (@notfound) [*]
 - <bot respuesta20>
 
-+  [*] (@file)  [*] (@recent)  [*] (@dontshow)  [*] (@upload) [*]
++  [*] (@file)  [*] (@recent)  [*] (@notfound)  [*] (@upload) [*]
 - <bot respuesta20>
 
-+  [*] (@file)  [*] (@recent)  [*] (@upload)  [*] (@dontshow) [*]
++  [*] (@file)  [*] (@recent)  [*] (@upload)  [*] (@notfound) [*]
 - <bot respuesta20>
 
-+  [*] (@upload)  [*] (@dontshow)  [*] (@file)  [*] (@recent) [*]
++  [*] (@upload)  [*] (@notfound)  [*] (@file)  [*] (@recent) [*]
 - <bot respuesta20>
 
-+  [*] (@upload)  [*] (@dontshow)  [*] (@recent)  [*] (@file) [*]
++  [*] (@upload)  [*] (@notfound)  [*] (@recent)  [*] (@file) [*]
 - <bot respuesta20>
 
-+  [*] (@upload)  [*] (@file)  [*] (@dontshow)  [*] (@recent) [*]
++  [*] (@upload)  [*] (@file)  [*] (@notfound)  [*] (@recent) [*]
 - <bot respuesta20>
 
-+  [*] (@upload)  [*] (@file)  [*] (@recent)  [*] (@dontshow) [*]
++  [*] (@upload)  [*] (@file)  [*] (@recent)  [*] (@notfound) [*]
 - <bot respuesta20>
 
-+  [*] (@upload)  [*] (@recent)  [*] (@dontshow)  [*] (@file) [*]
++  [*] (@upload)  [*] (@recent)  [*] (@notfound)  [*] (@file) [*]
 - <bot respuesta20>
 
-+  [*] (@upload)  [*] (@recent)  [*] (@file)  [*] (@dontshow) [*]
++  [*] (@upload)  [*] (@recent)  [*] (@file)  [*] (@notfound) [*]
 - <bot respuesta20>
 
-+  [*] (@recent)  [*] (@dontshow)  [*] (@file)  [*] (@upload) [*]
++  [*] (@recent)  [*] (@notfound)  [*] (@file)  [*] (@upload) [*]
 - <bot respuesta20>
 
-+  [*] (@recent)  [*] (@dontshow)  [*] (@upload)  [*] (@file) [*]
++  [*] (@recent)  [*] (@notfound)  [*] (@upload)  [*] (@file) [*]
 - <bot respuesta20>
 
-+  [*] (@recent)  [*] (@file)  [*] (@dontshow)  [*] (@upload) [*]
++  [*] (@recent)  [*] (@file)  [*] (@notfound)  [*] (@upload) [*]
 - <bot respuesta20>
 
-+  [*] (@recent)  [*] (@file)  [*] (@upload)  [*] (@dontshow) [*]
++  [*] (@recent)  [*] (@file)  [*] (@upload)  [*] (@notfound) [*]
 - <bot respuesta20>
 
-+  [*] (@recent)  [*] (@upload)  [*] (@dontshow)  [*] (@file) [*]
++  [*] (@recent)  [*] (@upload)  [*] (@notfound)  [*] (@file) [*]
 - <bot respuesta20>
 
-+  [*] (@recent)  [*] (@upload)  [*] (@file)  [*] (@dontshow) [*]
++  [*] (@recent)  [*] (@upload)  [*] (@file)  [*] (@notfound) [*]
 - <bot respuesta20>
 
 //Muestra error por Firma repetida
 
-+  [*] (@error)  [*] (@sign)  [*] (@repeat) [*]
++  [*] (@sign)  [*] (@repeat) [*]
 - <bot respuesta21>
 
-+  [*] (@error)  [*] (@repeat)  [*] (@sign) [*]
++  [*] (@repeat)  [*] (@sign) [*]
 - <bot respuesta21>
 
-+  [*] (@sign)  [*] (@error)  [*] (@repeat) [*]
-- <bot respuesta21>
-
-+  [*] (@sign)  [*] (@repeat)  [*] (@error) [*]
-- <bot respuesta21>
-
-+  [*] (@repeat)  [*] (@error)  [*] (@sign) [*]
-- <bot respuesta21>
-
-+  [*] (@repeat)  [*] (@sign)  [*] (@error) [*]
-- <bot respuesta21>
 
 //Como es la estructura archivo de nomina
 
@@ -848,438 +603,118 @@
 
 //Acabo de subir una nómina, posteriormente me pide autorizar algunas cuentas y luego desaparece la nómina para firmar
 
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
++ [*] (@sign) [*] (@file) [*] (@notfound) [*]
 - <bot respuesta37>
 
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
++ [*] (@sign) [*] (@notfound) [*] (@file) [*]
 - <bot respuesta37>
 
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
++ [*] (@file) [*] (@notfound) [*] (@sign) [*]
 - <bot respuesta37>
 
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
++ [*] (@file) [*] (@sign) [*] (@notfound) [*] 
 - <bot respuesta37>
 
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
++ [*] (@notfound) [*] (@file) [*] (@sign) [*] 
 - <bot respuesta37>
 
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@sign) [*] (@authorize) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@sign) [*] (@after) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@authorize) [*] (@upload) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@file) [*] (@upload) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*] (@authorize) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@after) [*] (@authorize) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@file) [*] (@authorize) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@upload) [*] (@authorize) [*] (@file) [*] (@after) [*] (@sign) [*]
-- <bot respuesta37>
-
-+ [*] (@authorize) [*] (@upload) [*] (@file) [*] (@after) [*] (@sign) [*]
++ [*] (@notfound) [*] (@sign) [*] (@file) [*]  
 - <bot respuesta37>
 
 //En el día de ayer cargue una nómina de pago y no pudimos autorizar algunas personas que estaban en la nómina y hoy no encuentro la nómina
-+ [*] (@authorize) [*] (@file) [*] (@notfound) [*] (@past) [*]
++ [*] (@file) [*] (@notfound) [*] (@past) [*]
 - <bot respuesta41>
 
-+ [*] (@file) [*] (@authorize) [*] (@notfound) [*] (@past) [*]
++ [*] (@file) [*] (@past) [*] (@notfound) [*]
 - <bot respuesta41>
 
-+ [*] (@file) [*] (@notfound) [*] (@authorize) [*] (@past) [*]
++ [*] (@notfound) [*] (@file) [*] (@past) [*]
 - <bot respuesta41>
 
-+ [*] (@file) [*] (@notfound) [*] (@past) [*] (@authorize) [*]
++ [*] (@notfound) [*] (@past) [*] (@file) [*]
 - <bot respuesta41>
 
-+ [*] (@notfound) [*] (@file) [*] (@past) [*] (@authorize) [*]
++ [*] (@past) [*] (@notfound) [*] (@past) [*]
 - <bot respuesta41>
 
-+ [*] (@notfound) [*] (@file) [*] (@authorize) [*] (@past) [*]
++ [*] (@past) [*] (@past) [*] (@notfound) [*]
 - <bot respuesta41>
 
-+ [*] (@notfound) [*] (@authorize) [*] (@file) [*] (@past) [*]
-- <bot respuesta41>
+//No puedo visualizar nóminas de pago de julio en adelante
 
-+ [*] (@authorize) [*] (@notfound) [*] (@file) [*] (@past) [*]
-- <bot respuesta41>
++ [*] (@view) [*] (@file) [*] (@past) [*]
+- <bot respuesta19>
 
-+ [*] (@authorize) [*] (@notfound) [*] (@past) [*] (@file) [*]
-- <bot respuesta41>
++ [*] (@view) [*] (@past) [*] (@file) [*]
+- <bot respuesta19>
 
-+ [*] (@notfound) [*] (@authorize) [*] (@past) [*] (@file) [*]
-- <bot respuesta41>
++ [*] (@file) [*] (@view) [*] (@past) [*]
+- <bot respuesta19>
 
-+ [*] (@notfound) [*] (@past) [*] (@authorize) [*] (@file) [*]
-- <bot respuesta41>
++ [*] (@file) [*] (@past) [*] (@view) [*]
+- <bot respuesta19>
 
-+ [*] (@notfound) [*] (@past) [*] (@file) [*] (@authorize) [*]
-- <bot respuesta41>
++ [*] (@past) [*] (@file) [*] (@view) [*]
+- <bot respuesta19>
 
-+ [*] (@past) [*] (@notfound) [*] (@file) [*] (@authorize) [*]
-- <bot respuesta41>
++ [*] (@past) [*] (@view) [*] (@file) [*]
+- <bot respuesta19>
 
-+ [*] (@past) [*] (@notfound) [*] (@authorize) [*] (@file) [*]
-- <bot respuesta41>
++ [*] (@view) [*] (@upload) [*] (@past) [*]
+- <bot respuesta19>
 
-+ [*] (@past) [*] (@authorize) [*] (@notfound) [*] (@file) [*]
-- <bot respuesta41>
++ [*] (@view) [*] (@past) [*] (@upload) [*]
+- <bot respuesta19>
 
-+ [*] (@authorize) [*] (@past) [*] (@notfound) [*] (@file) [*]
-- <bot respuesta41>
++ [*] (@upload) [*] (@view) [*] (@past) [*]
+- <bot respuesta19>
 
-+ [*] (@authorize) [*] (@past) [*] (@file) [*] (@notfound) [*]
-- <bot respuesta41>
++ [*] (@upload) [*] (@past) [*] (@view) [*]
+- <bot respuesta19>
 
-+ [*] (@past) [*] (@authorize) [*] (@file) [*] (@notfound) [*]
-- <bot respuesta41>
++ [*] (@past) [*] (@upload) [*] (@view) [*]
+- <bot respuesta19>
 
-+ [*] (@past) [*] (@file) [*] (@authorize) [*] (@notfound) [*]
-- <bot respuesta41>
++ [*] (@past) [*] (@view) [*] (@upload) [*]
+- <bot respuesta19>
 
-+ [*] (@past) [*] (@file) [*] (@notfound) [*] (@authorize) [*]
-- <bot respuesta41>
++ [*] (@month) [*] (@upload) [*] (@view) [*]
+- <bot respuesta19>
 
-+ [*] (@file) [*] (@past) [*] (@notfound) [*] (@authorize) [*]
-- <bot respuesta41>
++ [*] (@month) [*] (@view) [*] (@upload) [*]
+- <bot respuesta19>
 
-+ [*] (@file) [*] (@past) [*] (@authorize) [*] (@notfound) [*]
-- <bot respuesta41>
++ [*] (@view) [*] (@upload) [*] (@month) [*]
+- <bot respuesta19>
 
-+ [*] (@file) [*] (@authorize) [*] (@past) [*] (@notfound) [*]
-- <bot respuesta41>
++ [*] (@view) [*] (@month) [*] (@upload) [*]
+- <bot respuesta19>
 
-+ [*] (@authorize) [*] (@file) [*] (@past) [*] (@notfound) [*]
-- <bot respuesta41>
++ [*] (@upload) [*] (@month) [*] (@view) [*]
+- <bot respuesta19>
+
++ [*] (@upload) [*] (@view) [*] (@month) [*]
+- <bot respuesta19>
+
++ [*] (@month) [*] (@file) [*] (@view) [*]
+- <bot respuesta19>
+
++ [*] (@month) [*] (@view) [*] (@file) [*]
+- <bot respuesta19>
+
++ [*] (@view) [*] (@file) [*] (@month) [*]
+- <bot respuesta19>
+
++ [*] (@view) [*] (@month) [*] (@file) [*]
+- <bot respuesta19>
+
++ [*] (@file) [*] (@month) [*] (@view) [*]
+- <bot respuesta19>
+
++ [*] (@file) [*] (@view) [*] (@month) [*]
+- <bot respuesta19>
+
+
 
 //Realice la carga  de nómina y aparecen validando y monto 0
 + [*] (@file) [*] (@view) [*] (@validate) [*]
@@ -1372,25 +807,99 @@
 + [*] (@file) [*] (@view) [*] (@zero) [*] (@amount) [*]
 - <bot respuesta39>
 
+//Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
+//Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
+
+
++ [*] (@recover) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@recover) [*]
+- <bot respuesta4>
+
++ [*] (@arrivenot) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@get) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@get) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@beneficiary) [*]
+- <bot respuesta4>
+
++ [*] (@beneficiary) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@need) [*] (@authcode) [*]
+- <bot respuesta4>
+
++ [*] (@authcode) [*] (@need) [*]
+- <bot respuesta4>
+
+//Deseo cambiar mi correo electrónico
+//En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
+
++ [*] (@mail) [*] (@change) [*]
+- <bot respuesta5>
+
++ [*] (@change) [*] (@mail) [*]
+- <bot respuesta5>
+
+//Cómo programar un pago de nóminas. Tengo adelantos quincenalmente, mismas personas y monto.
+//Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
+
++ [*] (@file) [*] (@program) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@file) [*]
+- <bot respuesta7>
+
++ [*] (@upload) [*] (@program) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@upload) [*]
+- <bot respuesta7>
+
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
+
+//Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
+//Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
+
++ [*] (@register) [*] (@beneficiary) [*]
+- <bot respuesta1>
+
++ [*] (@beneficiary) [*] (@register) [*]
+- <bot respuesta1>
+
+//Estoy intentando autorizar un Beneficiario y no puedo
+//El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
+
++ [*] (@authorize) [*] (@beneficiary) [*]
+- <bot respuesta38>
+
++ [*] (@authorize) [*] (@beneficiary) [*]
+- <bot respuesta38>
+
+//////////////////////////////////////////
 + [*] (@activate) [*] (@beneficiary) [*]
 - <bot respuesta2>
 
 + [*] (@beneficiary) [*] (@activate) [*]
 - <bot respuesta2>
-
+/////////////////////////////////////////
 + [*] (@payprocess) [*]
 - <bot respuesta40> 
 
-//Cómo cargo mi archivo de pago de nómina en línea?
-//Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
+//Que significan siglas PRO - REC- PAG
 
-+ [*] (@upload) [*] (@file) [*]
-- <bot respuesta6> 
++  [*] (@mean)  [*] (@prorecpag) [*]
+- <bot respuesta18>
 
-+ [*] (@file) [*] (@upload) [*]
-- <bot respuesta6> 
++  [*] (@prorecpag)  [*] (@mean) [*]
+- <bot respuesta18>
 
 //Ingrese una nómina y no aparece nada aun; donde puedo obtener información al respecto? 
 //Para saber detalles, existen dos modalidades donde puede visualizar la nómina.
@@ -1403,6 +912,9 @@
 + [*] (@file) [*] (@notfound) [*]
 - <bot respuesta9>
 
++ [*] (@notfound) [*] (@file) [*]
+- <bot respuesta9>
+
 //Cómo elimino la nómina? 
 
 +  [*] (@delete)  [*] (@file) [*]
@@ -1410,6 +922,24 @@
 
 +  [*] (@file)  [*] (@delete) [*]
 - <bot respuesta22> 
+
+//Cómo cargo mi archivo de pago de nómina en línea?
+//Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
+
++ [*] (@upload) [*] (@file) [*]
+- <bot respuesta6> 
+
++ [*] (@file) [*] (@upload) [*]
+- <bot respuesta6> 
+
++ [*] (@file) [*] (@register) [*]
+- <bot respuesta6> 
+
++ [*] (@register) [*] (@file) [*]
+- <bot respuesta6> 
+
++ [*] (@multipass) [*]
+- <bot respuesta15> 
 
 + *
 - Unknown

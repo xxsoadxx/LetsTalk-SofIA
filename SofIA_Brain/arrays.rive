@@ -12,7 +12,7 @@
 
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
 
-! array register    = generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar
+! array register    = nuevo|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo
 
@@ -44,7 +44,7 @@
 
 ! array mail          = email|mail|correo electronico|e-mail|e mail|casilla|correo|gmail|hotmail
 
-! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle
+! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|pagos
 
 ! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas
 
@@ -53,8 +53,6 @@
 ! array manual = manualmente|manual|casero
 
 ! array get = obtener|tener|sacar|conseguir|recibir|adquirir
-
-! array notfound = no aparece|no la encuentro|no encuentro|no pude encontrarla|no me aparece|nada aun|nada de nada|no la veo|no veo
 
 ! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
 
@@ -70,7 +68,11 @@
 
 ! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
 
-! array  dontshow=no me aparece| no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo
+//Comente estas dos porq son lo mismo
+//! array  dontshow=no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no //muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo
+//! array notfound = no aparece|no la encuentro|no encuentro|no pude encontrarla|no me aparece|nada aun|nada de nada|no la veo|no veo
+
+! array  notfound=no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron
 
 ! array sign=firmar firman firmaron firma firmas
 
@@ -152,6 +154,11 @@
 
 ! array payprocess = en proceso de pago|proceso de pago
 
-! array past = ayer|antes de ayer|otro dia|hace unos dias|semana pasada|dias atras|pasado|atras|anterior|hace dias
+! array past = ayer|antes de ayer|otro dia|hace unos dias|semana pasada|dias atras|pasado|atras|anterior|hace dias|vieja|hace un tiempo|antiguos|antiguo|viejas|vieja
+
+! array month = enero|febrero|marzo|abril|mayo|junio|julio|agosto|setiembre|septiembre|octubre|noviembre|diciembre
 
 ! array zero = 0|cero|zero|nullo|vacio
+
+! array understood = gracias|perfecto|listo|ok|bien
+

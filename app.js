@@ -96,7 +96,7 @@ function InitPubNub(){
                         db.log.save(log);
                         if(respuesta === 'Unknown'){
                             db.data.save(log);
-                            respuesta = 'No te he entendido.';
+                            respuesta = 'Disculpa, no te he entendido.';
                         }
                         var formData = {"conversation_id":message.message.data.conversation_id,"content_type":"text/plain","content":respuesta,"remote_id":"088ad22c-b978-993c-c44c-bd0ea327d2ec","internal":false}
                         var options = {
