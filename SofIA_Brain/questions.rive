@@ -105,18 +105,6 @@
 + [*] (@file) [*] (@view) [*] (@warnings) [*]
 - <bot respuesta10>
 
-+ [*] (@file) [*] (@warnings) [*]
-- <bot respuesta10>
-
-+ [*] (@warnings) [*] (@file) [*]
-- <bot respuesta10>
-
-+ [*] (@upload) [*] (@warnings) [*]
-- <bot respuesta10>
-
-+ [*] (@upload) [*] (@file) [*]
-- <bot respuesta10>
-
 
 
 //Que debo hacer cuando existen personas que aparecen con observaciones por falta de alias o alias cuenta vacía?
@@ -237,79 +225,6 @@
 +  [*] (@file)  [*] (@max)  [*] (@amount) [*]
 - <bot respuesta17>
 
-//No me aparece la nómina que acabo de subir para firma
-
-+  [*] (@notfound)  [*] (@file)  [*] (@upload)  [*] (@recent) [*]
-- <bot respuesta20>
-
-+  [*] (@notfound)  [*] (@file)  [*] (@recent)  [*] (@upload) [*]
-- <bot respuesta20>
-
-+  [*] (@notfound)  [*] (@upload)  [*] (@file)  [*] (@recent) [*]
-- <bot respuesta20>
-
-+  [*] (@notfound)  [*] (@upload)  [*] (@recent)  [*] (@file) [*]
-- <bot respuesta20>
-
-+  [*] (@notfound)  [*] (@recent)  [*] (@file)  [*] (@upload) [*]
-- <bot respuesta20>
-
-+  [*] (@notfound)  [*] (@recent)  [*] (@upload)  [*] (@file) [*]
-- <bot respuesta20>
-
-+  [*] (@file)  [*] (@notfound)  [*] (@upload)  [*] (@recent) [*]
-- <bot respuesta20>
-
-+  [*] (@file)  [*] (@notfound)  [*] (@recent)  [*] (@upload) [*]
-- <bot respuesta20>
-
-+  [*] (@file)  [*] (@upload)  [*] (@notfound)  [*] (@recent) [*]
-- <bot respuesta20>
-
-+  [*] (@file)  [*] (@upload)  [*] (@recent)  [*] (@notfound) [*]
-- <bot respuesta20>
-
-+  [*] (@file)  [*] (@recent)  [*] (@notfound)  [*] (@upload) [*]
-- <bot respuesta20>
-
-+  [*] (@file)  [*] (@recent)  [*] (@upload)  [*] (@notfound) [*]
-- <bot respuesta20>
-
-+  [*] (@upload)  [*] (@notfound)  [*] (@file)  [*] (@recent) [*]
-- <bot respuesta20>
-
-+  [*] (@upload)  [*] (@notfound)  [*] (@recent)  [*] (@file) [*]
-- <bot respuesta20>
-
-+  [*] (@upload)  [*] (@file)  [*] (@notfound)  [*] (@recent) [*]
-- <bot respuesta20>
-
-+  [*] (@upload)  [*] (@file)  [*] (@recent)  [*] (@notfound) [*]
-- <bot respuesta20>
-
-+  [*] (@upload)  [*] (@recent)  [*] (@notfound)  [*] (@file) [*]
-- <bot respuesta20>
-
-+  [*] (@upload)  [*] (@recent)  [*] (@file)  [*] (@notfound) [*]
-- <bot respuesta20>
-
-+  [*] (@recent)  [*] (@notfound)  [*] (@file)  [*] (@upload) [*]
-- <bot respuesta20>
-
-+  [*] (@recent)  [*] (@notfound)  [*] (@upload)  [*] (@file) [*]
-- <bot respuesta20>
-
-+  [*] (@recent)  [*] (@file)  [*] (@notfound)  [*] (@upload) [*]
-- <bot respuesta20>
-
-+  [*] (@recent)  [*] (@file)  [*] (@upload)  [*] (@notfound) [*]
-- <bot respuesta20>
-
-+  [*] (@recent)  [*] (@upload)  [*] (@notfound)  [*] (@file) [*]
-- <bot respuesta20>
-
-+  [*] (@recent)  [*] (@upload)  [*] (@file)  [*] (@notfound) [*]
-- <bot respuesta20>
 
 //Muestra error por Firma repetida
 
@@ -339,6 +254,8 @@
 
 +  [*] (@upload)  [*] (@file)  [*] (@composition) [*]
 - <bot respuesta23>
+
+
 
 //Que valor lleva la primer columna
 
@@ -604,22 +521,22 @@
 //Acabo de subir una nómina, posteriormente me pide autorizar algunas cuentas y luego desaparece la nómina para firmar
 
 + [*] (@sign) [*] (@file) [*] (@notfound) [*]
-- <bot respuesta37>
+- <bot respuesta20>
 
 + [*] (@sign) [*] (@notfound) [*] (@file) [*]
-- <bot respuesta37>
+- <bot respuesta20>
 
 + [*] (@file) [*] (@notfound) [*] (@sign) [*]
-- <bot respuesta37>
+- <bot respuesta20>
 
 + [*] (@file) [*] (@sign) [*] (@notfound) [*] 
-- <bot respuesta37>
+- <bot respuesta20>
 
 + [*] (@notfound) [*] (@file) [*] (@sign) [*] 
-- <bot respuesta37>
+- <bot respuesta20>
 
 + [*] (@notfound) [*] (@sign) [*] (@file) [*]  
-- <bot respuesta37>
+- <bot respuesta20>
 
 //En el día de ayer cargue una nómina de pago y no pudimos autorizar algunas personas que estaban en la nómina y hoy no encuentro la nómina
 + [*] (@file) [*] (@notfound) [*] (@past) [*]
@@ -639,6 +556,27 @@
 
 + [*] (@past) [*] (@past) [*] (@notfound) [*]
 - <bot respuesta41>
+
+//no puedo ver el motivo del rechazo
+
+
++ [*] (@dontshow) [*] (@motive) [*] (@reject) [*]
+- <bot respuesta54>
+
++ [*] (@motive) [*] (@dontshow) [*] (@reject) [*]
+- <bot respuesta54>>
+
++ [*] (@motive) [*] (@reject) [*] (@dontshow) [*]
+- <bot respuesta54>>
+
++ [*] (@reject) [*] (@motive) [*] (@dontshow) [*]
+- <bot respuesta54>>
+
++ [*] (@reject) [*] (@dontshow) [*] (@motive) [*]
+- <bot respuesta54>>
+
++ [*] (@dontshow) [*] (@reject) [*] (@motive) [*]
+- <bot respuesta54>>
 
 //No puedo visualizar nóminas de pago de julio en adelante
 
@@ -807,6 +745,15 @@
 + [*] (@file) [*] (@view) [*] (@zero) [*] (@amount) [*]
 - <bot respuesta39>
 
+//Deseo cambiar mi correo electrónico
+//En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
+
++ [*] (@mail) [*] (@change) [*]
+- <bot respuesta5>
+
++ [*] (@change) [*] (@mail) [*]
+- <bot respuesta5>
+
 //Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
 //Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
 
@@ -838,14 +785,7 @@
 + [*] (@authcode) [*] (@need) [*]
 - <bot respuesta4>
 
-//Deseo cambiar mi correo electrónico
-//En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
 
-+ [*] (@mail) [*] (@change) [*]
-- <bot respuesta5>
-
-+ [*] (@change) [*] (@mail) [*]
-- <bot respuesta5>
 
 //Cómo programar un pago de nóminas. Tengo adelantos quincenalmente, mismas personas y monto.
 //Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
@@ -863,7 +803,147 @@
 - <bot respuesta7>
 
 
+//necesito que la ejecutiva me active como apoderado autorizado
+
++ [*] (@authorize) [*] (@activate) [*] (@owner) [*]
+- <bot respuesta49>
+
++ [*] (@activate) [*] (@authorize) [*] (@owner) [*]
+- <bot respuesta49>
+
++ [*] (@activate) [*] (@owner) [*] (@authorize) [*]
+- <bot respuesta49>
+
++ [*] (@owner) [*] (@activate) [*] (@authorize) [*]
+- <bot respuesta49>
+
++ [*] (@owner) [*] (@authorize) [*] (@activate) [*]
+- <bot respuesta49>
+
++ [*] (@authorize) [*] (@owner) [*] (@activate) [*]
+- <bot respuesta49>
+
++ [*] (@authorize) [*] (@need) [*] (@owner) [*]
+- <bot respuesta49>
+
++ [*] (@need) [*] (@authorize) [*] (@owner) [*]
+- <bot respuesta49>
+
++ [*] (@need) [*] (@owner) [*] (@authorize) [*]
+- <bot respuesta49>
+
++ [*] (@owner) [*] (@need) [*] (@authorize) [*]
+- <bot respuesta49>
+
++ [*] (@owner) [*] (@authorize) [*] (@need) [*]
+- <bot respuesta49>
+
++ [*] (@need) [*] (@owner) [*] (@activate) [*]
+- <bot respuesta49>
+
++ [*] (@need) [*] (@activate) [*] (@owner) [*]
+- <bot respuesta49>
+
++ [*] (@owner) [*] (@need) [*] (@activate) [*]
+- <bot respuesta49>
+
+//consultar si el banco le apertura cuentas a los trabajadores.
+
+
++ [*] (@opening) [*] (@account) [*] (@workers) [*]
+- <bot respuesta50>
+
++ [*] (@account) [*] (@opening) [*] (@workers) [*]
+- <bot respuesta50>
+
++ [*] (@account) [*] (@workers) [*] (@opening) [*]
+- <bot respuesta50>
+
++ [*] (@workers) [*] (@account) [*] (@opening) [*]
+- <bot respuesta50>
+
++ [*] (@workers) [*] (@opening) [*] (@account) [*]
+- <bot respuesta50>
+
++ [*] (@opening) [*] (@workers) [*] (@account) [*]
+- <bot respuesta50>
+
+// que es pago de nomina
+
++ [*] (@file) [*] (@uplolad) [*] (@what) [*]
+- <bot respuesta51>
+
++ [*] (@uplolad) [*] (@file) [*] (@what) [*]
+- <bot respuesta51>
+
++ [*] (@uplolad) [*] (@what) [*] (@file) [*]
+- <bot respuesta51>
+
++ [*] (@what) [*] (@uplolad) [*] (@file) [*]
+- <bot respuesta51>
+
++ [*] (@what) [*] (@file) [*] (@uplolad) [*]
+- <bot respuesta51>
+
++ [*] (@file) [*] (@what) [*] (@uplolad) [*]
+- <bot respuesta51>
+
+
+
+
+
+//que hago cuando una nomina sale con obs por estar mal ingresadio el email?
+
++ [*] (@mail) [*] (@file) [*] (@badregister) [*]
+- <bot respuesta58>
+
++ [*] (@file) [*] (@mail) [*] (@badregister) [*]
+- <bot respuesta58>
+
++ [*] (@file) [*] (@badregister) [*] (@mail) [*]
+- <bot respuesta58>
+
++ [*] (@badregister) [*] (@file) [*] (@mail) [*]
+- <bot respuesta58>
+
++ [*] (@badregister) [*] (@mail) [*] (@file) [*]
+- <bot respuesta58>
+
++ [*] (@mail) [*] (@badregister) [*] (@file) [*]
+- <bot respuesta58>
+
+
+// continua 
+// //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
+//Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta.
+
+//Para saber detalles, existen dos modalidades donde puede visualizar el error.
+//Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación.
+//Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+
+
+
++ [*] (@file) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@file) [*]
+- <bot respuesta10>
+
++ [*] (@upload) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@upload) [*]
+- <bot respuesta10>
+
+
+
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
+
++ [*] (@dontknow) [*] (@motive) [*]
+- <bot respuesta54>
+
++ [*] (@motive) [*] (@dontknow) [*]
+- <bot respuesta54>
 
 //Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
@@ -880,7 +960,7 @@
 + [*] (@authorize) [*] (@beneficiary) [*]
 - <bot respuesta38>
 
-+ [*] (@authorize) [*] (@beneficiary) [*]
++ [*] (@beneficiary) [*] (@authorize) [*]
 - <bot respuesta38>
 
 //////////////////////////////////////////
@@ -940,6 +1020,100 @@
 
 + [*] (@multipass) [*]
 - <bot respuesta15> 
+
+//Buen dia, consulta en que formato viene el reporte de nomina?
+
+
++ [*] (@file) [*] (@format) [*]
+- <bot respuesta52>
+
++ [*] (@format) [*] (@file) [*]
+- <bot respuesta52>
+
++ [*] (@upload) [*] (@format) [*]
+- <bot respuesta52>
+
++ [*] (@format) [*] (@upload) [*]
+- <bot respuesta52>
+
+//Como veo el detalle de una nomina
+
++ [*] (@file) [*] (@detail) [*]
+- <bot respuesta9>
+
++ [*] (@detail) [*] (@file) [*]
+- <bot respuesta9>
+
++ [*] (@upload) [*] (@detail) [*]
+- <bot respuesta9>
+
++ [*] (@detail) [*] (@upload) [*]
+- <bot respuesta9>
+
+//necesito realizar una transferencia masiva
+
++ [*] (@do) [*] (@file) [*]
+- <bot respuesta6>
+
++ [*] (@file) [*] (@do) [*]
+- <bot respuesta6>
+
++ [*] (@upload) [*] (@do) [*]
+- <bot respuesta6>
+
++ [*] (@do) [*] (@upload) [*]
+- <bot respuesta6>
+
+//Cómo elimino la nómina? 
+
++  [*] (@delete)  [*] (@beneficiary) [*]
+- <bot respuesta53>
+
++  [*] (@beneficiary)  [*] (@delete) [*]
+- <bot respuesta53> 
+
+//error subiendo archivo
+
++ [*] (@error) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@error) [*]
+- <bot respuesta54>
+
++ [*] (@problems) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@problems) [*]
+- <bot respuesta54>
+
+
+//Como transfiero personas
+
++ [*] (@transfers) [*] (@need) [*]
+- <bot respuesta55>
+
++ [*] (@need) [*] (@transfers) [*]
+- <bot respuesta55>
+
+//como respaldar pagos
+
++ [*] (@backup) [*] (@upload) [*]
+- <bot respuesta56>
+
++ [*] (@upload) [*] (@backup) [*]
+- <bot respuesta56>
+
++ [*] (@backup) [*] (@file) [*]
+- <bot respuesta56>
+
++ [*] (@file) [*] (@backup) [*]
+- <bot respuesta56>
+
++ [*] (@offline) [*]
+- <bot respuesta57>
+
+
+
 
 + *
 - Unknown
