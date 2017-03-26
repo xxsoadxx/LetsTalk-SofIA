@@ -103,3 +103,21 @@
 ! var respuesta57= Si el error persiste, lo más probable es que sea algo que contenga el archivo, puede enviarmelo al correo apoyoempresarios@bci.cl
 
 ! var respuesta58 = En la planilla original, debe corregir el mail ingresado, una vez corregido, guarde la nómina con un nuevo nombre, y la carga.
+
+! var respuesta70 = Le detallo los pasos a seguir: Seleccionar Pagos y Servicios -> Pago de nómina en linea -> Nuevo Estado de nómina en ese momento aparecera la nómina con un victo bueno con fondo color plomo ahi debe seleccionar el codigo de identificacion bajar con el cursor, y seleccionar la opcion Activar.
+
+! var respuesta71 = Le comento que desde que cambio la modalidad de la pagina web, la unica persona que tiene atribuciones para inscribir cuentas, es el apoderado. Puede autorizar cuentas ingresando directamente al menú Mis destinatarios.
+
+! var respuesta72 = Eso puede deberse a que tiene beneficiarios sin inscribir. Debe activar a los destinatarios para que se totalice en forma correcta.
+
+! var respuesta73 = El apoderado puede ir directamente a la opción -> Mis destinatarios y activar o también puede hacerlo antes como parte del proceso.
+
+! var respuesta74= El costo de utilizar el sistema Pago de nóminas en línea, es 0.015 UF + IVA por registro.
+
+! var respuesta75= Las nóminas caducan el mismo día de cargada a las 23:59 horas.
+
+! var respuesta76 = Puede encontrar el archivo ingresando a la opcíon Que es?-> Instructivo -> aparecerán 4 circulos, el primero de arriba es el archivo tipo.
+
+! var respuesta77 = Le comento que no es posible modificar la cuenta de un destinatario, para esto usted debe eliminar y crear nuevamente.
+
+! var respuesta78 = Al cargar una nómina, todos los destinatarios no inscritos, pueden ser ingresados con un sólo código de verificación.

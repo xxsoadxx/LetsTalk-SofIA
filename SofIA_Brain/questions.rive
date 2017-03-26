@@ -564,19 +564,19 @@
 - <bot respuesta54>
 
 + [*] (@motive) [*] (@dontshow) [*] (@reject) [*]
-- <bot respuesta54>>
+- <bot respuesta54>
 
 + [*] (@motive) [*] (@reject) [*] (@dontshow) [*]
-- <bot respuesta54>>
+- <bot respuesta54>
 
 + [*] (@reject) [*] (@motive) [*] (@dontshow) [*]
-- <bot respuesta54>>
+- <bot respuesta54>
 
 + [*] (@reject) [*] (@dontshow) [*] (@motive) [*]
-- <bot respuesta54>>
+- <bot respuesta54>
 
 + [*] (@dontshow) [*] (@reject) [*] (@motive) [*]
-- <bot respuesta54>>
+- <bot respuesta54>
 
 //No puedo visualizar nóminas de pago de julio en adelante
 
@@ -912,6 +912,106 @@
 + [*] (@mail) [*] (@badregister) [*] (@file) [*]
 - <bot respuesta58>
 
+//cargo la nomina pero se visualiza con saldo $0
+
++ [*] (@file) [*] (@view) [*] (@nomoney) [*]
+- <bot respuesta72>
+
++ [*] (@view) [*] (@file) [*] (@nomoney) [*]
+- <bot respuesta72>
+
++ [*] (@view) [*] (@nomoney) [*] (@file) [*]
+- <bot respuesta72>
+
++ [*] (@nomoney) [*] (@view) [*] (@file) [*]
+- <bot respuesta72>
+
++ [*] (@nomoney) [*] (@file) [*] (@view) [*]
+- <bot respuesta72>
+
++ [*] (@file) [*] (@nomoney) [*] (@view) [*]
+- <bot respuesta72>
+
+//cargo la nomina pero se visualiza con saldo $0
+
++ [*] (@owner) [*] (@validate) [*] (@account) [*]
+- <bot respuesta73>
+
++ [*] (@owner) [*] (@account) [*] (@validate) [*]
+- <bot respuesta73>
+
++ [*] (@validate) [*] (@owner) [*] (@account) [*]
+- <bot respuesta73>
+
++ [*] (@validate) [*] (@account) [*] (@owner) [*]
+- <bot respuesta73>
+
++ [*] (@account) [*] (@validate) [*] (@account) [*]
+- <bot respuesta73>
+
++ [*] (@account) [*] (@account) [*] (@validate) [*]
+- <bot respuesta73>
+
+//cuanto sale el pago de nomina?
+
++ [*] (@cost) [*] (@upload) [*] (@file) [*]
+- <bot respuesta74>
+
++ [*] (@cost) [*] (@file) [*] (@upload) [*]
+- <bot respuesta74>
+
++ [*] (@upload) [*] (@cost) [*] (@file) [*]
+- <bot respuesta74>
+
++ [*] (@upload) [*] (@file) [*] (@cost) [*]
+- <bot respuesta74>
+
++ [*] (@file) [*] (@upload) [*] (@cost) [*]
+- <bot respuesta74>
+
++ [*] (@file) [*] (@cost) [*] (@upload) [*]
+- <bot respuesta74>
+
+//como puedo modificar el numero de cuenta de un destinatario de transferencia?
+
++ [*] (@change) [*] (@account) [*] (@beneficiary) [*]
+- <bot respuesta77>
+
++ [*] (@change) [*] (@beneficiary) [*] (@account) [*]
+- <bot respuesta77>
+
++ [*] (@account) [*] (@change) [*] (@beneficiary) [*]
+- <bot respuesta77>
+
++ [*] (@account) [*] (@beneficiary) [*] (@change) [*]
+- <bot respuesta77>
+
++ [*] (@beneficiary) [*] (@account) [*] (@change) [*]
+- <bot respuesta77>
+
++ [*] (@beneficiary) [*] (@change) [*] (@account) [*]
+- <bot respuesta77>
+
+//como puedo modificar el numero de cuenta de un destinatario de transferencia?
+
++ [*] (@authorize) [*] (@beneficiary) [*] (@sametime) [*]
+- <bot respuesta78>
+
++ [*] (@authorize) [*] (@sametime) [*] (@beneficiary) [*]
+- <bot respuesta78>
+
++ [*] (@sametime) [*] (@authorize) [*] (@beneficiary) [*]
+- <bot respuesta78>
+
++ [*] (@sametime) [*] (@beneficiary) [*] (@authorize) [*]
+- <bot respuesta78>
+
++ [*] (@beneficiary) [*] (@sametime) [*] (@authorize) [*]
+- <bot respuesta78>
+
++ [*] (@beneficiary) [*] (@authorize) [*] (@sametime) [*]
+- <bot respuesta78>
+
 
 // continua 
 // //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
@@ -939,10 +1039,27 @@
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 
+//cuanto es la validez de una nomina
+
++ [*] (@validity) [*] (@file) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@validity) [*]
+- <bot respuesta75>
+
+
 + [*] (@dontknow) [*] (@motive) [*]
 - <bot respuesta54>
 
 + [*] (@motive) [*] (@dontknow) [*]
+- <bot respuesta54>
+
+//Nomina rechazada
+
++  [*] (@reject)  [*] (@file) [*]
+- <bot respuesta54>
+
++  [*] (@file)  [*] (@reject) [*]
 - <bot respuesta54>
 
 //Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
@@ -962,6 +1079,14 @@
 
 + [*] (@beneficiary) [*] (@authorize) [*]
 - <bot respuesta38>
+
+//como hago para activar una cuenta
+
++ [*] (@authorize) [*] (@account) [*]
+- <bot respuesta71>
+
++ [*] (@account) [*] (@authorize) [*]
+- <bot respuesta71>
 
 //////////////////////////////////////////
 + [*] (@activate) [*] (@beneficiary) [*]
@@ -1002,6 +1127,17 @@
 
 +  [*] (@file)  [*] (@delete) [*]
 - <bot respuesta22> 
+
+
+// donde encuentro la planilla para subir al banco
+
+
++ [*] (@find) [*] (@file) [*]
+- <bot respuesta76>
+
++ [*] (@file) [*] (@find) [*]
+- <bot respuesta76>
+
 
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
@@ -1087,6 +1223,13 @@
 - <bot respuesta54>
 
 
+
++ [*] (@activate) [*] (@account) [*]
+- <bot respuesta70>
+
++ [*] (@account) [*] (@activate) [*]
+- <bot respuesta70>
+
 //Como transfiero personas
 
 + [*] (@transfers) [*] (@need) [*]
@@ -1108,6 +1251,15 @@
 
 + [*] (@file) [*] (@backup) [*]
 - <bot respuesta56>
+
+//no me aparece beneficiario
+
++ [*] (@dontshow) [*] (@beneficiary) [*]
+- <bot respuesta54>
+
++ [*] (@beneficiary) [*] (@dontshow) [*]
+- <bot respuesta54>
+
 
 + [*] (@offline) [*]
 - <bot respuesta57>

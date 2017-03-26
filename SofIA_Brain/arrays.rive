@@ -10,15 +10,15 @@
 
 ! array colors     = blanco negro naranja rojo azul verde amarillo cyan fuchsia gris grey marron turquoise rosado purpura dorado plateado plata
 
-! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|desearia|necesitaria|precisaria
+! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria
 
-! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado
+! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas
 
 ! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
 
-! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre
+! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina
 
 ! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
 
@@ -44,7 +44,7 @@
 
 ! array mail          = email|mail|correo electronico|e-mail|e mail|casilla|correo|gmail|hotmail|e.mail
 
-! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|pagos|subiendo
+! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|paggar|pagos|subiendo
 
 ! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas
 
@@ -60,7 +60,7 @@
 
 ! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas|motivo del rechazo
 
-! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio
+! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido
 
 ! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando anulo anular anulacion
 
@@ -70,13 +70,14 @@
 
 //Comente estas dos porq son lo mismo
 //! array  dontshow=no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no //muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo
+
 //! array notfound = no aparece|no la encuentro|no encuentro|no pude encontrarla|no me aparece|nada aun|nada de nada|no la veo|no veo|no puedo ver|no podia ver
 
-! array  notfound=no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron
+! array  notfound=no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron
 
-! array sign=firmar firman firmaron firma firmas
+! array sign=firmar firman firmaron firma firmas firmarla
 
-! array afterload=luego de cargarla|luego de cargar|luego de cargarlo|luego de procesar|luego de procesarla|luego de procesarlo
+! array afterload=luego de cargarla|luego de cargar|luego de cargarlo|luego de procesar|luego de procesarla|luego de procesarlo|el lunes|el martes|el miercoles|el jueves|el viernes|el sabado|el domingo
 
 ! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente
 
@@ -150,7 +151,7 @@
 
 ! array beneficiaryMessage = mensaje de destinatario|mensaje de destinatarios|mensajes de destinatarios
 
-! array validate = validando|valide|valida|validaba
+! array validate = validando|valide|valida|validaba|validar|validacion
 
 ! array payprocess = en proceso de pago|proceso de pago
 
@@ -176,17 +177,33 @@
 
 ! array backup= backup|respaldo|respaldos|backups|respaldar
 
-! array offline= offline|sistema no disponible|sistema offline|el sistema esta caido|el sistema esta muerto|el sistema no responde|caido el sistema|cayo el sistema
+! array offline= offline|sistema no disponible|sistema offline|el sistema esta caido|el sistema esta muerto|el sistema no responde|caido el sistema|cayo el sistema|error 500
 
 ! array motive= motivo|motivos|razones|razon
 
-! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|no procesadas
+! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|no procesadas|rechazos
 
 ! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea
 
 ! array badregister = mal registrado|mal ingresado|mal anadidos|mal registrados|mal ingresados|mal anadido|mal ingresadio
 
+! array salary= sueldo|remuneraciones|remuneracion|sueldo|salario|sueldos|salarios
 
+! array where= donde|adonde|en donde|en que lugar|en que ubicacion|en que lugares|en que ubicaciones
 
+! array paymentServices = pagos y servicios|pago y servicio|pagos y servicio|pago y servicios
 
+! array nomoney= sin saldo|saldo 0|no tengo saldo|no aparece saldo|no figura saldo|sin saldos|saldos 0|no tengo saldos|no aparece saldo
+
+! array cost = cuesta|sale|vale|costaria|saldria|valdria
+
+! array automated= automatico|automatica|automaticos|automaticas|automaticamente
+
+! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
+
+! array validity= validez|valida|cuanto duran|cuanto es su duracion|su duracion|vigencia|vigente
+
+! array find = encuentro|encontro|encontrar|hallo|hallar|hallamos|encontramos|localizar|localizamos|ubicar|ubicamos|ubicacion
+
+! array sametime= a la vez|en el mismo tiempo|a la misma vez|en este momento|en el mismo momento|en este instante
 
