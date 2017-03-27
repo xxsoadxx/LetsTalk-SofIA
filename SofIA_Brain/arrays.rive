@@ -44,7 +44,7 @@
 
 ! array mail          = email|mail|correo electronico|e-mail|e mail|casilla|correo|gmail|hotmail|e.mail
 
-! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|paggar|pagos|subiendo
+! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|pagos|subiendo
 
 ! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas
 
@@ -181,7 +181,7 @@
 
 ! array motive= motivo|motivos|razones|razon
 
-! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|no procesadas|rechazos
+! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos
 
 ! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea
 
@@ -191,7 +191,9 @@
 
 ! array where= donde|adonde|en donde|en que lugar|en que ubicacion|en que lugares|en que ubicaciones
 
-! array paymentServices = pagos y servicios|pago y servicio|pagos y servicio|pago y servicios
+! array paymentservices = pagos y servicios|pago y servicio|pagos y servicio|pago y servicios
+
+! array paymentpanel = panel de pago|panel de pagos|paneles de pago|paneles de pagos
 
 ! array nomoney= sin saldo|saldo 0|no tengo saldo|no aparece saldo|no figura saldo|sin saldos|saldos 0|no tengo saldos|no aparece saldo
 
@@ -206,4 +208,15 @@
 ! array find = encuentro|encontro|encontrar|hallo|hallar|hallamos|encontramos|localizar|localizamos|ubicar|ubicamos|ubicacion
 
 ! array sametime= a la vez|en el mismo tiempo|a la misma vez|en este momento|en el mismo momento|en este instante
+! array pending = pendiente|pendientes
+
+! array tosign= por firmar
+
+! array who= quien es|quien son|quienes son|quienes es|quien son
+
+! array receivedpayment= pago recibido|pagos recibidos|pago recibidos|pagos recibido
+
+! array automated= automatico|automatica|automaticos|automaticas|automaticamente
+
+! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
 

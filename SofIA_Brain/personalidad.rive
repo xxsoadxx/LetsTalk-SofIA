@@ -35,9 +35,9 @@
 - Puedo ayudarte en todo lo que necesites. Solo preguntame claramente y con gusto te respondere. :)
 
 //Hola
-+ (@welcome) [*]
-- <bot respuesta46>
-- Hola! ¿En que le puedo ayudar?
+//(@welcome) [*]
+// <bot respuesta46>
+// Hola! ¿En que le puedo ayudar?
 
 + (@myname) *
 * <get name> == undefined => <set name={formal}<star2>{/formal}>Encantado de conocerte, <get name>! Mi nombre es Sofia. ¿En que le puedo ayudar?{topic=random}

@@ -16,7 +16,7 @@
 
 ! var respuesta9 = Para saber detalles, existen dos modalidades donde puede visualizar la nómina. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
 
-! var respuesta10 = Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta. Para saber detalles, existen dos modalidades donde puede visualizar el error. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
+! var respuesta10 = Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta. Para saber detalles, existen dos modalidades donde puede visualizar el error. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación. Si ya la ha corregido y resubido, búsquela en estado de nómina.
 
 ! var respuesta11 = Esto aparece porque se está cargando en la nómina beneficiarios nuevos, en donde es obligación el incorporar el campo "alias". Este campo es para poder identificar de manera rápida un beneficiario. Ejemplo: Mamá, Local Nro#, Caja chica, etc. La solución es completar los datos que están en la columna M llamada “cuenta destino inscrita como”. En esta columna debe indicar un nombre y un apellido para poder inscribir las cuentas nuevas, cabe recalcar que independiente que la cuenta ya existe es obligatorio incluir este dato en dicha columna. Se sugiere en estos casos eliminar dicha nómina en la web, completar los datos de la nómina y realizar una nueva carga. Teniendo en cuenta que debe cambiar el nombre de la nómina.
 
@@ -103,6 +103,24 @@
 ! var respuesta57= Si el error persiste, lo más probable es que sea algo que contenga el archivo, puede enviarmelo al correo apoyoempresarios@bci.cl
 
 ! var respuesta58 = En la planilla original, debe corregir el mail ingresado, una vez corregido, guarde la nómina con un nuevo nombre, y la carga.
+
+! var respuesta59= Arriba, luego del menú "Mi Banco"
+
+! var respuesta60= Si piensa firmar la nómina en el transcurso del día es posible. El pago diferdo, es un sistema que caduca si no se genera el empuje de ella en el transcurso del día, no existe un sistema de nóminas que pueda agendar el pago. Tanto en línea o diferido no es posible.
+
+! var respuesta61= Al costado izquierdo existe la opción Paso 1: cargar nómina, debe seleccionar esa opción.
+
+! var respuesta62= El costo del servicio es 0.015 Uf mas IVA por registro.
+
+! var respuesta63= Al pinchar la opción Estado de nóminas, puede revisar el detalle.
+
+! var respuesta64= El cambio de estado de nómina de "Validación" a "Por firmar" es automático. Posteriormente ustede debe presionar en Panel de pagos para ir acualizando el dato.
+
+! var respuesta65= El Panel de Pagos se encuentra en el menú de la izquierda. Si le aparece una "i" en rojo, la nómina tiene errores, pinche el folio por favor y le aparecerán desplegados los registros con observaciones.
+
+! var respuesta66= En la opción Consulta de transferencias puede filtrar por fecha y por recibidas
+
+! var respuesta67= Las tiene que subir de nuevo
 
 ! var respuesta70 = Le detallo los pasos a seguir: Seleccionar Pagos y Servicios -> Pago de nómina en linea -> Nuevo Estado de nómina en ese momento aparecera la nómina con un victo bueno con fondo color plomo ahi debe seleccionar el codigo de identificacion bajar con el cursor, y seleccionar la opcion Activar.
 
