@@ -17,6 +17,10 @@
 - Excelente. ¿En que te puedo ayudar?
 
 //Hola como estas?
++ (@welcome)
+- Hola ¿Le puedo ayudar en algo?
+
+//Hola como estas?
 + (@welcome) [*] (@howyoufeel)
 - <bot respuesta45>
 - <bot respuesta47>

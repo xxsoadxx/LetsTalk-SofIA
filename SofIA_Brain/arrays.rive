@@ -10,9 +10,9 @@
 
 ! array colors     = blanco negro naranja rojo azul verde amarillo cyan fuchsia gris grey marron turquoise rosado purpura dorado plateado plata
 
-! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria
+! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es
 
-! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear
+! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|creo
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas
 
@@ -197,7 +197,7 @@
 
 ! array nomoney= sin saldo|saldo 0|no tengo saldo|no aparece saldo|no figura saldo|sin saldos|saldos 0|no tengo saldos|no aparece saldo
 
-! array cost = cuesta|sale|vale|costaria|saldria|valdria
+! array cost = cuesta|sale|vale|costaria|saldria|valdria|costo|precio|valor
 
 ! array automated= automatico|automatica|automaticos|automaticas|automaticamente
 
