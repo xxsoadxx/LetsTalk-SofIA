@@ -22,8 +22,6 @@
 
 ! var respuesta12= Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago
 
-! var respuesta13 = Debe modificar el monto máximo que tiene asignado para transferir
-
 ! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronirzación Bci Multipass, y continúe con los pasos solicitados
 
 ! var respuesta16= Para realizar una transferencia en Moneda Extranjera favor ingresar por Menú Comex, ingresar a Transferencia en Moneda Extranjera y luego a Transferir a Otros Bancos
@@ -34,7 +32,7 @@
 
 ! var respuesta19= Para poder visualizarlas debe ingresar en pestaña Pagos y servicios seleccionar Pago de Nóminas ANTIGUO y luego Obtener certificado de pago
 
-! var respuesta20= Favor le pido ir actualizando constantemente la opción Estado de nómina, ya que por la fecha hay un alto flujo de operaciones (pago quincena)
+! var respuesta20= Favor le pido ir actualizando constantemente la opción Estado de nómina, ya que por la fecha hay un alto flujo de operaciones.
 
 ! var respuesta21= Debe eliminar nómina y cargar una nueva con la precaución de cambiar el nombre de esta para que el sistema no incurra en errores
 
@@ -112,7 +110,7 @@
 
 ! var respuesta61= Al costado izquierdo existe la opción Paso 1: cargar nómina, debe seleccionar esa opción.
 
-! var respuesta62= El costo de utilizar el sistema Pago de nóminas en línea, es 0.015 UF + IVA por registro.
+! var respuesta62= El costo del servicio es 0.015 Uf mas IVA por registro.
 
 ! var respuesta63= Al pinchar la opción Estado de nóminas, puede revisar el detalle.
 
@@ -132,6 +130,8 @@
 
 ! var respuesta73 = El apoderado puede ir directamente a la opción -> Mis destinatarios y activar o también puede hacerlo antes como parte del proceso.
 
+! var respuesta74= El costo de utilizar el sistema Pago de nóminas en línea, es 0.015 UF + IVA por registro.
+
 ! var respuesta75= Las nóminas caducan el mismo día de cargada a las 23:59 horas.
 
 ! var respuesta76 = Puede encontrar el archivo ingresando a la opcíon Que es?-> Instructivo -> aparecerán 4 circulos, el primero de arriba es el archivo tipo.
@@ -140,10 +140,6 @@
 
 ! var respuesta78 = Al cargar una nómina, todos los destinatarios no inscritos, pueden ser ingresados con un sólo código de verificación.
 
-! var respuesta79 = Del costado izquierdo, luego en el centro de la pantalla dice instructivo. Una vez que seleccione esto, aparecerán 4 circulos el que esta arriba ( como a las 12 del reloj); es el excel tipo.
-
-! var respuesta80 = Para modificar un usuario, puede ir al menú Mi Banco -> Administración -> Ingreso y listado de usuarios.
-
-! var respuesta81 = Para consultar los pagos recibidos por PNOL, debe ir al menú de transferencias, y consultar las recibidas.
-
 ! var respuesta90 = Para poder transferir, sólo debe inscribir al destinatario.
+
+! var respuesta91 = El máximo a pagar por registro son 5 millones.

@@ -2,10 +2,10 @@ var PubNub = require('pubnub');
 var RiveScript = require("./lib/rivescript.js");
 var request = require('request');
 var db = require('diskdb');
-db = db.connect('./db', ['data','log']);
+db = db.connect('./db', ['data','log','botdata']);
 var config = require('./config');
 // Create the bot.
-var bot = new RiveScript();
+var bot = new RiveScript({debug:true});
 bot.setSubroutine('myFunction', function(rs, args){
 
         return "Ejecuto!"
@@ -27,6 +27,8 @@ bot.loadDirectory("./SofIA_Brain", success_handler, error_handler);
 function success_handler (loadcount) {
 	console.log("Load #" + loadcount + " completed!");
 	bot.sortReplies();
+    //var data = bot.deparse();
+    //db.botdata.save(data);
     InitPubNub();
 }
 

@@ -155,6 +155,7 @@
 
 //Necesito el detalle de una nómina ya pagada
 
+
 +  [*] (@need)  [*] (@detail)  [*] (@file)  [*] (@alreadypay) [*]
 - <bot respuesta12>
 
@@ -240,26 +241,6 @@
 
 +  [*] (@foundmonex)  [*] (@transfers)  [*] (@do) [*]
 - <bot respuesta16>
-
-//supera monto maximo
-
-+  [*] (@amount)  [*] (@max)  [*] (@beats) [*]
-- <bot respuesta13>
-
-+  [*] (@amount)  [*] (@beats)  [*] (@max) [*]
-- <bot respuesta13>
-
-+  [*] (@max)  [*] (@amount)  [*] (@beats) [*]
-- <bot respuesta13>
-
-+  [*] (@max)  [*] (@beats)  [*] (@amount) [*]
-- <bot respuesta13>
-
-+  [*] (@beats)  [*] (@amount)  [*] (@max) [*]
-- <bot respuesta13>
-
-+  [*] (@beats)  [*] (@max)  [*] (@amount) [*]
-- <bot respuesta13>
 
 //Monto máximo de la nómina
 
@@ -593,7 +574,6 @@
 
 + [*] (@notfound) [*] (@sign) [*] (@file) [*]  
 - <bot respuesta20>
-
 
 //En el día de ayer cargue una nómina de pago y no pudimos autorizar algunas personas que estaban en la nómina y hoy no encuentro la nómina
 + [*] (@file) [*] (@notfound) [*] (@past) [*]
@@ -1064,28 +1044,6 @@
 + [*] (@beneficiary) [*] (@authorize) [*] (@sametime) [*]
 - <bot respuesta78>
 
-//de donde saco el archivo escel para ingresar los datos?
-
-
-+ [*] (@file) [*] (@format) [*] (@obtain) [*]
-- <bot respuesta79>
-
-+ [*] (@file) [*] (@obtain) [*] (@format) [*]
-- <bot respuesta79>
-
-+ [*] (@format) [*] (@file) [*] (@obtain) [*]
-- <bot respuesta79>
-
-+ [*] (@format) [*] (@obtain) [*] (@file) [*]
-- <bot respuesta79>
-
-+ [*] (@obtain) [*] (@format) [*] (@file) [*]
-- <bot respuesta79>
-
-+ [*] (@obtain) [*] (@file) [*] (@format) [*]
-- <bot respuesta79>
-
-
 // continua 
 // //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
 //Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta.
@@ -1207,24 +1165,6 @@
 + [*] (@file) [*] (@tosign) [*] (@validate) [*]
 - <bot respuesta64>
 
-+ [*] (@consult) [*] (@file) [*] (@alreadypay) [*]
-- <bot respuesta12>
-
-+ [*] (@consult) [*] (@alreadypay) [*] (@file) [*]
-- <bot respuesta12>
-
-+ [*] (@file) [*] (@consult) [*] (@alreadypay) [*]
-- <bot respuesta12>
-
-+ [*] (@file) [*] (@alreadypay) [*] (@consult) [*]
-- <bot respuesta12>
-
-+ [*] (@alreadypay) [*] (@file) [*] (@alreadypay) [*]
-- <bot respuesta12>
-
-+ [*] (@alreadypay) [*] (@alreadypay) [*] (@file) [*]
-- <bot respuesta12>
-
 //necesito registrar personas de modo masivo
 
 + [*] (@need) [*] (@register) [*] (@massive) [*]
@@ -1285,6 +1225,25 @@
 + [*] (@need) [*] (@rutaccount) [*] (@transfers) [*]
 - <bot respuesta90>
 
+//maximo monto por registro
+
++ [*] (@upload) [*] (@amount) [*] (@max) [*]
+- <bot respuesta91>
+
++ [*] (@amount) [*] (@upload) [*] (@max) [*]
+- <bot respuesta91>
+
++ [*] (@amount) [*] (@max) [*] (@upload) [*]
+- <bot respuesta91>
+
++ [*] (@max) [*] (@amount) [*] (@upload) [*]
+- <bot respuesta91>
+
++ [*] (@max) [*] (@upload) [*] (@amount) [*]
+- <bot respuesta91>
+
++ [*] (@upload) [*] (@max) [*] (@amount) [*]
+- <bot respuesta91>
 
 //por que demora la autorizacion
 
@@ -1309,21 +1268,7 @@
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 
-//hola. donde puedo consultar los pagos que me han efectuado por nomina?
-
-+ [*] (@consult) [*] (@file) [*]
-- <bot respuesta81>
-
-+ [*] (@file) [*] (@consult) [*]
-- <bot respuesta81>
-
 //cuanto es la validez de una nomina
-
-+ [*] (@validity) [*] (@file) [*]
-- <bot respuesta75>
-
-+ [*] (@file) [*] (@validity) [*]
-- <bot respuesta75>
 
 + [*] (@validity) [*] (@file) [*]
 - <bot respuesta75>
@@ -1421,21 +1366,6 @@
 
 + [*] (@file) [*] (@find) [*]
 - <bot respuesta76>
-
-
-//subi una nómina hace mas de 10 minutos y no se valida
-
-+ [*] (@file) [*] (@novalidate) [*] 
-- <bot respuesta20>
-
-+ [*] (@novalidate) [*] (@file) [*]
-- <bot respuesta20>
-
-+ [*] (@offline) [*] (@file) [*]
-- <bot respuesta57> 
-
-+ [*] (@file) [*] (@offline) [*]
-- <bot respuesta57> 
 
 
 //Cómo cargo mi archivo de pago de nómina en línea?
@@ -1577,46 +1507,11 @@
 + [*] (@beneficiary) [*] (@dontshow) [*]
 - <bot respuesta54>
 
-//Donde subo una nomina
-
-+ [*] (@upload) [*] (@file) [*]
-- <bot respuesta61>
-
-+ [*] (@file) [*] (@file) [*]
-- <bot respuesta61>
-
-//necesito modificar datos de contadora no puedo
-
-+ [*] (@modify) [*] (@user) [*]
-- <bot respuesta80>
-
-+ [*] (@modify) [*] (@user) [*] 
-- <bot respuesta80>
-
-+ [*] (@user) [*] (@modify) [*] 
-- <bot respuesta80>
-
-+ [*] (@user) [*] (@modify) [*]
-- <bot respuesta80>
-
 //Costo del servicio
 + [*] (@need) [*] (@cost) [*]
 - <bot respuesta62>
 
 + [*] (@cost) [*] (@need) [*]
-- <bot respuesta62>
-
-//cuanto sale el pago de nomina?
-+ [*] (@cost) [*] (@file) [*]
-- <bot respuesta62>
-
-+ [*] (@cost) [*] (@upload) [*]
-- <bot respuesta62>
-
-+ [*] (@file) [*] (@cost) [*]
-- <bot respuesta62>
-
-+ [*] (@upload) [*] (@cost) [*]
 - <bot respuesta62>
 
 + [*] (@offline) [*]
