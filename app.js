@@ -2,12 +2,11 @@ var PubNub = require('pubnub');
 var RiveScript = require("./lib/rivescript.js");
 var request = require('request');
 var db = require('diskdb');
-db = db.connect('./db', ['data','log','botdata']);
+db = db.connect('./db', ['data','log']);
 var config = require('./config');
 // Create the bot.
-var bot = new RiveScript({debug:true});
+var bot = new RiveScript();
 bot.setSubroutine('myFunction', function(rs, args){
-
         return "Ejecuto!"
 });
 
