@@ -575,6 +575,7 @@
 + [*] (@notfound) [*] (@sign) [*] (@file) [*]  
 - <bot respuesta20>
 
+
 //En el día de ayer cargue una nómina de pago y no pudimos autorizar algunas personas que estaban en la nómina y hoy no encuentro la nómina
 + [*] (@file) [*] (@notfound) [*] (@past) [*]
 - <bot respuesta41>
@@ -1006,25 +1007,6 @@
 + [*] (@account) [*] (@account) [*] (@validate) [*]
 - <bot respuesta73>
 
-//cuanto sale el pago de nomina?
-+ [*] (@cost) [*] (@upload) [*] (@file) [*]
-- <bot respuesta74>
-
-+ [*] (@cost) [*] (@file) [*] (@upload) [*]
-- <bot respuesta74>
-
-+ [*] (@upload) [*] (@cost) [*] (@file) [*]
-- <bot respuesta74>
-
-+ [*] (@upload) [*] (@file) [*] (@cost) [*]
-- <bot respuesta74>
-
-+ [*] (@file) [*] (@upload) [*] (@cost) [*]
-- <bot respuesta74>
-
-+ [*] (@file) [*] (@cost) [*] (@upload) [*]
-- <bot respuesta74>
-
 //como puedo modificar el numero de cuenta de un destinatario de transferencia?
 + [*] (@change) [*] (@account) [*] (@beneficiary) [*]
 - <bot respuesta77>
@@ -1062,6 +1044,28 @@
 
 + [*] (@beneficiary) [*] (@authorize) [*] (@sametime) [*]
 - <bot respuesta78>
+
+//de donde saco el archivo escel para ingresar los datos?
+
+
++ [*] (@file) [*] (@format) [*] (@obtain) [*]
+- <bot respuesta79>
+
++ [*] (@file) [*] (@obtain) [*] (@format) [*]
+- <bot respuesta79>
+
++ [*] (@format) [*] (@file) [*] (@obtain) [*]
+- <bot respuesta79>
+
++ [*] (@format) [*] (@obtain) [*] (@file) [*]
+- <bot respuesta79>
+
++ [*] (@obtain) [*] (@format) [*] (@file) [*]
+- <bot respuesta79>
+
++ [*] (@obtain) [*] (@file) [*] (@format) [*]
+- <bot respuesta79>
+
 
 // continua 
 // //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
@@ -1123,25 +1127,7 @@
 + [*] (@upload) [*] (@after) [*] (@sign) [*]
 - <bot respuesta60>
 
-//Donde subo una nomina
 
-+ [*] (@upload) [*] (@file) [*] (@where) [*]
-- <bot respuesta61>
-
-+ [*] (@file) [*] (@upload) [*] (@where) [*]
-- <bot respuesta61>
-
-+ [*] (@file) [*] (@where) [*] (@upload) [*]
-- <bot respuesta61>
-
-+ [*] (@where) [*] (@file) [*] (@upload) [*]
-- <bot respuesta61>
-
-+ [*] (@where) [*] (@upload) [*] (@file) [*]
-- <bot respuesta61>
-
-+ [*] (@upload) [*] (@where) [*] (@file) [*]
-- <bot respuesta61>
 
 //donde buscar nomina pendiente
 
@@ -1184,10 +1170,44 @@
 + [*] (@file) [*] (@tosign) [*] (@validate) [*]
 - <bot respuesta64>
 
++ [*] (@consult) [*] (@file) [*] (@alreadypay) [*]
+- <bot respuesta82>
+
++ [*] (@consult) [*] (@alreadypay) [*] (@file) [*]
+- <bot respuesta82>
+
++ [*] (@file) [*] (@consult) [*] (@alreadypay) [*]
+- <bot respuesta82>
+
++ [*] (@file) [*] (@alreadypay) [*] (@consult) [*]
+- <bot respuesta82>
+
++ [*] (@alreadypay) [*] (@file) [*] (@alreadypay) [*]
+- <bot respuesta82>
+
++ [*] (@alreadypay) [*] (@alreadypay) [*] (@file) [*]
+- <bot respuesta82>
+
+
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 
+//hola. donde puedo consultar los pagos que me han efectuado por nomina?
+
++ [*] (@consult) [*] (@file) [*]
+- <bot respuesta81>
+
++ [*] (@file) [*] (@consult) [*]
+- <bot respuesta81>
+
 //cuanto es la validez de una nomina
+
++ [*] (@validity) [*] (@file) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@validity) [*]
+- <bot respuesta75>
+
 
 + [*] (@validity) [*] (@file) [*]
 - <bot respuesta75>
@@ -1285,6 +1305,21 @@
 
 + [*] (@file) [*] (@find) [*]
 - <bot respuesta76>
+
+
+//subi una nómina hace mas de 10 minutos y no se valida
+
++ [*] (@file) [*] (@novalidate) [*] 
+- <bot respuesta20>
+
++ [*] (@novalidate) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@offline) [*] (@file) [*]
+- <bot respuesta57> 
+
++ [*] (@file) [*] (@offline) [*]
+- <bot respuesta57> 
 
 
 //Cómo cargo mi archivo de pago de nómina en línea?
@@ -1426,6 +1461,28 @@
 + [*] (@beneficiary) [*] (@dontshow) [*]
 - <bot respuesta54>
 
+//Donde subo una nomina
+
++ [*] (@upload) [*] (@file) [*]
+- <bot respuesta61>
+
++ [*] (@file) [*] (@file) [*]
+- <bot respuesta61>
+
+//necesito modificar datos de contadora no puedo
+
++ [*] (@modify) [*] (@user) [*]
+- <bot respuesta80>
+
++ [*] (@modify) [*] (@user) [*] 
+- <bot respuesta80>
+
++ [*] (@user) [*] (@modify) [*] 
+- <bot respuesta80>
+
++ [*] (@user) [*] (@modify) [*]
+- <bot respuesta80>
+
 //Costo del servicio
 + [*] (@need) [*] (@cost) [*]
 - <bot respuesta62>
@@ -1438,6 +1495,7 @@
 
 +  [*] (@max)  [*] (@amount) [*]
 - <bot respuesta17>
+
 
 + *
 - Unknown

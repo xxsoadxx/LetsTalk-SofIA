@@ -12,19 +12,19 @@
 
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es
 
-! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|creo
+! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|creo|anexar
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas
 
 ! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
 
-! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina
+! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina|destinario|destinaria
 
 ! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
 
 ! array thanks      = gracias|muchas gracias|listo gracias
 
-! array help        = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar
+! array help        = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar|asesoren|asesoria
 
 ! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
 
@@ -44,9 +44,9 @@
 
 ! array mail          = email|mail|correo electronico|e-mail|e mail|casilla|correo|gmail|hotmail|e.mail
 
-! array upload = cargar|cargo|subir|enviar|cargo|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|pagos|subiendo
+! array upload = cargar|cargo|subir|enviar|cargue|subi|subimos|subo|cargamos|enviamos|envie|subiria|cargaria|enviaria|mandar|mandarle|registro|pagar|pago|pagos|subiendo|carga
 
-! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas
+! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas|anticipos|anticipo|nomima
 
 ! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|programados|agendados|planificado|programo|programa|programas|planee|agendo
 
@@ -73,13 +73,13 @@
 
 //! array notfound = no aparece|no la encuentro|no encuentro|no pude encontrarla|no me aparece|nada aun|nada de nada|no la veo|no veo|no puedo ver|no podia ver
 
-! array  notfound=no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron
+! array  notfound=no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo
 
 ! array sign=firmar firman firmaron firma firmas firmarla
 
 ! array afterload=luego de cargarla|luego de cargar|luego de cargarlo|luego de procesar|luego de procesarla|luego de procesarlo|el lunes|el martes|el miercoles|el jueves|el viernes|el sabado|el domingo
 
-! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente
+! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente|no se autoriza
 
 ! array multipass = multipass multipas
 
@@ -109,33 +109,33 @@
 
 ! array composition= estructura|estructurado|estructuras|estructurar|composicion|composicionado|componer|compone|composiciones|esqueleto|esqueletos
 
-! array valuecol= valor|valores|dato|datos|data|informacion|info|compone
+! array value= valor|valores|dato|datos|data|informacion|info|compone
 
-! array first= primer|primero|primera|primeros|primeras|1|1eros|1er|a
+! array first= primer|primero|primera|primeros|primeras|1|1eros|1er|a|cuenta cargo
 
-! array second= segunda|segundas|segundo|segundos|2|1dos|2do|b
+! array second= segunda|segundas|segundo|segundos|2|1dos|2do|b|cuenta destino
 
-! array third= tercer|terceros|tercera|3|3eras|3ero|c
+! array third= tercer|terceros|tercera|3|3eras|3ero|c|banco destino
 
-! array fourth= cuarta|cuarto|cuartas|cuartos|4to|4tos|4|d
+! array fourth= cuarta|cuarto|cuartas|cuartos|4to|4tos|4|d|rut beneficiario
 
-! array five= cinco|quinta|quinto|quintas|quintos|5to|5tos|5|e
+! array five= cinco|quinta|quinto|quintas|quintos|5to|5tos|5|e|dig verif
 
-! array six= seis|sexta|sextas|6ta|6tas|6|f
+! array six= seis|sexta|sextas|6ta|6tas|6|f|nombre beneficiario
 
-! array seven= siete|septima|sietes|septimas|7ta|7tas|7|g
+! array seven= siete|septima|sietes|septimas|7ta|7tas|7|g|monto
 
-! array eight= ocho|octavo|octavos|octavas|octava|8vo|7va|8|h
+! array eight= ocho|octavo|octavos|octavas|octava|8vo|7va|8|h|factura-boleta|factura boleta
 
-! array nine= nueve|noveno|nueves|novenos|9vo|9va|9|i
+! array nine= nueve|noveno|nueves|novenos|9vo|9va|9|i|orden de compra
 
-! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10|j
+! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10|j|tipo pago|tipo de pago
 
-! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11|k
+! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11|k|mensaje
 
-! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12|l
+! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12|l|email
 
-! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13|m
+! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13|m|cuenta inscrita como
 
 ! array column= columna|columnas|col
 
@@ -173,11 +173,11 @@
 
 ! array what = que es|consiste|basa|que seria|consistiria|basaria|refereria|refiere|referirse
 
-! array format= formato|formatos|extension|extensiones|extencion|extenciones|estension|estensiones|tipo de archivo|tipo debe ser|tipos de arhivos|tipos debe ser|tipos deben ser|xls|excel|csv
+! array format= formato|formatos|extension|extensiones|extencion|extenciones|estension|estensiones|tipo de archivo|tipo debe ser|tipos de arhivos|tipos debe ser|tipos deben ser|xls|excel|csv|escel|exel
 
 ! array backup= backup|respaldo|respaldos|backups|respaldar
 
-! array offline= offline|sistema no disponible|sistema offline|el sistema esta caido|el sistema esta muerto|el sistema no responde|caido el sistema|cayo el sistema|error 500
+! array offline= offline|sistema no disponible|sistema offline|el sistema esta caido|el sistema esta muerto|el sistema no responde|caido el sistema|cayo el sistema|error 500|servicio no estaba disponible|servicio no disponible|servicio no se encuentra disponible|servicio no esta disponible
 
 ! array motive= motivo|motivos|razones|razon
 
@@ -220,3 +220,10 @@
 
 ! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
 
+! array obtain= obtener obtengo saco sacar saque consigo conseguir adquiero adquirir adquiere adquiera recibo recibir recibire recibira
+
+! array user= usuario usuaria usuarios usuarias
+
+! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision|en validacion
+
+! array consult= consultar|consulte|consulto|obtener|obtengo|ver

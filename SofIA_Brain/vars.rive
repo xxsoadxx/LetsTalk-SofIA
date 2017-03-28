@@ -130,8 +130,6 @@
 
 ! var respuesta73 = El apoderado puede ir directamente a la opción -> Mis destinatarios y activar o también puede hacerlo antes como parte del proceso.
 
-! var respuesta74= El costo de utilizar el sistema Pago de nóminas en línea, es 0.015 UF + IVA por registro.
-
 ! var respuesta75= Las nóminas caducan el mismo día de cargada a las 23:59 horas.
 
 ! var respuesta76 = Puede encontrar el archivo ingresando a la opcíon Que es?-> Instructivo -> aparecerán 4 circulos, el primero de arriba es el archivo tipo.
@@ -139,3 +137,11 @@
 ! var respuesta77 = Le comento que no es posible modificar la cuenta de un destinatario, para esto usted debe eliminar y crear nuevamente.
 
 ! var respuesta78 = Al cargar una nómina, todos los destinatarios no inscritos, pueden ser ingresados con un sólo código de verificación.
+
+! var respuesta79 = Del costado izquierdo, luego en el centro de la pantalla dice instructivo. Una vez que seleccione esto, aparecerán 4 circulos el que esta arriba ( como a las 12 del reloj); es el excel tipo.
+
+! var respuesta80 = Para modificar un usuario, puede ir al menú Mi Banco -> Administración -> Ingreso y listado de usuarios.
+
+! var respuesta81 = Para consultar los pagos recibidos por PNOL, debe ir al menú de transferencias, y consultar las recibidas.
+
+! var respuesta82 = Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago.
