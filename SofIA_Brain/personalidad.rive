@@ -18,7 +18,7 @@
 
 //Hola como estas?
 + (@welcome)
-- Hola ¿Le puedo ayudar en algo?
+- <bot respuesta45>
 
 //Hola como estas?
 + (@welcome) [*] (@howyoufeel)
