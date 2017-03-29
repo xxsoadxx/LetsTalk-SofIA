@@ -56,7 +56,7 @@
 
 ! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
 
-! array view = veo|aparece|aparecen|aparce|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran
+! array view = veo|aparece|aparecen|aparce|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran|donde encuentro
 
 ! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas|motivo del rechazo
 
@@ -68,7 +68,7 @@
 
 ! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
 
-! array  notfound=no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra
+! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra
 
 ! array sign=firmar firman firmaron firma firmas firmarla
 
@@ -226,7 +226,7 @@
 
 ! array massive= masivo|masivos|masiva|masivas
 
-! array filestate= estado de nomina|estados de nominas|estado de nominas|estados de nomina
+! array filestate= estado de nomina|estados de nominas|estado de nominas|estados de nomina|valor de nomina|valor de una nomina
 
 ! array rutaccount= cuenta rut|cuentas rut|rut
 
@@ -243,5 +243,9 @@
 ! array today= hoy
 
 ! array paymenttype= tipo de pago|tipos de pago|tipos de pagos|tipo pago|tipos pagos|tipo pagos|tipos pago
+
+! array howlong = cuanto demora|cuanto tarda|cuanto se demora|cuanto se tarda|cuanto demoraria|cuanto tardaria|cuanto se tardaria|cuanto se demoraria|cuanto dura|duracion
+
+! array waiting = esperando|aguardando|aguardo|espero|esperar|aguardar|aguantar|permanecer
 
 //! array filerow = registro|linea|persona|beneficiario|destinatario

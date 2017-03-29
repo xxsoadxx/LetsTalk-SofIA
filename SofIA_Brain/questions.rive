@@ -1,154 +1,40 @@
-//Como activo a un Destinatario Nuevo
-//Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
-
-
 //Error check rojo
 
-+ [*] (@upload) [*] (@file) [*] (@error) [*] (@redcheck) [*]
++ [*] (@upload) [*] (@error) [*] (@redcheck) [*]
 - <bot respuesta83>
 
-+ [*] (@file) [*] (@upload) [*] (@error) [*] (@redcheck) [*]
++ [*] (@file) [*] (@error) [*] (@redcheck) [*]
 - <bot respuesta83>
 
-+ [*] (@file) [*] (@error) [*] (@upload) [*] (@redcheck) [*]
++ [*] (@error) [*] (@upload) [*] (@redcheck) [*]
 - <bot respuesta83>
 
-+ [*] (@file) [*] (@error) [*] (@redcheck) [*] (@upload) [*]
++ [*] (@error) [*] (@file) [*] (@redcheck) [*]
 - <bot respuesta83>
 
-+ [*] (@error) [*] (@file) [*] (@redcheck) [*] (@upload) [*]
++ [*] (@upload) [*] (@redcheck) [*] (@error) [*]
 - <bot respuesta83>
 
-+ [*] (@error) [*] (@file) [*] (@upload) [*] (@redcheck) [*]
++ [*] (@file) [*] (@redcheck) [*] (@error) [*]
 - <bot respuesta83>
 
-+ [*] (@error) [*] (@upload) [*] (@file) [*] (@redcheck) [*]
++ [*] (@error) [*] (@redcheck) [*] (@upload) [*]
 - <bot respuesta83>
 
-+ [*] (@upload) [*] (@error) [*] (@file) [*] (@redcheck) [*]
++ [*] (@error) [*] (@redcheck) [*] (@file) [*]
 - <bot respuesta83>
 
-+ [*] (@upload) [*] (@error) [*] (@redcheck) [*] (@file) [*]
++ [*] (@redcheck) [*] (@upload) [*] (@error) [*]
 - <bot respuesta83>
 
-+ [*] (@error) [*] (@upload) [*] (@redcheck) [*] (@file) [*]
++ [*] (@redcheck) [*] (@file) [*] (@error) [*]
 - <bot respuesta83>
 
-+ [*] (@error) [*] (@redcheck) [*] (@upload) [*] (@file) [*]
++ [*] (@redcheck) [*] (@error) [*] (@upload) [*]
 - <bot respuesta83>
 
-+ [*] (@error) [*] (@redcheck) [*] (@file) [*] (@upload) [*]
++ [*] (@redcheck) [*] (@error) [*] (@file) [*]
 - <bot respuesta83>
-
-+ [*] (@redcheck) [*] (@error) [*] (@file) [*] (@upload) [*]
-- <bot respuesta83>
-
-+ [*] (@redcheck) [*] (@error) [*] (@upload) [*] (@file) [*]
-- <bot respuesta83>
-
-+ [*] (@redcheck) [*] (@upload) [*] (@error) [*] (@file) [*]
-- <bot respuesta83>
-
-+ [*] (@upload) [*] (@redcheck) [*] (@error) [*] (@file) [*]
-- <bot respuesta83>
-
-+ [*] (@upload) [*] (@redcheck) [*] (@file) [*] (@error) [*]
-- <bot respuesta83>
-
-+ [*] (@redcheck) [*] (@upload) [*] (@file) [*] (@error) [*]
-- <bot respuesta83>
-
-+ [*] (@redcheck) [*] (@file) [*] (@upload) [*] (@error) [*]
-- <bot respuesta83>
-
-+ [*] (@redcheck) [*] (@file) [*] (@error) [*] (@upload) [*]
-- <bot respuesta83>
-
-+ [*] (@file) [*] (@redcheck) [*] (@error) [*] (@upload) [*]
-- <bot respuesta83>
-
-+ [*] (@file) [*] (@redcheck) [*] (@upload) [*] (@error) [*]
-- <bot respuesta83>
-
-+ [*] (@file) [*] (@upload) [*] (@redcheck) [*] (@error) [*]
-- <bot respuesta83>
-
-+ [*] (@upload) [*] (@file) [*] (@redcheck) [*] (@error) [*]
-- <bot respuesta83>
-
-//cargue una nomina ayer y hoy no aparece *pisada en 23299*
-
-+ [*] (@upload) [*] (@notfound) [*] (@past) [*] (@today) [*]
-- <bot respuesta84>
-
-+ [*] (@notfound) [*] (@upload) [*] (@past) [*] (@today) [*]
-- <bot respuesta84>
-
-+ [*] (@notfound) [*] (@past) [*] (@upload) [*] (@today) [*]
-- <bot respuesta84>
-
-+ [*] (@notfound) [*] (@past) [*] (@today) [*] (@upload) [*]
-- <bot respuesta84>
-
-+ [*] (@past) [*] (@notfound) [*] (@today) [*] (@upload) [*]
-- <bot respuesta84>
-
-+ [*] (@past) [*] (@notfound) [*] (@upload) [*] (@today) [*]
-- <bot respuesta84>
-
-+ [*] (@past) [*] (@upload) [*] (@notfound) [*] (@today) [*]
-- <bot respuesta84>
-
-+ [*] (@upload) [*] (@past) [*] (@notfound) [*] (@today) [*]
-- <bot respuesta84>
-
-+ [*] (@upload) [*] (@past) [*] (@today) [*] (@notfound) [*]
-- <bot respuesta84>
-
-+ [*] (@past) [*] (@upload) [*] (@today) [*] (@notfound) [*]
-- <bot respuesta84>
-
-+ [*] (@past) [*] (@today) [*] (@upload) [*] (@notfound) [*]
-- <bot respuesta84>
-
-+ [*] (@past) [*] (@today) [*] (@notfound) [*] (@upload) [*]
-- <bot respuesta84>
-
-+ [*] (@today) [*] (@past) [*] (@notfound) [*] (@upload) [*]
-- <bot respuesta84>
-
-+ [*] (@today) [*] (@past) [*] (@upload) [*] (@notfound) [*]
-- <bot respuesta84>
-
-+ [*] (@today) [*] (@upload) [*] (@past) [*] (@notfound) [*]
-- <bot respuesta84>
-
-+ [*] (@upload) [*] (@today) [*] (@past) [*] (@notfound) [*]
-- <bot respuesta84>
-
-+ [*] (@upload) [*] (@today) [*] (@notfound) [*] (@past) [*]
-- <bot respuesta84>
-
-+ [*] (@today) [*] (@upload) [*] (@notfound) [*] (@past) [*]
-- <bot respuesta84>
-
-+ [*] (@today) [*] (@notfound) [*] (@upload) [*] (@past) [*]
-- <bot respuesta84>
-
-+ [*] (@today) [*] (@notfound) [*] (@past) [*] (@upload) [*]
-- <bot respuesta84>
-
-+ [*] (@notfound) [*] (@today) [*] (@past) [*] (@upload) [*]
-- <bot respuesta84>
-
-+ [*] (@notfound) [*] (@today) [*] (@upload) [*] (@past) [*]
-- <bot respuesta84>
-
-+ [*] (@notfound) [*] (@upload) [*] (@today) [*] (@past) [*]
-- <bot respuesta84>
-
-+ [*] (@upload) [*] (@notfound) [*] (@today) [*] (@past) [*]
-- <bot respuesta84>
 
 //puedo programar transferencias?
 
@@ -170,7 +56,9 @@
 + [*] (@need) [*] (@transfers) [*] (@program) [*]
 - <bot respuesta86>
 
-//
+//Como activo a un Destinatario Nuevo
+//Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
+
 + [*] (@need) [*] (@activate) [*] (@beneficiary) [*]
 - <bot respuesta2>
 
@@ -275,26 +163,6 @@
 + [*] (@file) [*] (@view) [*] (@warnings) [*]
 - <bot respuesta10>
 
-//Registrar personas que no estan en la nomina
-
-+ [*] (@register) [*] (@no) [*] (@file) [*]
-- <bot respuesta1>
-
-+ [*] (@no) [*] (@register) [*] (@file) [*]
-- <bot respuesta1>
-
-+ [*] (@no) [*] (@file) [*] (@register) [*]
-- <bot respuesta1>
-
-+ [*] (@file) [*] (@no) [*] (@register) [*]
-- <bot respuesta1>
-
-+ [*] (@file) [*] (@register) [*] (@no) [*]
-- <bot respuesta1>
-
-+ [*] (@register) [*] (@file) [*] (@no) [*]
-- <bot respuesta1>
-
 //Saber de quienes son los pagos recibidos
 
 + [*] (@need) [*] (@who) [*] (@receivedpayment) [*]
@@ -320,70 +188,40 @@
 //La solución es completar los datos que están en la columna M llamada “cuenta destino inscrita como”. En esta columna debe indicar un nombre y un apellido para poder inscribir las cuentas nuevas, cabe recalcar que independiente que la cuenta ya existe es obligatorio incluir este dato en dicha columna. 
 //Se sugiere en estos casos eliminar dicha nómina en la web, completar los datos de la nómina y realizar una nueva carga. Teniendo en cuenta que debe cambiar el nombre de la nómina.
 
++ [*] (@problems) [*] (@emptyalias) [*]
+- <bot respuesta11>
+
++ [*] (@emptyalias) [*] (@problems) [*]
+- <bot respuesta11>
+
++ [*] (@error) [*] (@emptyalias) [*]
+- <bot respuesta11>
+
++ [*] (@emptyalias) [*] (@error) [*]
+- <bot respuesta11>
+
 + [*] (@emptyalias) [*]
 - <bot respuesta11>
 
 //Necesito el detalle de una nómina ya pagada
 
-+  [*] (@need)  [*] (@detail)  [*] (@file)  [*] (@alreadypay) [*]
++  [*] (@alreadypay)  [*] (@detail)  [*] (@file) [*]
 - <bot respuesta12>
 
-+  [*] (@need)  [*] (@detail)  [*] (@alreadypay)  [*] (@file) [*]
-- <bot respuesta12>
-
-+  [*] (@need)  [*] (@file)  [*] (@detail)  [*] (@alreadypay) [*]
-- <bot respuesta12>
-
-+  [*] (@need)  [*] (@file)  [*] (@alreadypay)  [*] (@detail) [*]
-- <bot respuesta12>
-
-+  [*] (@need)  [*] (@alreadypay)  [*] (@detail)  [*] (@file) [*]
-- <bot respuesta12>
-
-+  [*] (@need)  [*] (@alreadypay)  [*] (@file)  [*] (@detail) [*]
++  [*] (@alreadypay)  [*] (@file)  [*] (@detail) [*]
 - <bot respuesta12>
 
 +  [*] (@detail)  [*] (@alreadypay)  [*] (@file) [*]
 - <bot respuesta12>
 
++  [*] (@file)  [*] (@alreadypay)  [*] (@detail) [*]
+- <bot respuesta12>
+
 +  [*] (@detail)  [*] (@file) [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-+  [*] (@detail)  [*] (@file)  [*] (@alreadypay)  [*] (@need) [*]
++  [*] (@file)  [*] (@detail) [*] (@alreadypay) [*]
 - <bot respuesta12>
-
-//+  [*] (@file)  [*] (@need)  [*] (@detail)  [*] (@alreadypay) [*]
-//- <bot respuesta12>
-
-//+  [*] (@file)  [*] (@need)  [*] (@alreadypay)  [*] (@detail) [*]
-//- <bot respuesta12>
-
-+  [*] (@file)  [*] (@detail)  [*] (@alreadypay) 
-- <bot respuesta12>
-
-+  [*] (@file)  [*] (@alreadypay)  [*] (@need|dame|deme)  [*] (@detail) [*]
-- <bot respuesta12>
-
-+  [*] (@file)  [*] (@alreadypay)  [*] (@detail)  [*] (@need) [*]
-- <bot respuesta12>
-
-//+  [*] (@alreadypay)  [*] (@need)  [*] (@detail)  [*] (@file) [*]
-//- <bot respuesta12>
-
-//+  [*] (@alreadypay)  [*] (@need)  [*] (@file)  [*] (@detail) [*]
-//- <bot respuesta12>
-
-//+  [*] (@alreadypay)  [*] (@detail)  [*] (@need)  [*] (@file) [*]
-//- <bot respuesta12>
-
-//+  [*] (@alreadypay)  [*] (@detail)  [*] (@file)  [*] (@need) [*]
-//- <bot respuesta12>
-
-//+  [*] (@alreadypay)  [*] (@file)  [*] (@need)  [*] (@detail) [*]
-//- <bot respuesta12>
-
-//+  [*] (@alreadypay)  [*] (@file)  [*] (@detail)  [*] (@need) [*]
-//- <bot respuesta12>
 
 //Problemas de Multipass
 
@@ -394,7 +232,6 @@
 - <bot respuesta15> 
 
 //Transferencia de Fondos Monex
-
 
 +  [*] (@do)  [*] (@transfers)  [*] (@foundmonex) [*]
 - <bot respuesta16>
@@ -451,7 +288,6 @@
 +  [*] (@file)  [*] (@max)  [*] (@amount) [*]
 - <bot respuesta17>
 
-
 //Muestra error por Firma repetida
 
 +  [*] (@sign)  [*] (@repeat) [*]
@@ -459,7 +295,6 @@
 
 +  [*] (@repeat)  [*] (@sign) [*]
 - <bot respuesta21>
-
 
 //Como es la estructura archivo de nomina
 
@@ -481,8 +316,6 @@
 +  [*] (@upload)  [*] (@file)  [*] (@composition) [*]
 - <bot respuesta23>
 
-
-
 //Que valor lleva la primer columna
 
 +  [*] (@value)  [*] (@first)  [*] (@column) [*]
@@ -502,7 +335,6 @@
 
 +  [*] (@column)  [*] (@first)  [*] (@value) [*]
 - <bot respuesta24>
-
 
 //Que valor lleva la segunda columna
 
@@ -784,8 +616,10 @@
 + [*] (@past) [*] (@past) [*] (@notfound) [*]
 - <bot respuesta41>
 
-//no puedo ver el motivo del rechazo
++ [*] (@past) [*] (@file) [*] (@notfound) [*]
+- <bot respuesta41>
 
+//no puedo ver el motivo del rechazo
 
 + [*] (@dontshow) [*] (@motive) [*] (@reject) [*]
 - <bot respuesta54>
@@ -804,6 +638,7 @@
 
 + [*] (@dontshow) [*] (@reject) [*] (@motive) [*]
 - <bot respuesta54>
+
 //los pagos rechazados se pagan automatico o es necesario que se realice nuevamente
 
 + [*] (@reject) [*] (@automated) [*] (@again) [*]
@@ -897,8 +732,6 @@
 
 + [*] (@file) [*] (@view) [*] (@month) [*]
 - <bot respuesta19>
-
-
 
 //Realice la carga  de nómina y aparecen validando y monto 0
 + [*] (@file) [*] (@view) [*] (@validate) [*]
@@ -1003,7 +836,6 @@
 //Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
 //Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
 
-
 + [*] (@recover) [*] (@authcode) [*]
 - <bot respuesta4>
 
@@ -1031,8 +863,6 @@
 + [*] (@authcode) [*] (@need) [*]
 - <bot respuesta4>
 
-
-
 //Cómo programar un pago de nóminas. Tengo adelantos quincenalmente, mismas personas y monto.
 //Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
 
@@ -1047,7 +877,6 @@
 
 + [*] (@program) [*] (@upload) [*]
 - <bot respuesta7>
-
 
 //necesito que la ejecutiva me active como apoderado autorizado
 
@@ -1095,7 +924,6 @@
 
 //consultar si el banco le apertura cuentas a los trabajadores.
 
-
 + [*] (@opening) [*] (@account) [*] (@workers) [*]
 - <bot respuesta50>
 
@@ -1133,10 +961,6 @@
 
 + [*] (@file) [*] (@what) [*] (@uplolad) [*]
 - <bot respuesta51>
-
-
-
-
 
 //que hago cuando una nomina sale con obs por estar mal ingresadio el email?
 
@@ -1236,7 +1060,6 @@
 
 //de donde saco el archivo escel para ingresar los datos?
 
-
 + [*] (@file) [*] (@format) [*] (@obtain) [*]
 - <bot respuesta79>
 
@@ -1254,7 +1077,6 @@
 
 + [*] (@obtain) [*] (@file) [*] (@format) [*]
 - <bot respuesta79>
-
 
 // continua 
 // //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
@@ -1435,6 +1257,12 @@
 + [*] (@file) [*] (@filestate) [*] (@notfound) [*]
 - <bot respuesta20>
 
++ [*] (@need) [*] (@filestate) [*]
+- <bot respuesta9>
+
++ [*] (@filestate) [*] (@need) [*]
+- <bot respuesta9>
+
 //transferir a cuenta rut
 
 + [*] (@need) [*] (@transfers) [*] (@rutaccount) [*]
@@ -1454,7 +1282,6 @@
 
 + [*] (@need) [*] (@rutaccount) [*] (@transfers) [*]
 - <bot respuesta90>
-
 
 //por que demora la autorizacion
 
@@ -1535,6 +1362,32 @@
 
 + [*] (@no) [*] (@user) [*] (@sign) [*]
 - <bot respuesta85>
+
+//Cuanto tarda en cargar una nomina
++ [*] (@howlong) [*] (@file) [*] (@upload) [*]
+- <bot respuesta91>
+
++ [*] (@howlong) [*] (@upload) [*] (@file) [*]
+- <bot respuesta91>
+
++ [*] (@upload) [*] (@file) [*] (@howlong) [*]
+- <bot respuesta91>
+
++ [*] (@file) [*] (@upload) [*] (@howlong) [*]
+- <bot respuesta91>
+
+//Cuanto tarda en cargar una nomina
++ [*] (@waiting) [*] (@file) [*] (@upload) [*]
+- <bot respuesta91>
+
++ [*] (@waiting) [*] (@upload) [*] (@file) [*]
+- <bot respuesta91>
+
++ [*] (@upload) [*] (@file) [*] (@waiting) [*]
+- <bot respuesta91>
+
++ [*] (@file) [*] (@upload) [*] (@waiting) [*]
+- <bot respuesta91>
 
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
@@ -1645,13 +1498,11 @@
 
 // donde encuentro la planilla para subir al banco
 
-
 + [*] (@find) [*] (@file) [*]
 - <bot respuesta76>
 
 + [*] (@file) [*] (@find) [*]
 - <bot respuesta76>
-
 
 //subi una nómina hace mas de 10 minutos y no se valida
 
@@ -1666,7 +1517,6 @@
 
 + [*] (@file) [*] (@offline) [*]
 - <bot respuesta57> 
-
 
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
@@ -1702,10 +1552,7 @@
 + [*] (@paymentpanel) [*] (@where) [*]
 - <bot respuesta65> 
 
-
-
 //Buen dia, consulta en que formato viene el reporte de nomina?
-
 
 + [*] (@file) [*] (@format) [*]
 - <bot respuesta52>
@@ -1768,8 +1615,6 @@
 
 + [*] (@file) [*] (@problems) [*]
 - <bot respuesta54>
-
-
 
 + [*] (@activate) [*] (@account) [*]
 - <bot respuesta70>
