@@ -1,6 +1,176 @@
 //Como activo a un Destinatario Nuevo
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
 
+
+//Error check rojo
+
++ [*] (@upload) [*] (@file) [*] (@error) [*] (@redcheck) [*]
+- <bot respuesta83>
+
++ [*] (@file) [*] (@upload) [*] (@error) [*] (@redcheck) [*]
+- <bot respuesta83>
+
++ [*] (@file) [*] (@error) [*] (@upload) [*] (@redcheck) [*]
+- <bot respuesta83>
+
++ [*] (@file) [*] (@error) [*] (@redcheck) [*] (@upload) [*]
+- <bot respuesta83>
+
++ [*] (@error) [*] (@file) [*] (@redcheck) [*] (@upload) [*]
+- <bot respuesta83>
+
++ [*] (@error) [*] (@file) [*] (@upload) [*] (@redcheck) [*]
+- <bot respuesta83>
+
++ [*] (@error) [*] (@upload) [*] (@file) [*] (@redcheck) [*]
+- <bot respuesta83>
+
++ [*] (@upload) [*] (@error) [*] (@file) [*] (@redcheck) [*]
+- <bot respuesta83>
+
++ [*] (@upload) [*] (@error) [*] (@redcheck) [*] (@file) [*]
+- <bot respuesta83>
+
++ [*] (@error) [*] (@upload) [*] (@redcheck) [*] (@file) [*]
+- <bot respuesta83>
+
++ [*] (@error) [*] (@redcheck) [*] (@upload) [*] (@file) [*]
+- <bot respuesta83>
+
++ [*] (@error) [*] (@redcheck) [*] (@file) [*] (@upload) [*]
+- <bot respuesta83>
+
++ [*] (@redcheck) [*] (@error) [*] (@file) [*] (@upload) [*]
+- <bot respuesta83>
+
++ [*] (@redcheck) [*] (@error) [*] (@upload) [*] (@file) [*]
+- <bot respuesta83>
+
++ [*] (@redcheck) [*] (@upload) [*] (@error) [*] (@file) [*]
+- <bot respuesta83>
+
++ [*] (@upload) [*] (@redcheck) [*] (@error) [*] (@file) [*]
+- <bot respuesta83>
+
++ [*] (@upload) [*] (@redcheck) [*] (@file) [*] (@error) [*]
+- <bot respuesta83>
+
++ [*] (@redcheck) [*] (@upload) [*] (@file) [*] (@error) [*]
+- <bot respuesta83>
+
++ [*] (@redcheck) [*] (@file) [*] (@upload) [*] (@error) [*]
+- <bot respuesta83>
+
++ [*] (@redcheck) [*] (@file) [*] (@error) [*] (@upload) [*]
+- <bot respuesta83>
+
++ [*] (@file) [*] (@redcheck) [*] (@error) [*] (@upload) [*]
+- <bot respuesta83>
+
++ [*] (@file) [*] (@redcheck) [*] (@upload) [*] (@error) [*]
+- <bot respuesta83>
+
++ [*] (@file) [*] (@upload) [*] (@redcheck) [*] (@error) [*]
+- <bot respuesta83>
+
++ [*] (@upload) [*] (@file) [*] (@redcheck) [*] (@error) [*]
+- <bot respuesta83>
+
+//cargue una nomina ayer y hoy no aparece *pisada en 23299*
+
++ [*] (@upload) [*] (@notfound) [*] (@past) [*] (@today) [*]
+- <bot respuesta84>
+
++ [*] (@notfound) [*] (@upload) [*] (@past) [*] (@today) [*]
+- <bot respuesta84>
+
++ [*] (@notfound) [*] (@past) [*] (@upload) [*] (@today) [*]
+- <bot respuesta84>
+
++ [*] (@notfound) [*] (@past) [*] (@today) [*] (@upload) [*]
+- <bot respuesta84>
+
++ [*] (@past) [*] (@notfound) [*] (@today) [*] (@upload) [*]
+- <bot respuesta84>
+
++ [*] (@past) [*] (@notfound) [*] (@upload) [*] (@today) [*]
+- <bot respuesta84>
+
++ [*] (@past) [*] (@upload) [*] (@notfound) [*] (@today) [*]
+- <bot respuesta84>
+
++ [*] (@upload) [*] (@past) [*] (@notfound) [*] (@today) [*]
+- <bot respuesta84>
+
++ [*] (@upload) [*] (@past) [*] (@today) [*] (@notfound) [*]
+- <bot respuesta84>
+
++ [*] (@past) [*] (@upload) [*] (@today) [*] (@notfound) [*]
+- <bot respuesta84>
+
++ [*] (@past) [*] (@today) [*] (@upload) [*] (@notfound) [*]
+- <bot respuesta84>
+
++ [*] (@past) [*] (@today) [*] (@notfound) [*] (@upload) [*]
+- <bot respuesta84>
+
++ [*] (@today) [*] (@past) [*] (@notfound) [*] (@upload) [*]
+- <bot respuesta84>
+
++ [*] (@today) [*] (@past) [*] (@upload) [*] (@notfound) [*]
+- <bot respuesta84>
+
++ [*] (@today) [*] (@upload) [*] (@past) [*] (@notfound) [*]
+- <bot respuesta84>
+
++ [*] (@upload) [*] (@today) [*] (@past) [*] (@notfound) [*]
+- <bot respuesta84>
+
++ [*] (@upload) [*] (@today) [*] (@notfound) [*] (@past) [*]
+- <bot respuesta84>
+
++ [*] (@today) [*] (@upload) [*] (@notfound) [*] (@past) [*]
+- <bot respuesta84>
+
++ [*] (@today) [*] (@notfound) [*] (@upload) [*] (@past) [*]
+- <bot respuesta84>
+
++ [*] (@today) [*] (@notfound) [*] (@past) [*] (@upload) [*]
+- <bot respuesta84>
+
++ [*] (@notfound) [*] (@today) [*] (@past) [*] (@upload) [*]
+- <bot respuesta84>
+
++ [*] (@notfound) [*] (@today) [*] (@upload) [*] (@past) [*]
+- <bot respuesta84>
+
++ [*] (@notfound) [*] (@upload) [*] (@today) [*] (@past) [*]
+- <bot respuesta84>
+
++ [*] (@upload) [*] (@notfound) [*] (@today) [*] (@past) [*]
+- <bot respuesta84>
+
+//puedo programar transferencias?
+
++ [*] (@need) [*] (@program) [*] (@transfers) [*]
+- <bot respuesta86>
+
++ [*] (@program) [*] (@need) [*] (@transfers) [*]
+- <bot respuesta86>
+
++ [*] (@program) [*] (@transfers) [*] (@need) [*]
+- <bot respuesta86>
+
++ [*] (@transfers) [*] (@program) [*] (@need) [*]
+- <bot respuesta86>
+
++ [*] (@transfers) [*] (@need) [*] (@program) [*]
+- <bot respuesta86>
+
++ [*] (@need) [*] (@transfers) [*] (@program) [*]
+- <bot respuesta86>
+
+//
 + [*] (@need) [*] (@activate) [*] (@beneficiary) [*]
 - <bot respuesta2>
 
@@ -1306,6 +1476,66 @@
 + [*] (@authorize) [*] (@why) [*] (@delay) [*]
 - <bot respuesta20>
 
+//cuanto demora en validar la nomina
+
++ [*] (@file) [*] (@validate) [*] (@delay) [*]
+- <bot respuesta20>
+
++ [*] (@validate) [*] (@file) [*] (@delay) [*]
+- <bot respuesta20>
+
++ [*] (@validate) [*] (@delay) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@delay) [*] (@validate) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@delay) [*] (@file) [*] (@validate) [*]
+- <bot respuesta20>
+
++ [*] (@file) [*] (@delay) [*] (@validate) [*]
+- <bot respuesta20>
+
+//donde veo la nomina
+
++ [*] (@file) [*] (@view) [*] (@where) [*]
+- <bot respuesta82>
+
++ [*] (@view) [*] (@file) [*] (@where) [*]
+- <bot respuesta82>
+
++ [*] (@view) [*] (@where) [*] (@file) [*]
+- <bot respuesta82>
+
++ [*] (@where) [*] (@view) [*] (@file) [*]
+- <bot respuesta82>
+
++ [*] (@where) [*] (@file) [*] (@view) [*]
+- <bot respuesta82>
+
++ [*] (@file) [*] (@where) [*] (@view) [*]
+- <bot respuesta82>
+
+//el usuario no puede firmar
+
++ [*] (@no) [*] (@sign) [*] (@user) [*]
+- <bot respuesta85>
+
++ [*] (@sign) [*] (@no) [*] (@user) [*]
+- <bot respuesta85>
+
++ [*] (@sign) [*] (@user) [*] (@no) [*]
+- <bot respuesta85>
+
++ [*] (@user) [*] (@sign) [*] (@no) [*]
+- <bot respuesta85>
+
++ [*] (@user) [*] (@no) [*] (@sign) [*]
+- <bot respuesta85>
+
++ [*] (@no) [*] (@user) [*] (@sign) [*]
+- <bot respuesta85>
+
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 
@@ -1612,6 +1842,14 @@
 
 + [*] (@cost) [*] (@upload) [*]
 - <bot respuesta62>
+
+//que va en "tipo de pago"
+
++ [*] (@what) [*] (@paymenttype) [*]
+- <bot respuesta33>
+
++ [*] (@paymenttype) [*] (@what) [*]
+- <bot respuesta33>
 
 + [*] (@file) [*] (@cost) [*]
 - <bot respuesta62>
