@@ -34,7 +34,7 @@
 
 ! var respuesta19= Para poder visualizarlas debe ingresar en pestaña Pagos y servicios seleccionar Pago de Nóminas ANTIGUO y luego Obtener certificado de pago
 
-! var respuesta20= Favor le pido ir actualizando constantemente la opción Estado de nómina, ya que por la fecha hay un alto flujo de operaciones (pago quincena)
+! var respuesta20= Favor le pido ir actualizando constantemente la opción Estado de nómina, recuerde que en fechas de alta demanda (como fin de mes y pagos de quincena) el sistema puede demorar hasta 30 minutos.
 
 ! var respuesta21= Debe eliminar nómina y cargar una nueva con la precaución de cambiar el nombre de esta para que el sistema no incurra en errores
 
@@ -153,6 +153,8 @@
 ! var respuesta85 = Ese error sucede cuando usted aparece como apoderado no autorizado, debe pedir al ejecutivo comercial que lo autorice para firmar.
 
 ! var respuesta86 = La posibilidad de programar transferencias está vigente sólo para la banca personas por el momento.
+
+! var respuesta87 = Efectivamente Banco Estado tiene ciertas restricciones con respecto a abonos, verifique con el destinatario esta restricción.
 
 ! var respuesta90 = Para poder transferir, sólo debe inscribir al destinatario.
 

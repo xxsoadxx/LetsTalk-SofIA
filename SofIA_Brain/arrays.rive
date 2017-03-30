@@ -220,7 +220,7 @@
 
 ! array user= usuario usuaria usuarios usuarias
 
-! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision|en validacion
+! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision
 
 ! array consult= consultar|consulte|consulto|obtener|obtengo|ver
 
@@ -248,4 +248,5 @@
 
 ! array waiting = esperando|aguardando|aguardo|espero|esperar|aguardar|aguantar|permanecer
 
+!array statebank= banco estado|bancoestado
 //! array filerow = registro|linea|persona|beneficiario|destinatario

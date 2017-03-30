@@ -1708,5 +1708,11 @@
 +  [*] (@max)  [*] (@amount) [*]
 - <bot respuesta17>
 
++ [*] (@statebank) [*] (@reject) [*]
+- <bot respuesta87>
+
++ [*] (@reject) [*] (@statebank) [*]
+- <bot respuesta87>
+
 + *
 - Unknown
