@@ -734,94 +734,23 @@
 - <bot respuesta19>
 
 //Realice la carga  de nómina y aparecen validando y monto 0
-+ [*] (@file) [*] (@view) [*] (@validate) [*]
+
++ [*] (@file) [*] (@amount) [*] (@zero) [*]
 - <bot respuesta39>
 
-+ [*] (@view) [*] (@file) [*] (@validate) [*]
++ [*] (@file) [*] (@zero) [*] (@amount) [*]
 - <bot respuesta39>
 
-+ [*] (@view) [*] (@validate) [*] (@file) [*]
++ [*] (@zero) [*] (@file) [*] (@amount) [*]
 - <bot respuesta39>
 
-+ [*] (@validate) [*] (@view) [*] (@file) [*]
++ [*] (@zero) [*] (@amount) [*] (@file) [*]
 - <bot respuesta39>
 
-+ [*] (@validate) [*] (@file) [*] (@view) [*]
++ [*] (@amount) [*] (@zero) [*] (@file) [*]
 - <bot respuesta39>
 
-+ [*] (@file) [*] (@validate) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@file) [*] (@view) [*] (@amount) [*] (@zero) [*]
-- <bot respuesta39>
-
-+ [*] (@view) [*] (@file) [*] (@amount) [*] (@zero) [*]
-- <bot respuesta39>
-
-+ [*] (@view) [*] (@amount) [*] (@file) [*] (@zero) [*]
-- <bot respuesta39>
-
-+ [*] (@view) [*] (@amount) [*] (@zero) [*] (@file) [*]
-- <bot respuesta39>
-
-+ [*] (@amount) [*] (@view) [*] (@zero) [*] (@file) [*]
-- <bot respuesta39>
-
-+ [*] (@amount) [*] (@view) [*] (@file) [*] (@zero) [*]
-- <bot respuesta39>
-
-+ [*] (@amount) [*] (@file) [*] (@view) [*] (@zero) [*]
-- <bot respuesta39>
-
-+ [*] (@file) [*] (@amount) [*] (@view) [*] (@zero) [*]
-- <bot respuesta39>
-
-+ [*] (@file) [*] (@amount) [*] (@zero) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@amount) [*] (@file) [*] (@zero) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@amount) [*] (@zero) [*] (@file) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@amount) [*] (@zero) [*] (@view) [*] (@file) [*]
-- <bot respuesta39>
-
-+ [*] (@zero) [*] (@amount) [*] (@view) [*] (@file) [*]
-- <bot respuesta39>
-
-+ [*] (@zero) [*] (@amount) [*] (@file) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@zero) [*] (@file) [*] (@amount) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@file) [*] (@zero) [*] (@amount) [*] (@view) [*]
-- <bot respuesta39>
-
-+ [*] (@file) [*] (@zero) [*] (@view) [*] (@amount) [*]
-- <bot respuesta39>
-
-+ [*] (@zero) [*] (@file) [*] (@view) [*] (@amount) [*]
-- <bot respuesta39>
-
-+ [*] (@zero) [*] (@view) [*] (@file) [*] (@amount) [*]
-- <bot respuesta39>
-
-+ [*] (@zero) [*] (@view) [*] (@amount) [*] (@file) [*]
-- <bot respuesta39>
-
-+ [*] (@view) [*] (@zero) [*] (@amount) [*] (@file) [*]
-- <bot respuesta39>
-
-+ [*] (@view) [*] (@zero) [*] (@file) [*] (@amount) [*]
-- <bot respuesta39>
-
-+ [*] (@view) [*] (@file) [*] (@zero) [*] (@amount) [*]
-- <bot respuesta39>
-
-+ [*] (@file) [*] (@view) [*] (@zero) [*] (@amount) [*]
++ [*] (@amount) [*] (@file) [*] (@zero) [*]
 - <bot respuesta39>
 
 //Deseo cambiar mi correo electrónico
@@ -1365,29 +1294,120 @@
 
 //Cuanto tarda en cargar una nomina
 + [*] (@howlong) [*] (@file) [*] (@upload) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 + [*] (@howlong) [*] (@upload) [*] (@file) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 + [*] (@upload) [*] (@file) [*] (@howlong) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 + [*] (@file) [*] (@upload) [*] (@howlong) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 //Cuanto tarda en cargar una nomina
 + [*] (@waiting) [*] (@file) [*] (@upload) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 + [*] (@waiting) [*] (@upload) [*] (@file) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 + [*] (@upload) [*] (@file) [*] (@waiting) [*]
-- <bot respuesta91>
+- <bot respuesta20>
 
 + [*] (@file) [*] (@upload) [*] (@waiting) [*]
-- <bot respuesta91>
+- <bot respuesta20>
+
++ [*] (@available) [*] (@file) [*] (@upload) [*]
+- <bot respuesta20>
+
++ [*] (@available) [*] (@upload) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@upload) [*] (@file) [*] (@available) [*]
+- <bot respuesta20>
+
++ [*] (@file) [*] (@upload) [*] (@available) [*]
+- <bot respuesta20>
+
+//por que se eliminan las nominas
+
++ [*] (@why) [*] (@file) [*] (@delete) [*]
+- <bot respuesta41>
+
++ [*] (@why) [*] (@delete) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@why) [*] (@delete) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@delete) [*] (@why) [*]
+- <bot respuesta41>
+
++ [*] (@delete) [*] (@why) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@delete) [*] (@file) [*] (@why) [*]
+- <bot respuesta41>
+
+
++ [*] (@file) [*] (@view) [*] (@validate) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@file) [*] (@validate) [*]
+- <bot respuesta39>
+
++ [*] (@view) [*] (@validate) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@validate) [*] (@view) [*] (@file) [*]
+- <bot respuesta39>
+
++ [*] (@validate) [*] (@file) [*] (@view) [*]
+- <bot respuesta39>
+
+
+// por que se eliminan las nominas
+
++ [*] (@why) [*] (@file) [*] (@delete) [*]
+- <bot respuesta41>
+
++ [*] (@why) [*] (@delete) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@delete) [*] (@why) [*] (@file) [*]
+- <bot respuesta41>
+
++ [*] (@delete) [*] (@file) [*] (@why) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@delete) [*] (@why) [*]
+- <bot respuesta41>
+
++ [*] (@file) [*] (@why) [*] (@delete) [*]
+- <bot respuesta41>
+
+
+//Necesito un comprobante de pago
+ 
++ [*] (@ticket) [*] (@upload) [*] (@file) [*]
+- <bot respuesta19>
+ 
++ [*] (@ticket) [*] (@file) [*] (@upload) [*]
+- <bot respuesta19>
+ 
++ [*] (@upload) [*] (@upload) [*] (@file) [*]
+- <bot respuesta19>
+ 
++ [*] (@upload) [*] (@file) [*] (@upload) [*]
+- <bot respuesta19>
+ 
++ [*] (@file) [*] (@ticket) [*] (@file) [*]
+- <bot respuesta19>
+ 
++ [*] (@file) [*] (@file) [*] (@ticket) [*]
+- <bot respuesta19>
+
 
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
@@ -1518,9 +1538,28 @@
 + [*] (@file) [*] (@offline) [*]
 - <bot respuesta57> 
 
+//Buen dia, consulta en que formato viene el reporte de nomina?
+
++ [*] (@file) [*] (@format) [*]
+- <bot respuesta52>
+
++ [*] (@format) [*] (@file) [*]
+- <bot respuesta52>
+
++ [*] (@upload) [*] (@format) [*]
+- <bot respuesta52>
+
++ [*] (@format) [*] (@upload) [*]
+- <bot respuesta52>
+
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
 
++ [*] (@transfer) [*] (@validate) [*]
+- <bot respuesta20> 
+
++ [*] (@validate) [*] (@transfer) [*]
+- <bot respuesta20> 
 + [*] (@upload) [*] (@file) [*]
 - <bot respuesta6> 
 
@@ -1551,20 +1590,6 @@
 
 + [*] (@paymentpanel) [*] (@where) [*]
 - <bot respuesta65> 
-
-//Buen dia, consulta en que formato viene el reporte de nomina?
-
-+ [*] (@file) [*] (@format) [*]
-- <bot respuesta52>
-
-+ [*] (@format) [*] (@file) [*]
-- <bot respuesta52>
-
-+ [*] (@upload) [*] (@format) [*]
-- <bot respuesta52>
-
-+ [*] (@format) [*] (@upload) [*]
-- <bot respuesta52>
 
 //Como veo el detalle de una nomina
 
@@ -1616,12 +1641,6 @@
 + [*] (@file) [*] (@problems) [*]
 - <bot respuesta54>
 
-+ [*] (@activate) [*] (@account) [*]
-- <bot respuesta70>
-
-+ [*] (@account) [*] (@activate) [*]
-- <bot respuesta70>
-
 //Como transfiero personas
 
 + [*] (@transfers) [*] (@need) [*]
@@ -1651,14 +1670,6 @@
 
 + [*] (@beneficiary) [*] (@dontshow) [*]
 - <bot respuesta54>
-
-//Donde subo una nomina
-
-+ [*] (@upload) [*] (@file) [*]
-- <bot respuesta61>
-
-+ [*] (@file) [*] (@file) [*]
-- <bot respuesta61>
 
 //necesito modificar datos de contadora no puedo
 
@@ -1701,6 +1712,20 @@
 
 + [*] (@upload) [*] (@cost) [*]
 - <bot respuesta62>
+
+//Donde subo una nomina
+
++ [*] (@upload) [*] (@file) [*]
+- <bot respuesta61>
+
++ [*] (@file) [*] (@file) [*]
+- <bot respuesta61>
+
++ [*] (@activate) [*] (@account) [*]
+- <bot respuesta70>
+
++ [*] (@account) [*] (@activate) [*]
+- <bot respuesta70>
 
 + [*] (@offline) [*]
 - <bot respuesta57>

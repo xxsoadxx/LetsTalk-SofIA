@@ -62,13 +62,13 @@
 
 ! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido|falta alias
 
-! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando anulo anular anulacion
+! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando anulo anular anulacion eliminan
 
 ! array detail= detalle detalles detallado detallada detallando detallaria detallare
 
 ! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
 
-! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra
+! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra|desaparecen
 
 ! array sign=firmar firman firmaron firma firmas firmarla
 
@@ -76,7 +76,7 @@
 
 ! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente|no se autoriza
 
-! array multipass = multipass multipas digipass digipas
+! array multipass = multipass multipas digipass digipas dispositivo
 
 ! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos
 
@@ -249,4 +249,10 @@
 ! array waiting = esperando|aguardando|aguardo|espero|esperar|aguardar|aguantar|permanecer
 
 !array statebank= banco estado|bancoestado
+! array filedif = nomina diferida|nominas diferidas|nomina diferidas|nominas diferida
+
+! array available= disponible disponibles utilizable utilizables libres libre vacante vacantes
+
+! array ticket= tickets ticket comprobante comprobantes certificado certificados
+
 //! array filerow = registro|linea|persona|beneficiario|destinatario
