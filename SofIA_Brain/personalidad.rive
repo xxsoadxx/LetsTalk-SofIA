@@ -35,7 +35,7 @@
 - Te lo dire nuevamente, <get name>, mi nombre es Sofia. ¿En que le puedo ayudar?
 
 //Necesito ayuda
-+ [*] (@help) [*]
++ (@need) [*] (@help)
 - Puedo ayudarte en todo lo que necesites. Solo preguntame claramente y con gusto te respondere. :)
 
 //Hola

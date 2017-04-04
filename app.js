@@ -12,7 +12,7 @@ bot.setSubroutine('myFunction', function(rs, args){
 
 //Accents
 function accents(text) {
-    var dict = {"á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" " , ":":" "  , "\\":" ", "\"":" "  ,"$":" monto ",  }
+    var dict = {"á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u","Á":"a","É":"e","Í":"i","Ó":"o","Ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" " , ":":" "  , "\\":" ", "\"":" "  ,"$":" monto ",  }
 
     text = text.replace(/[^\w ]/g, function(char) {
         var val = dict[char] || char;

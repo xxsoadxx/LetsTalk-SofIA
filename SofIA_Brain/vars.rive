@@ -22,7 +22,7 @@
 
 ! var respuesta12= Para obtener esta información debe ingresar a Menu Pago de Nóminas en líneas NUEVO, luego ingresar al Menu Consultas de Pago
 
-! var respuesta13 = Debe modificar el monto máximo que tiene asignado para transferir
+! var respuesta13 = Debe modificar el monto máximo que tiene asignado para transferir. El monto máximo está determinado por el límite monto transferencias diaria que fijó su empresa, puede corroborarlo en pestaña Transferencias - Monto transferencias diarias
 
 ! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronirzación Bci Multipass, y continúe con los pasos solicitados
 
@@ -98,7 +98,7 @@
 
 ! var respuesta54 = Por favor aguarde, mientras lo derivo a un ejecutivo de cuenta.
 
-! var respuesta55= Mediante el servicio Pago de nómina en línea usted podria pagar en forma masiva.
+! var respuesta55= Mediante el servicio Pago de nómina en línea usted podria pagar en forma masiva. Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es?
 
 ! var respuesta56= En la opción Pagos y servicios -> Cartola de Pagos
 
@@ -150,10 +150,19 @@
 
 ! var respuesta83 = Ese error aparece a veces cuando los archivos contienen errores, los puede remitir al correo apoyoempresarios@bci.cl, para su revisión por favor.
 
+! var respuesta84 = En pestaña Pagos y servicios - Mis destinatarios en sección Autorizados seleccione el destinatario al cual desea cambiar la cuenta corriente y edítelo
+
 ! var respuesta85 = Ese error sucede cuando usted aparece como apoderado no autorizado, debe pedir al ejecutivo comercial que lo autorice para firmar.
 
 ! var respuesta86 = La posibilidad de programar transferencias está vigente sólo para la banca personas por el momento.
 
 ! var respuesta87 = Efectivamente Banco Estado tiene ciertas restricciones con respecto a abonos, verifique con el destinatario esta restricción.
 
+! var respuesta88 = Cuando la nómina está caducada, no hay forma de reactivarla y el sistema la eliminará automáticamente luego de 48 hrs. Por favor realice una nueva carga. 
+
 ! var respuesta90 = Para poder transferir, sólo debe inscribir al destinatario.
+
+! var respuesta91 = Esto pasa porque proceso de corrección demora entre 5-7 min, ya que el sistema va a verificar que la correccion este hecha de forma correcta y que no hayan otros errores dentro del registro.
+
+! var respuesta100= Podría ser mas especifico, por favor.
+! var respuesta101= Al ingresar un pago de nómina puede firmarse hasta las 23:50 pm ya que si no es firmada por apoderados caduca automáticamente.

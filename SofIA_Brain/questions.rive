@@ -587,6 +587,26 @@
 +  [*] (@column)  [*] (@thirdteen)  [*] (@value) [*]
 - <bot respuesta36>
 
+//ingrese una nomina la semana pasada para firma y hoy no aparece
+
++ [*] (@past) [*] (@file) [*] (@notfound) [*]
+- <bot respuesta75>
+
++ [*] (@past) [*] (@notfound) [*] (@file) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@notfound) [*] (@past) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@past) [*] (@notfound) [*] 
+- <bot respuesta75>
+
++ [*] (@notfound) [*] (@file) [*] (@past) [*] 
+- <bot respuesta75>
+
++ [*] (@notfound) [*] (@past) [*] (@file) [*]  
+- <bot respuesta75>
+
 //Acabo de subir una nómina, posteriormente me pide autorizar algunas cuentas y luego desaparece la nómina para firmar
 
 + [*] (@sign) [*] (@file) [*] (@notfound) [*]
@@ -764,6 +784,46 @@
 + [*] (@amount) [*] (@file) [*] (@zero) [*]
 - <bot respuesta39>
 
+//Puedo solicitar copia de la nomina de pago realizada el 01/07/2016
+
++ [*] (@need) [*] (@file) [*] (@copy) [*]
+- <bot respuesta19>
+
++ [*] (@file) [*] (@need) [*] (@copy) [*]
+- <bot respuesta19>
+
++ [*] (@file) [*] (@copy) [*] (@need) [*]
+- <bot respuesta19>
+
++ [*] (@copy) [*] (@file) [*] (@need) [*]
+- <bot respuesta19>
+
++ [*] (@copy) [*] (@need) [*] (@file) [*]
+- <bot respuesta19>
+
++ [*] (@need) [*] (@copy) [*] (@file) [*]
+- <bot respuesta19>
+
+//como se usa el servicio
++ [*] (@need) [*] (@use) [*] (@service) [*]
+- <bot respuesta6>
+
++ [*] (@use) [*] (@need) [*] (@service) [*]
+- <bot respuesta6>
+
++ [*] (@use) [*] (@service) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@service) [*] (@use) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@service) [*] (@need) [*] (@use) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@service) [*] (@use) [*]
+- <bot respuesta6>
+
+
 //Deseo cambiar mi correo electrónico
 //En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
 
@@ -862,44 +922,162 @@
 + [*] (@owner) [*] (@need) [*] (@activate) [*]
 - <bot respuesta49>
 
-//getar si el banco le apertura cuentas a los trabajadores.
+//consultar si el banco le apertura cuentas a los trabajadores.
 
-+ [*] (@opening) [*] (@account) [*] (@workers) [*]
++ [*] (@opening) [*] (@account) [*] (@beneficiary) [*]
 - <bot respuesta50>
 
-+ [*] (@account) [*] (@opening) [*] (@workers) [*]
++ [*] (@account) [*] (@opening) [*] (@beneficiary) [*]
 - <bot respuesta50>
 
-+ [*] (@account) [*] (@workers) [*] (@opening) [*]
++ [*] (@account) [*] (@beneficiary) [*] (@opening) [*]
 - <bot respuesta50>
 
-+ [*] (@workers) [*] (@account) [*] (@opening) [*]
++ [*] (@beneficiary) [*] (@account) [*] (@opening) [*]
 - <bot respuesta50>
 
-+ [*] (@workers) [*] (@opening) [*] (@account) [*]
++ [*] (@beneficiary) [*] (@opening) [*] (@account) [*]
 - <bot respuesta50>
 
-+ [*] (@opening) [*] (@workers) [*] (@account) [*]
++ [*] (@opening) [*] (@beneficiary) [*] (@account) [*]
 - <bot respuesta50>
+
+//cambiar cuenta corriente de pago
++ [*] (@change) [*] (@account) [*] (@payment) [*]
+- <bot respuesta84>
+
++ [*] (@account) [*] (@change) [*] (@payment) [*]
+- <bot respuesta84>
+
++ [*] (@account) [*] (@payment) [*] (@change) [*]
+- <bot respuesta84>
+
++ [*] (@payment) [*] (@account) [*] (@change) [*]
+- <bot respuesta84>
+
++ [*] (@payment) [*] (@change) [*] (@account) [*]
+- <bot respuesta84>
+
++ [*] (@change) [*] (@payment) [*] (@account) [*]
+- <bot respuesta84>
+
+//se puede firmar una nomina caducada?
++ [*] (@file) [*] (@sign) [*] (@expire) [*]
+- <bot respuesta88>
+
++ [*] (@sign) [*] (@file) [*] (@expire) [*]
+- <bot respuesta88>
+
++ [*] (@sign) [*] (@expire) [*] (@file) [*]
+- <bot respuesta88>
+
++ [*] (@expire) [*] (@sign) [*] (@file) [*]
+- <bot respuesta88>
+
++ [*] (@expire) [*] (@file) [*] (@sign) [*]
+- <bot respuesta88>
+
++ [*] (@file) [*] (@expire) [*] (@sign) [*]
+- <bot respuesta88>
+
+//donde esta el comprobante de pago
++ [*] (@where) [*] (@ticket) [*] (@payment) [*]
+- <bot respuesta12>
+
++ [*] (@ticket) [*] (@where) [*] (@payment) [*]
+- <bot respuesta12>
+
++ [*] (@ticket) [*] (@payment) [*] (@where) [*]
+- <bot respuesta12>
+
++ [*] (@payment) [*] (@ticket) [*] (@where) [*]
+- <bot respuesta12>
+
++ [*] (@payment) [*] (@where) [*] (@ticket) [*]
+- <bot respuesta12>
+
++ [*] (@where) [*] (@payment) [*] (@ticket) [*]
+- <bot respuesta12>
+
+//necesito autorizar un pago
++ [*] (@need) [*] (@authorize) [*] (@upload) [*]
+- <bot respuesta2>
+
++ [*] (@authorize) [*] (@need) [*] (@upload) [*]
+- <bot respuesta2>
+
++ [*] (@authorize) [*] (@upload) [*] (@need) [*]
+- <bot respuesta2>
+
++ [*] (@upload) [*] (@authorize) [*] (@need) [*]
+- <bot respuesta2>
+
++ [*] (@upload) [*] (@need) [*] (@authorize) [*]
+- <bot respuesta2>
+
++ [*] (@need) [*] (@upload) [*] (@authorize) [*]
+- <bot respuesta2>
+
+// se realizo pago de nomina y me rechazo un deposito donde puedo ver por que es el rechazo?
+
++ [*] (@file) [*] (@upload) [*] (@reject) [*]
+- <bot respuesta54>
+
++ [*] (@upload) [*] (@file) [*] (@reject) [*]
+- <bot respuesta54>
+
++ [*] (@upload) [*] (@reject) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@reject) [*] (@upload) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@reject) [*] (@file) [*] (@upload) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@reject) [*] (@upload) [*]
+- <bot respuesta54>
+
+// Necesito saber la razón por la cual me rechazan el pago de un trabajador
+
++ [*] (@beneficiary) [*] (@upload) [*] (@reject) [*]
+- <bot respuesta54>
+
++ [*] (@upload) [*] (@beneficiary) [*] (@reject) [*]
+- <bot respuesta54>
+
++ [*] (@upload) [*] (@reject) [*] (@beneficiary) [*]
+- <bot respuesta54>
+
++ [*] (@reject) [*] (@upload) [*] (@beneficiary) [*]
+- <bot respuesta54>
+
++ [*] (@reject) [*] (@beneficiary) [*] (@upload) [*]
+- <bot respuesta54>
+
++ [*] (@beneficiary) [*] (@reject) [*] (@upload) [*]
+- <bot respuesta54>
+
+
 
 // que es pago de nomina
 
-+ [*] (@file) [*] (@uplolad) [*] (@what) [*]
++ [*] (@file) [*] (@upload) [*] (@what) [*]
 - <bot respuesta51>
 
-+ [*] (@uplolad) [*] (@file) [*] (@what) [*]
++ [*] (@upload) [*] (@file) [*] (@what) [*]
 - <bot respuesta51>
 
-+ [*] (@uplolad) [*] (@what) [*] (@file) [*]
++ [*] (@upload) [*] (@what) [*] (@file) [*]
 - <bot respuesta51>
 
-+ [*] (@what) [*] (@uplolad) [*] (@file) [*]
++ [*] (@what) [*] (@upload) [*] (@file) [*]
 - <bot respuesta51>
 
-+ [*] (@what) [*] (@file) [*] (@uplolad) [*]
++ [*] (@what) [*] (@file) [*] (@upload) [*]
 - <bot respuesta51>
 
-+ [*] (@file) [*] (@what) [*] (@uplolad) [*]
++ [*] (@file) [*] (@what) [*] (@upload) [*]
 - <bot respuesta51>
 
 //que hago cuando una nomina sale con obs por estar mal ingresadio el email?
@@ -1084,6 +1262,45 @@
 + [*] (@upload) [*] (@after) [*] (@sign) [*]
 - <bot respuesta60>
 
+//HOLA me puedes ayudar realice una trasnferencia y me dice pendiente  
+
++ [*] (@help) [*] (@transfers) [*] (@pending) [*]
+- <bot respuesta20>
+
++ [*] (@transfers) [*] (@help) [*] (@pending) [*]
+- <bot respuesta20> 
+
++ [*] (@transfers) [*] (@pending) [*] (@help) [*]
+- <bot respuesta20>
+
++ [*] (@pending) [*] (@transfers) [*] (@help) [*]
+- <bot respuesta20>
+
++ [*] (@pending) [*] (@help) [*] (@transfers) [*]
+- <bot respuesta20>
+
++ [*] (@help) [*] (@pending) [*] (@transfers) [*]
+- <bot respuesta20>
+
+//Mande el archivo a corregir y ahora no aparece
+
++ [*] (@file) [*] (@notfound) [*] (@fix) [*]
+-  <bot respuesta91>
+
++ [*] (@notfound) [*] (@file) [*] (@fix) [*]
+- <bot respuesta91>
+
++ [*] (@notfound) [*] (@fix) [*] (@file) [*]
+- <bot respuesta91>
+
++ [*] (@fix) [*] (@notfound) [*] (@file) [*]
+- <bot respuesta91>
+
++ [*] (@fix) [*] (@file) [*] (@notfound) [*]
+- <bot respuesta91>
+
++ [*] (@file) [*] (@fix) [*] (@notfound) [*]
+- <bot respuesta91>
 //Donde subo una nomina
 
 + [*] (@upload) [*] (@file) [*] (@where) [*]
@@ -1444,7 +1661,108 @@
 - <bot respuesta19>
 
 
++ [*] (@cant) [*] (@sign) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@cant) [*] (@file) [*] (@sign)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@cant) [*] (@sign)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@sign) [*] (@cant)
+- <bot respuesta100>
+
++ [*] (@cant) [*] (@sign) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@cant) [*] (@file) [*] (@sign)
+- <bot respuesta100>
+
+
++ [*] (@cant) [*] (@upload) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@cant) [*] (@file) [*] (@upload)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@cant) [*] (@upload)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@upload) [*] (@cant)
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@file) [*] (@cant)
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@cant) [*] (@file)
+- <bot respuesta100>
+
+//Hasta que hora se peude subir una nomina
+
++ [*] (@schedule) [*] (@upload) [*] (@file)
+- <bot respuesta101>
+
++ [*] (@schedule) [*] (@file) [*] (@upload)
+- <bot respuesta101>
+
++ [*] (@file) [*] (@schedule) [*] (@upload)
+- <bot respuesta101>
+
++ [*] (@file) [*] (@upload) [*] (@schedule)
+- <bot respuesta101>
+
++ [*] (@upload) [*] (@file) [*] (@schedule)
+- <bot respuesta101>
+
++ [*] (@upload) [*] (@schedule) [*] (@file)
+- <bot respuesta101>
+
+//Hasta que hora se peude subir una nomina
+
++ [*] (@upload) [*] (@file) [*] (@past)
+- <bot respuesta75>
+
++ [*] (@upload) [*] (@past) [*] (@file)
+- <bot respuesta75>
+
++ [*] (@file) [*] (@upload) [*] (@past)
+- <bot respuesta75>
+
++ [*] (@file) [*] (@past) [*] (@upload)
+- <bot respuesta75>
+
++ [*] (@past) [*] (@file) [*] (@upload)
+- <bot respuesta75>
+
++ [*] (@past) [*] (@upload) [*] (@file)
+- <bot respuesta75>
+
+
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
+
+//aun me salen los pagos pendientes
+
++ [*] (@pending) [*] (@upload) [*] 
+- <bot respuesta75>
+
++ [*] (@upload) [*] (@pending) [*] 
+- <bot respuesta75>
+
+//envié una nómina y dos pagos dicen \"en proceso de pago\"
+
++ [*] (@file) [*] (@payprocess) [*]
+- <bot respuesta20>
+
++ [*] (@payprocess) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@upload) [*] (@payprocess) [*]
+- <bot respuesta20>
+
++ [*] (@payprocess) [*] (@upload) [*]
+- <bot respuesta20>
+
 
 //hola. donde puedo getar los pagos que me han efectuado por nomina?
 
@@ -1453,7 +1771,6 @@
 
 + [*] (@get) [*] (@receivedpayment) [*]
 - <bot respuesta66>
-
 
 //cuanto es la validez de una nomina
 
@@ -1474,6 +1791,14 @@
 
 //Buenos dias. Si dejo una nómina cargada hoy; puedo firmarla desde el extranjero el día Martes
 + [*] (@file) [*] (@sign) [*] (@days) [*]
+
+//hola. donde puedo consultar los pagos que me han efectuado por nomina?
+
++ [*] (@consult) [*] (@file) [*]
+- <bot respuesta81>
+
++ [*] (@file) [*] (@consult) [*]
+- <bot respuesta81>
 - <bot respuesta75>
 
 + [*] (@sign) [*] (@file)  [*] (@days) [*]
@@ -1491,6 +1816,12 @@
 + [*] (@sign) [*] (@days)  [*] (@file) [*]
 - <bot respuesta75>
 
+//pagar a trabajadores
++ [*] (@upload) [*] (@beneficiary) [*]
+- <bot respuesta55>
+
++ [*] (@beneficiary) [*] (@upload) [*]
+- <bot respuesta55>
 //
 + [*] (@dontknow) [*] (@motive) [*]
 - <bot respuesta54>
@@ -1622,6 +1953,14 @@
 + [*] (@format) [*] (@upload) [*]
 - <bot respuesta52>
 
+//pago de nomina demorando
+
++ [*] (@file) [*] (@delay) [*]
+- <bot respuesta20>
+
++ [*] (@delay) [*] (@file) [*]
+- <bot respuesta20>
+
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus getas relacionadas.
 
@@ -1630,6 +1969,7 @@
 
 + [*] (@validate) [*] (@transfer) [*]
 - <bot respuesta20> 
+
 + [*] (@upload) [*] (@file) [*]
 - <bot respuesta6> 
 
@@ -1675,6 +2015,83 @@
 + [*] (@detail) [*] (@upload) [*]
 - <bot respuesta9>
 
+
+//HOLA, la nomina está en validación. que puedo hacer?
+
++ [*] (@need) [*] (@validate) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@need) [*] (@file) [*] (@validate) [*]
+- <bot respuesta20>
+
++ [*] (@validate) [*] (@need) [*] (@file) [*]
+- <bot respuesta20>
+
++ [*] (@validate) [*] (@file) [*] (@need) [*]
+- <bot respuesta20>
+
++ [*] (@file) [*] (@validate) [*] (@need) [*]
+- <bot respuesta20>
+
++ [*] (@file) [*] (@need) [*] (@validate) [*]
+- <bot respuesta20>
+
++ [*] (@need) [*] (@validate) [*] (@upload) [*]
+- <bot respuesta20>
+
++ [*] (@need) [*] (@upload) [*] (@validate) [*]
+- <bot respuesta20>
+
++ [*] (@validate) [*] (@need) [*] (@upload) [*]
+- <bot respuesta20>
+
++ [*] (@validate) [*] (@upload) [*] (@need) [*]
+- <bot respuesta20>
+
++ [*] (@upload) [*] (@validate) [*] (@need) [*]
+- <bot respuesta20>
+
++ [*] (@upload) [*] (@need) [*] (@validate) [*]
+- <bot respuesta20>
+
+
+//necesito realizar una transferencia masiva
+
++ [*] (@need) [*] (@do) [*] (@file) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@file) [*] (@do) [*]
+- <bot respuesta6>
+
++ [*] (@do) [*] (@need) [*] (@file) [*]
+- <bot respuesta6>
+
++ [*] (@do) [*] (@file) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@file) [*] (@do) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@file) [*] (@need) [*] (@do) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@do) [*] (@upload) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@upload) [*] (@do) [*]
+- <bot respuesta6>
+
++ [*] (@do) [*] (@need) [*] (@upload) [*]
+- <bot respuesta6>
+
++ [*] (@do) [*] (@upload) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@upload) [*] (@do) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@upload) [*] (@need) [*] (@do) [*]
+- <bot respuesta6>
 //necesito realizar una transferencia masiva
 
 + [*] (@do) [*] (@file) [*]
@@ -1785,11 +2202,27 @@
 
 //Donde subo una nomina
 
-+ [*] (@upload) [*] (@file) [*]
+//Donde subo una nomina
+
++ [*] (@where) [*] (@upload) [*] (@file) [*]
 - <bot respuesta61>
 
-+ [*] (@file) [*] (@file) [*]
++ [*] (@where) [*] (@file) [*] (@upload) [*]
 - <bot respuesta61>
+
++ [*] (@upload) [*] (@where) [*] (@file) [*]
+- <bot respuesta61>
+
++ [*] (@upload) [*] (@file) [*] (@where) [*]
+- <bot respuesta61>
+
++ [*] (@file) [*] (@upload) [*] (@where) [*]
+- <bot respuesta61>
+
++ [*] (@file) [*] (@where) [*] (@upload) [*]
+- <bot respuesta61>
+
+
 
 + [*] (@activate) [*] (@account) [*]
 - <bot respuesta70>
@@ -1800,6 +2233,23 @@
 + [*] (@offline) [*]
 - <bot respuesta57>
 
+//tengo personas que no les ha llegado el pago, más aún, no aparecen en las transferencias realizadas
+
++ [*] (@arrivenot) [*] (@pay) [*] 
+- <bot respuesta54>
+
++ [*] (@pay) [*] (@arrivenot) [*] 
+- <bot respuesta54>
+
+//Buen dia, consulta, una nomina caducada, ¿no es posible reutilizarla?
+
++ [*] (@expire) [*] (@file) [*] 
+- <bot respuesta75>
+
++ [*] (@file) [*] (@expire) [*] 
+- <bot respuesta75>
+
+
 +  [*] (@max)  [*] (@amount) [*]
 - <bot respuesta17>
 
@@ -1808,6 +2258,96 @@
 
 + [*] (@reject) [*] (@statebank) [*]
 - <bot respuesta87>
+
++ [*] (@upload) [*] (@file) [*] (@error)
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@error) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@upload) [*] (@error)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@error) [*] (@upload)
+- <bot respuesta100>
+
++ [*] (@error) [*] (@upload) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@error) [*] (@file) [*] (@upload)
+- <bot respuesta100>
+
++ [*] (@problems) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@problems) [*] (@upload) 
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@problems)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@problems) 
+- <bot respuesta100>
+
++ [*] (@error) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@error) [*] (@upload) 
+- <bot respuesta100>
+
+
++ [*] (@file) [*] (@error)
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@error) 
+- <bot respuesta100>
+
++ [*] (@problems) [*] (@warning) 
+- <bot respuesta100>
+
+
++ [*] (@validate) [*] (@file) 
+- <bot respuesta20>
+
++ [*] (@file) [*] (@validate) 
+- <bot respuesta20>
+
++ [*] (@reject) [*] (@transfer) 
+- <bot respuesta54>
+
++ [*] (@transfer) [*] (@reject) 
+- <bot respuesta54>
+
+
+
++ [*] (@upload) [*] (@file) [*]
+- <bot respuesta6> 
+
++ [*] (@file) [*] (@upload) [*]
+- <bot respuesta6> 
+
++ [*] (@file) [*] (@register) [*]
+- <bot respuesta6> 
+
++ [*] (@register) [*] (@file) [*]
+- <bot respuesta6> 
+
+
+
+
+//error subiendo archivo
+
++ [*] (@error) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@error) [*]
+- <bot respuesta54>
+
++ [*] (@problems) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@problems) [*]
+- <bot respuesta54>
 
 + *
 - Unknown
