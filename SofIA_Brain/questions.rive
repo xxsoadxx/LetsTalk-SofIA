@@ -144,6 +144,17 @@
 //Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación.
 //Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
 
++ [*] (@problems) [*] (@file) [*] (@emptyalias) [*]
+- <bot respuesta11>
+
++ [*] (@warnings) [*] (@file) [*] (@emptyalias) [*]
+- <bot respuesta11>
+
++ [*] (@file) [*] (@problems) [*] (@emptyalias) [*]
+- <bot respuesta11>
+
++ [*] (@file) [*] (@warnings) [*] (@emptyalias) [*]
+- <bot respuesta11>
 
 + [*] (@view) [*] (@warnings) [*] (@file) [*]
 - <bot respuesta10>
@@ -851,7 +862,7 @@
 + [*] (@owner) [*] (@need) [*] (@activate) [*]
 - <bot respuesta49>
 
-//consultar si el banco le apertura cuentas a los trabajadores.
+//getar si el banco le apertura cuentas a los trabajadores.
 
 + [*] (@opening) [*] (@account) [*] (@workers) [*]
 - <bot respuesta50>
@@ -989,22 +1000,22 @@
 
 //de donde saco el archivo escel para ingresar los datos?
 
-+ [*] (@file) [*] (@format) [*] (@obtain) [*]
++ [*] (@file) [*] (@format) [*] (@get) [*]
 - <bot respuesta79>
 
-+ [*] (@file) [*] (@obtain) [*] (@format) [*]
++ [*] (@file) [*] (@get) [*] (@format) [*]
 - <bot respuesta79>
 
-+ [*] (@format) [*] (@file) [*] (@obtain) [*]
++ [*] (@format) [*] (@file) [*] (@get) [*]
 - <bot respuesta79>
 
-+ [*] (@format) [*] (@obtain) [*] (@file) [*]
++ [*] (@format) [*] (@get) [*] (@file) [*]
 - <bot respuesta79>
 
-+ [*] (@obtain) [*] (@format) [*] (@file) [*]
++ [*] (@get) [*] (@format) [*] (@file) [*]
 - <bot respuesta79>
 
-+ [*] (@obtain) [*] (@file) [*] (@format) [*]
++ [*] (@get) [*] (@file) [*] (@format) [*]
 - <bot respuesta79>
 
 // continua 
@@ -1015,6 +1026,9 @@
 //Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación.
 //Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.
 
+
+
+//
 + [*] (@file) [*] (@warnings) [*]
 - <bot respuesta10>
 
@@ -1028,6 +1042,9 @@
 - <bot respuesta10>
 
 //como pagar remuneraciones en forma masiva
+
++ [*] (@need) [*] (@upload) [*] (@file) [*]
+- <bot respuesta6>
 
 + [*] (@need) [*] (@upload) [*] (@salary) [*]
 - <bot respuesta6>
@@ -1128,16 +1145,16 @@
 + [*] (@file) [*] (@tosign) [*] (@validate) [*]
 - <bot respuesta64>
 
-+ [*] (@consult) [*] (@file) [*] (@alreadypay) [*]
++ [*] (@get) [*] (@file) [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-+ [*] (@consult) [*] (@alreadypay) [*] (@file) [*]
++ [*] (@get) [*] (@alreadypay) [*] (@file) [*]
 - <bot respuesta12>
 
-+ [*] (@file) [*] (@consult) [*] (@alreadypay) [*]
++ [*] (@file) [*] (@get) [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-+ [*] (@file) [*] (@alreadypay) [*] (@consult) [*]
++ [*] (@file) [*] (@alreadypay) [*] (@get) [*]
 - <bot respuesta12>
 
 + [*] (@alreadypay) [*] (@file) [*] (@alreadypay) [*]
@@ -1190,6 +1207,18 @@
 - <bot respuesta9>
 
 + [*] (@filestate) [*] (@need) [*]
+- <bot respuesta9>
+
++ [*] (@info) [*] (@file) [*]
+- <bot respuesta9>
+
++ [*] (@info) [*] (@upload) [*]
+- <bot respuesta9>
+
++ [*] (@file) [*] (@info) [*]
+- <bot respuesta9>
+
++ [*] (@upload) [*] (@info) [*]
 - <bot respuesta9>
 
 //transferir a cuenta rut
@@ -1270,6 +1299,12 @@
 - <bot respuesta82>
 
 + [*] (@file) [*] (@where) [*] (@view) [*]
+- <bot respuesta82>
+
++ [*] (@view) [*] (@file) [*] 
+- <bot respuesta82>
+
++ [*] (@view) [*] (@upload) [*] 
 - <bot respuesta82>
 
 //el usuario no puede firmar
@@ -1396,29 +1431,29 @@
 + [*] (@ticket) [*] (@file) [*] (@upload) [*]
 - <bot respuesta19>
  
-+ [*] (@upload) [*] (@upload) [*] (@file) [*]
++ [*] (@file) [*] (@upload) [*] (@ticket) [*]
 - <bot respuesta19>
  
-+ [*] (@upload) [*] (@file) [*] (@upload) [*]
++ [*] (@upload) [*] (@file) [*] (@ticket) [*]
 - <bot respuesta19>
  
-+ [*] (@file) [*] (@ticket) [*] (@file) [*]
++ [*] (@file) [*] (@ticket) [*] (@upload) [*]
 - <bot respuesta19>
  
-+ [*] (@file) [*] (@file) [*] (@ticket) [*]
++ [*] (@upload) [*] (@ticket) [*] (@file) [*]
 - <bot respuesta19>
-
 
 
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 
-//hola. donde puedo consultar los pagos que me han efectuado por nomina?
+//hola. donde puedo getar los pagos que me han efectuado por nomina?
 
-+ [*] (@consult) [*] (@file) [*]
-- <bot respuesta81>
++ [*] (@receivedpayment) [*] (@get) [*]
+- <bot respuesta66>
 
-+ [*] (@file) [*] (@consult) [*]
-- <bot respuesta81>
++ [*] (@get) [*] (@receivedpayment) [*]
+- <bot respuesta66>
+
 
 //cuanto es la validez de una nomina
 
@@ -1432,6 +1467,28 @@
 - <bot respuesta75>
 
 + [*] (@file) [*] (@validity) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@sign) [*] 
+- <bot respuesta75>
+
+//Buenos dias. Si dejo una nómina cargada hoy; puedo firmarla desde el extranjero el día Martes
++ [*] (@file) [*] (@sign) [*] (@days) [*]
+- <bot respuesta75>
+
++ [*] (@sign) [*] (@file)  [*] (@days) [*]
+- <bot respuesta75>
+
++ [*] (@upload) [*] (@sign) [*] (@days) [*]
+- <bot respuesta75>
+
++ [*] (@sign) [*] (@upload)  [*] (@days) [*]
+- <bot respuesta75>
+
++ [*] (@sign) [*] (@days)  [*] (@upload) [*]
+- <bot respuesta75>
+
++ [*] (@sign) [*] (@days)  [*] (@file) [*]
 - <bot respuesta75>
 
 //
@@ -1516,6 +1573,19 @@
 - <bot respuesta22> 
 
 
+//
++ [*] (@where) [*] (@find) [*] (@file) [*] 
+- <bot respuesta9>
+
++ [*] (@where) [*] (@file) [*] (@find) [*]
+- <bot respuesta9>
+
++ [*] (@find) [*] (@file) [*] (@where) [*]
+- <bot respuesta9>
+
++ [*] (@file) [*] (@find) [*] (@where) [*]
+- <bot respuesta9>
+
 // donde encuentro la planilla para subir al banco
 
 + [*] (@find) [*] (@file) [*]
@@ -1538,7 +1608,7 @@
 + [*] (@file) [*] (@offline) [*]
 - <bot respuesta57> 
 
-//Buen dia, consulta en que formato viene el reporte de nomina?
+//Buen dia, geta en que formato viene el reporte de nomina?
 
 + [*] (@file) [*] (@format) [*]
 - <bot respuesta52>
@@ -1553,7 +1623,7 @@
 - <bot respuesta52>
 
 //Cómo cargo mi archivo de pago de nómina en línea?
-//Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas.
+//Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus getas relacionadas.
 
 + [*] (@transfer) [*] (@validate) [*]
 - <bot respuesta20> 

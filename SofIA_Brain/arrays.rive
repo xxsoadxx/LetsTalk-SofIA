@@ -18,7 +18,7 @@
 
 ! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
 
-! array beneficiary = destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina|destinario|destinaria|personas para ingresar|persona para ingresar
+! array beneficiary = destinarios|destinarias|destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina|destinario|destinaria|personas para ingresar|persona para ingresar
 
 ! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
 
@@ -52,7 +52,7 @@
 
 ! array manual = manualmente|manual|casero
 
-! array get = obtener|tener|sacar|conseguir|recibir|adquirir
+! array get = descargar bajar consultar consulte obtener obtengo saco sacar saque consigo conseguir adquiero adquirir adquiere adquiera recibo recibir recibire recibira tener
 
 ! array info = informacion|reporte|aclarar|aclaracion|averiguar|indagar|indagacion|averiguacion|verificar|verificacion
 
@@ -60,7 +60,7 @@
 
 ! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas|motivo del rechazo
 
-! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido|falta alias
+! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido|falta alias|alias de cuenta vacio
 
 ! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando anulo anular anulacion eliminan
 
@@ -210,19 +210,15 @@
 
 ! array who= quien es|quien son|quienes son|quienes es|quien son
 
-! array receivedpayment= pago recibido|pagos recibidos|pago recibidos|pagos recibido
+! array receivedpayment= pago recibido|pagos recibidos|pago recibidos|pagos recibido|pagos que me han efectuados|pagos que he recibido
 
 ! array automated= automatico|automatica|automaticos|automaticas|automaticamente
 
 ! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
 
-! array obtain= obtener obtengo saco sacar saque consigo conseguir adquiero adquirir adquiere adquiera recibo recibir recibire recibira
-
 ! array user= usuario usuaria usuarios usuarias
 
 ! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision
-
-! array consult= consultar|consulte|consulto|obtener|obtengo|ver
 
 ! array massive= masivo|masivos|masiva|masivas
 
@@ -255,4 +251,5 @@
 
 ! array ticket= tickets ticket comprobante comprobantes certificado certificados
 
+! array days = lunes martes miercoles jueves viernes sabado domingo
 //! array filerow = registro|linea|persona|beneficiario|destinatario
