@@ -12,9 +12,9 @@
 
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es
 
-! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|agrega|creo|anexar|se ingresa
+! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy ede alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|agrega|creo|crea|anexar|se ingresa|poner|insertarlas|insertar|pongo
 
-! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas
+! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas|autoriza
 
 ! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
 
@@ -34,7 +34,7 @@
 
 ! array recover     = recuperar|restaurar|restauro|recuperaria|recupere|recuperare|restaurare|restauraria|recobrar|restablecer|recobrare|restablecere|restablezco|restableci
 
-! array authcode    = codigo|codigo de autorizacion|codigo autorizacion
+! array authcode    = codigo|codigo de autorizacion|codigo autorizacion|codigos
 
 ! array arrivenot   = no me llego|no llego|no arrivo|no me arrivo|no recibi|no lo tengo|no lo recibi|no tengo|no lo veo|no me estaria arrivando|no me estaria llegando|no estaria llegando|no estaria arrivando|no obtuve|no lo obtuve|no me ha llegado|no les ha llegado|no le ha llegado
 
@@ -48,7 +48,7 @@
 
 ! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas|anticipos|anticipo|nomima|a la vez
 
-! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|programados|agendados|planificado|programo|programa|programas|planee|agendo|programada
+! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|programados|agendados|planificado|programo|programa|programas|planee|agendo|programada|reutilizar|reutilizarlas|reutilizarlos
 
 ! array manual = manualmente|manual|casero
 
@@ -60,9 +60,9 @@
 
 ! array view = veo|aparece|aparecen|aparce|se ve|se ven|visualiza|visualizar|visualizan|visualizarlas|mostrando|muestra|apareciendo|visualizando|ver|verlas|verla|aprecer|visualizo|muestran|donde encuentro
 
-! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas|motivo del rechazo
+! array warnings = observaciones|alertas|observacion|alerta|alerto|aviso|avisa|advertencia|comentario|nota|alertas|comentarios|advertencias|notas
 
-! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido|falta alias|alias de cuenta vacio|alias incorrecto|alias esta incorrecto|alias esta incorrecta
+! array emptyalias = falta de alias|alias cuenta vacia|alias no existe|alias no encontrado|alias vacio|alias vacido|falta alias|alias de cuenta vacio|alias incorrecto|alias esta incorrecto|alias esta incorrecta|falta el alias
 
 ! array delete = eliminar eliminacion eliminare eliminando elimino eliminaria elimine borrar borro borraria borre borrando anulo anular anulacion eliminan
 
@@ -70,7 +70,7 @@
 
 ! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
 
-! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra|desaparecen|no se puede visualizar|no se pueden visualizar|no se visualiza|no se visualizan|aun esta en proceso|no se donde esta|no puedo verla|no puedo verlo|no puedo verlas|no puedo verlos
+! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra|desaparecen|no se puede visualizar|no se pueden visualizar|no se visualiza|no se visualizan|aun esta en proceso|no se donde esta|no puedo verla|no puedo verlo|no puedo verlas|no puedo verlos|no me llega|no me llegan|no me llego|no se donde quedo|no se donde quedaron
 
 ! array sign=firmar firman firmaron firma firmas firmarla
 
@@ -78,7 +78,7 @@
 
 ! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente|no se autoriza
 
-! array multipass = multipass multipas digipass digipas dispositivo
+! array multipass = multipass multipas digipass digipas dispositivo|multi pass|multi pas|claves digitales|clave digital|claves digital
 
 ! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos
 
@@ -94,7 +94,7 @@
 
 ! array initials = sigla|siglas|inicial|iniciales|abreviatura|abreviaturas
 
-! array prorecpag = pag|rec|pro|pro rec pag|prorecpag|prorec pag|pro recpag|pro - rec - pag|pro - rec- pag|pro-rec-pag|pro-rec- pag|pro -rec-pag
+! array prorecpag = pag|rec|pro|prorecpag|prorec pag|pro recpag|pro rec pag|pro rec pag|pro rec pag|prorec pag|pro recpag|pag rec pro
 
 ! array forward= adelante posterior siguiente|hasta hoy|hasta el dia de hoy
 
@@ -148,7 +148,7 @@
 
 ! array beneficiaryMessage = mensaje de destinatario|mensaje de destinatarios|mensajes de destinatarios
 
-! array validate = validando|valide|valida|validaba|validar|validacion
+! array validate = validando|valide|valida|validaba|validar|validacion|validan
 
 ! array payprocess = en proceso de pago|proceso de pago
 
@@ -159,7 +159,7 @@
 
 ! array month = enero|febrero|marzo|abril|mayo|junio|julio|agosto|setiembre|septiembre|octubre|noviembre|diciembre|feb
 
-! array zero = 0|cero|zero|nullo|vacio
+! array zero = 0|cero|zero|nulo|vacio|valor 0|sin valor|no tiene valor|no tienen valores|sin valores
 
 ! array understood = gracias|perfecto|listo|ok|bien
 
@@ -179,11 +179,11 @@
 
 ! array offline= offline|sistema no disponible|sistema offline|el sistema esta caido|el sistema esta muerto|el sistema no responde|caido el sistema|cayo el sistema|error 500|servicio no estaba disponible|servicio no disponible|servicio no se encuentra disponible|servicio no esta disponible
 
-! array motive= motivo|motivos|razones|razon
+! array motive= motivo|motivos|razones|razon|causa|causas
 
-! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos|rechazan
+! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|rechazaron|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos|rechazan|rechazadas|rechazados
 
-! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea
+! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea|no entiendo
 
 ! array badregister = mal registrado|mal ingresado|mal anadidos|mal registrados|mal ingresados|mal anadido|mal ingresadio
 
@@ -232,7 +232,7 @@
 
 ! array rutaccount= cuenta rut|cuentas rut|rut
 
-! array delay= demora|demoran|tarda|tardan|tardar|demorar|demorando
+! array delay= demora|demoran|tarda|tardan|tardar|demorar|demorando|pasado varios minutos|pasado minutos|pasados varios minutos|pasados minutos
 
 ! array why= por que|porque|xq|porq|por q|porke|por ke|pq
 
@@ -273,5 +273,6 @@
 ! array use= usar|uso|usaria|se usan|se usa
 
 ! array service = servicio|servicios
+
 
 //! array filerow = registro|linea|persona|beneficiario|destinatario

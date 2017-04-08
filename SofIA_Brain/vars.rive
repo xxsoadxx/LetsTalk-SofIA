@@ -24,7 +24,7 @@
 
 ! var respuesta13 = Debe modificar el monto máximo que tiene asignado para transferir. El monto máximo está determinado por el límite monto transferencias diaria que fijó su empresa, puede corroborarlo en pestaña Transferencias - Monto transferencias diarias
 
-! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronirzación Bci Multipass, y continúe con los pasos solicitados
+! var respuesta15= Favor ingresar a la opción Seguridad (que se encuentra en el sitio web parte superior derecha, icono candado de color azul) opción Bci Multipass/Sincronización Bci Multipass, y continúe con los pasos solicitados
 
 ! var respuesta16= Para realizar una transferencia en Moneda Extranjera favor ingresar por Menú Comex, ingresar a Transferencia en Moneda Extranjera y luego a Transferir a Otros Bancos
 
@@ -166,3 +166,8 @@
 
 ! var respuesta100= Podría ser mas especifico, por favor.
 ! var respuesta101= Al ingresar un pago de nómina puede firmarse hasta las 23:50 pm ya que si no es firmada por apoderados caduca automáticamente.
+
+! var respuesta102= Consulte en Estado de Nóminas, ahí le aparecerán las nóminas rechazadas y el motivo de forma detallada.
+
+
+
