@@ -234,13 +234,7 @@
 +  [*] (@file)  [*] (@detail) [*] (@alreadypay) [*]
 - <bot respuesta12>
 
-//Problemas de Multipass
 
-+ [*] (@problems) [*] (@multipass) [*]
-- <bot respuesta15>
-
-+ [*] (@multipass) [*] (@problems) [*]
-- <bot respuesta15> 
 
 //Transferencia de Fondos Monex
 
@@ -1794,10 +1788,10 @@
 
 //hola. donde puedo consultar los pagos que me han efectuado por nomina?
 
-+ [*] (@consult) [*] (@file) [*]
++ [*] (@get) [*] (@file) [*]
 - <bot respuesta81>
 
-+ [*] (@file) [*] (@consult) [*]
++ [*] (@file) [*] (@get) [*]
 - <bot respuesta81>
 - <bot respuesta75>
 
@@ -1836,6 +1830,15 @@
 
 +  [*] (@file)  [*] (@reject) [*]
 - <bot respuesta54>
+
+
+//Cómo elimino la nómina? 
+
++  [*] (@delete)  [*] (@beneficiary) [*]
+- <bot respuesta53>
+
++  [*] (@beneficiary)  [*] (@delete) [*]
+- <bot respuesta53> 
 
 //Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
@@ -1960,6 +1963,15 @@
 
 + [*] (@delay) [*] (@file) [*]
 - <bot respuesta20>
+
+
+//No puedo cargar planilla de pagos, indica que el servicio no se encuentra disponible en este momento, que intente mas tarde o comunicarse con su ejecutivo
+
++ [*] (@cant) [*] (@offline) [*]
+- <bot respuesta57>
+
++ [*] (@offline) [*] (@cant) [*]
+- <bot respuesta57>
 
 //Cómo cargo mi archivo de pago de nómina en línea?
 //Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus getas relacionadas.
@@ -2106,13 +2118,7 @@
 + [*] (@do) [*] (@upload) [*]
 - <bot respuesta6>
 
-//Cómo elimino la nómina? 
 
-+  [*] (@delete)  [*] (@beneficiary) [*]
-- <bot respuesta53>
-
-+  [*] (@beneficiary)  [*] (@delete) [*]
-- <bot respuesta53> 
 
 //error subiendo archivo
 
@@ -2127,6 +2133,23 @@
 
 + [*] (@file) [*] (@problems) [*]
 - <bot respuesta54>
+
+
+//Problemas de Multipass
+
++ [*] (@problems) [*] (@multipass) [*]
+- <bot respuesta15>
+
++ [*] (@multipass) [*] (@problems) [*]
+- <bot respuesta15> 
+
+//Problemas de Multipass
+
++ [*] (@error) [*] (@multipass) [*]
+- <bot respuesta15>
+
++ [*] (@multipass) [*] (@error) [*]
+- <bot respuesta15> 
 
 //Como transfiero personas
 
@@ -2277,33 +2300,7 @@
 + [*] (@error) [*] (@file) [*] (@upload)
 - <bot respuesta100>
 
-+ [*] (@problems) [*] (@file)
-- <bot respuesta100>
 
-+ [*] (@problems) [*] (@upload) 
-- <bot respuesta100>
-
-+ [*] (@upload) [*] (@problems)
-- <bot respuesta100>
-
-+ [*] (@file) [*] (@problems) 
-- <bot respuesta100>
-
-+ [*] (@error) [*] (@file)
-- <bot respuesta100>
-
-+ [*] (@error) [*] (@upload) 
-- <bot respuesta100>
-
-
-+ [*] (@file) [*] (@error)
-- <bot respuesta100>
-
-+ [*] (@upload) [*] (@error) 
-- <bot respuesta100>
-
-+ [*] (@problems) [*] (@warning) 
-- <bot respuesta100>
 
 
 + [*] (@validate) [*] (@file) 
@@ -2332,6 +2329,33 @@
 + [*] (@register) [*] (@file) [*]
 - <bot respuesta6> 
 
++ [*] (@problems) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@problems) [*] (@upload) 
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@problems)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@problems) 
+- <bot respuesta100>
+
++ [*] (@error) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@error) [*] (@upload) 
+- <bot respuesta100>
+
+
++ [*] (@file) [*] (@error)
+- <bot respuesta100>
+
++ [*] (@upload) [*] (@error) 
+- <bot respuesta100>
+
++ [*] (@problems) [*] (@warning) 
+- <bot respuesta100>
 
 
 

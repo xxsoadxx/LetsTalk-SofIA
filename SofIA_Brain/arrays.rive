@@ -70,7 +70,7 @@
 
 ! array alreadypay = ya pago|ya pague|ya pagos|ya paga|ya pagada|ya pagado|ya pagadas|ya pagados|ya pagas
 
-! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra|desaparecen|no se puede visualizar|no se pueden visualizar|no se visualiza|no se visualizan|aun esta en proceso|no se donde esta
+! array  notfound=no se ve|no la veo|nada de nada|nada aun|no pude encontrarla|no encuentro|no la encuentro|no me aparece|no me aparecen|no me aparecio|no me aparecieron|no me figura|no me figuran|no me figuraron|no me muestra|no me mostro|no me muestran|no me deja ver|no me dejo ver|no me dejan ver|no aparece|no aparecen|no aparecio|no aparecieron|no figura|no figuran|no figuraron|no muestra|no me mostro|no muestran|no deja ver|no dejo ver|no dejan ver|no veo|desaparece|desaparecio|desaparecieron|no sale|no salieron|no esta apareciendo|no encunetro|solo veo|no se encuentran|no se encuentra|desaparecen|no se puede visualizar|no se pueden visualizar|no se visualiza|no se visualizan|aun esta en proceso|no se donde esta|no puedo verla|no puedo verlo|no puedo verlas|no puedo verlos
 
 ! array sign=firmar firman firmaron firma firmas firmarla
 
@@ -102,7 +102,7 @@
 
 ! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica|reiterada
 
-! array error=error errores equivocacion equivocada equivocado falla fallar fallido problema problemas
+! array error=error errores equivocacion equivocada equivocado falla fallar fallido problema problemas erronea
 
 ! array composition= estructura|estructurado|estructuras|estructurar|composicion|composicionado|componer|compone|composiciones|esqueleto|esqueletos
 
