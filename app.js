@@ -5,14 +5,14 @@ var db = require('diskdb');
 db = db.connect('./db', ['data','log']);
 var config = require('./config');
 // Create the bot.
-var bot = new RiveScript({debug:true});
+var bot = new RiveScript({debug:false});
 bot.setSubroutine('myFunction', function(rs, args){
         return "Ejecuto!"
 });
 
 //Accents
 function accents(text) {
-    var dict = {"À":"a","É":"e","Ì":"i","Ò":"o","Ù":"u","à":"a","è":"e","ì":"i","ò":"o","ù":"u","á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u","Á":"a","É":"e","Í":"i","Ó":"o","Ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" " , ":":" "  , "\\":" ", "\"":" "  ,"$":" monto ","(":"", ")":"" }
+    var dict = {"À":"a","É":"e","Ì":"i","Ò":"o","Ù":"u","à":"a","è":"e","ì":"i","ò":"o","ù":"u","á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u","Á":"a","É":"e","Í":"i","Ó":"o","Ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" " , ":":" "  , "\\":" ", "\"":" "  ,"$":" monto ","(":" ", ")":" " }
     
     text = text.replace(/[^\w ]/g, function(char) {
         var val = dict[char] || char;

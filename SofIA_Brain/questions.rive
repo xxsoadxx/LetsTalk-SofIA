@@ -1855,6 +1855,11 @@
 + [*] (@file) [*] (@upload) [*] (@waiting) [*]
 - <bot respuesta20>
 
++ [*] (@available) [*] (@file) [*] (@upload) [*]
+- <bot respuesta20>
+
++ [*] (@available) [*] (@upload) [*] (@file) [*]
+- <bot respuesta20>
 
 
 + [*] (@offline) [*] (@file) [*] (@upload) [*]
@@ -1941,21 +1946,39 @@
 
 
 + [*] (@cant) [*] (@sign) [*] (@file)
-- <bot respuesta100>
+- <bot respuesta102>
 
 + [*] (@cant) [*] (@file) [*] (@sign)
-- <bot respuesta100>
+- <bot respuesta102>
 
 + [*] (@file) [*] (@cant) [*] (@sign)
-- <bot respuesta100>
+- <bot respuesta102>
 
 + [*] (@file) [*] (@sign) [*] (@cant)
-- <bot respuesta100>
+- <bot respuesta102>
 
 + [*] (@cant) [*] (@sign) [*] (@file)
-- <bot respuesta100>
+- <bot respuesta102>
 
 + [*] (@cant) [*] (@file) [*] (@sign)
+- <bot respuesta102>
+
++ [*] (@try) [*] (@file) [*] (@sign) [*]
+- <bot respuesta100>
+
++ [*] (@file) [*] (@try) [*] (@sign) [*]
+- <bot respuesta100>
+
++ [*] (@file) [*] (@sign) [*] (@try) [*]
+- <bot respuesta100>
+
++ [*] (@sign) [*] (@file) [*] (@try) [*]
+- <bot respuesta100>
+
++ [*] (@sign) [*] (@try) [*] (@file) [*]
+- <bot respuesta100>
+
++ [*] (@try) [*] (@sign) [*] (@file) [*]
 - <bot respuesta100>
 
 
@@ -2102,9 +2125,9 @@
 
 
 
-+ [*] (@file) [*] (@get) [*]
-- <bot respuesta81>
-- <bot respuesta75>
+
+
+
 
 + [*] (@sign) [*] (@file)  [*] (@days) [*]
 - <bot respuesta75>
@@ -2157,6 +2180,8 @@
 //Estoy intentando autorizar un Beneficiario y no puedo
 //El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
 
++ [*] (@where) [*] (@authorize) [*] (@beneficiary) [*]
+- <bot respuesta38>
 + [*] (@authorize) [*] (@beneficiary) [*]
 - <bot respuesta38>
 
@@ -2287,6 +2312,22 @@
 + [*] (@validate) [*] (@transfers) [*]
 - <bot respuesta20> 
 
+//Costo del servicio
++ [*] (@need) [*] (@cost) [*]
+- <bot respuesta62>
+
++ [*] (@cost) [*] (@need) [*]
+- <bot respuesta62>
+
+//cuanto sale el pago de nomina?
++ [*] (@cost) [*] (@file) [*]
+- <bot respuesta62>
+
++ [*] (@cost) [*] (@upload) [*]
+- <bot respuesta62>
+
++ [*] (@upload) [*] (@cost) [*]
+- <bot respuesta62>
 + [*] (@upload) [*] (@file) [*]
 - <bot respuesta6> 
 
@@ -2472,7 +2513,13 @@
 + [*] (@file) [*] (@backup) [*]
 - <bot respuesta56>
 
+//no me aparece beneficiario
 
++ [*] (@dontshow) [*] (@beneficiary) [*]
+- <bot respuesta54>
+
++ [*] (@beneficiary) [*] (@dontshow) [*]
+- <bot respuesta54>
 
 //necesito modificar datos de contadora no puedo
 
@@ -2487,20 +2534,6 @@
 
 + [*] (@user) [*] (@modify) [*]
 - <bot respuesta80>
-
-//Costo del servicio
-+ [*] (@need) [*] (@cost) [*]
-- <bot respuesta62>
-
-+ [*] (@cost) [*] (@need) [*]
-- <bot respuesta62>
-
-//cuanto sale el pago de nomina?
-+ [*] (@cost) [*] (@file) [*]
-- <bot respuesta62>
-
-+ [*] (@cost) [*] (@upload) [*]
-- <bot respuesta62>
 
 //que va en "tipo de pago"
 
@@ -2517,7 +2550,25 @@
 + [*] (@upload) [*] (@cost) [*]
 - <bot respuesta62>
 
-//Donde subo una nomina
+//necesito codigo banco consorcio
++ [*] (@need) [*] (@authcode) [*] (@consortiumbank) [*]
+- <bot respuesta92>
+
++ [*] (@authcode) [*] (@need) [*] (@consortiumbank) [*]
+- <bot respuesta92>
+
++ [*] (@authcode) [*] (@consortiumbank) [*] (@need) [*]
+- <bot respuesta92>
+
++ [*] (@consortiumbank) [*] (@authcode) [*] (@need) [*]
+- <bot respuesta92>
+
++ [*] (@consortiumbank) [*] (@need) [*] (@authcode) [*]
+- <bot respuesta92>
+
++ [*] (@need) [*] (@consortiumbank) [*] (@authcode) [*]
+- <bot respuesta92>
+
 
 + [*] (@notfound) [*] (@upload) [*] (@file) [*]
 - <bot respuesta9>
@@ -2671,6 +2722,11 @@
 + [*] (@problems) [*] (@warning) 
 - <bot respuesta100>
 
++ [*] (@file) [*] (@notnumericamount) [*] 
+- <bot respuesta10>
+
++ [*] (@notnumericamount) [*] (@file) [*]
+- <bot respuesta10>
 
 //NECESITO EL FORMATO EN EXCEL POR FAVOR
 
@@ -2780,6 +2836,9 @@
 //hola. donde puedo consultar los pagos que me han efectuado por nomina?
 
 + [*] (@get) [*] (@file) [*]
+- <bot respuesta81>
+
++ [*] (@file) [*] (@get) [*]
 - <bot respuesta81>
 
 + *
