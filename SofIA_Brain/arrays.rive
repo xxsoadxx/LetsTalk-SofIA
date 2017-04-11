@@ -276,6 +276,7 @@
 
 ! array service = servicio|servicios
 
-! array notnumericamount = monto no numerico|montos no numericos|montos no numerico|monto no numericos
+! array notnumericamount = monto no numerico|montos no numericos|montos no numerico|monto no numericos|monto no es numerico|montos no es numericos|monto no son numericos
+
 
 //! array filerow = registro|linea|persona|beneficiario|destinatario

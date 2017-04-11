@@ -1803,11 +1803,6 @@
 + [*] (@file) [*] (@where) [*] (@view) [*]
 - <bot respuesta82>
 
-+ [*] (@view) [*] (@file) [*] 
-- <bot respuesta82>
-
-+ [*] (@view) [*] (@upload) [*] 
-- <bot respuesta82>
 
 //el usuario no puede firmar
 
@@ -2722,11 +2717,22 @@
 + [*] (@problems) [*] (@warning) 
 - <bot respuesta100>
 
+//Monto no numericp
+
+
 + [*] (@file) [*] (@notnumericamount) [*] 
 - <bot respuesta10>
 
 + [*] (@notnumericamount) [*] (@file) [*]
 - <bot respuesta10>
+
+//Donde esta la nomina
+
++ [*] (@view) [*] (@file) [*] 
+- <bot respuesta82>
+
++ [*] (@view) [*] (@upload) [*] 
+- <bot respuesta82>
 
 //NECESITO EL FORMATO EN EXCEL POR FAVOR
 
