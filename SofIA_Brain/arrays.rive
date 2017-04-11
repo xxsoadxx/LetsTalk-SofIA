@@ -22,13 +22,13 @@
 
 ! array beneficiary = destinarios|destinarias|destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina|destinario|destinaria|personas para ingresar|persona para ingresar|empleados|empleado|empleada|empleadas|trabajadores|trabajadoras|trabajador|trabajadora|asalariado|asalariada|asalariadas|asalariados|laburante|laburantes|laburador|cuenta nueva|cuentas nuevas|nuevas cuentas|nueva cuenta
 
-! array welcome     = hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
+! array welcome     = hay alguien|hola|como estas|que haces|buen dia|buenas tardes|buenas noches|estas|necesito ayuda|hay alguien|buenas|saludo|saludos|que tal|alo|buenos dias|hi
 
 ! array thanks      = gracias|muchas gracias|listo gracias
 
-! array help        = necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar|asesoren|asesoria|asesore
+! array help        = help|auxilio|necesito ayuda|me ayudas|ayuda|me asistes|asistencia|necesito una mano|me ayudarias|me asistirias|ayudar|asesoren|asesoria|asesore
 
-! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo
+! array yes         = si|sii|sabelo|ok|dale|afirmativo|dale gas|encajale|metele|siii|bueno|listo|perfecto
 
 ! array no          = no nah nope no none na 
 
@@ -80,7 +80,7 @@
 
 ! array problems=problemas|problema|dificultad|dificultades|complicar|complicacion|complicaciones|contratiempo|contratiempos|inconveniente|inconvenientes|aprieto|aprietos|ayuda urgente|urgente|no se autoriza
 
-! array multipass = multipass|multipas|digipass|digipas|dispositivo|multi pass|multi pas|claves digitales|clave digital|claves digital
+! array multipass = pinpass|multipass|multipas|digipass|digipas|dispositivo|multi pass|multi pas|claves digitales|clave digital|claves digital
 
 ! array do = realizar realice realizo realizamos realizaremos hacer hice hare hacemos hicimos haremos efectuar efectuarse efectuaremos efectuamos hago hagamos
 

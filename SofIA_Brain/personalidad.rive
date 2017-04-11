@@ -1,6 +1,10 @@
 + (@welcome) [*] (sofia|sofi)
 - Hola ¿Le puedo ayudar en algo?
 
++ (sofia|sofi|buenas|hay alguien)
+- Hola ¿Le puedo ayudar en algo?
+
+
 //En que me puedes ayudar?
 
 // ¿Hay algo más que pueda hacer por ti?
@@ -32,14 +36,11 @@
 // Como es tu nombre?
 
 + [*] (@namebot)
-* <get name> == undefined => Mi nombre es Sofia y soy su asistente personal, ¿como se llama usted? {topic=ask_name}.
-* <get name> == undefined => Puedes llamarme Sofia y soy su asistente personal. Intentare evacuar sus dudas. ¿Cual es su nombre? {topic=ask_name}.
-- Te lo repito, <get name>, mi nombre es Sofia. ¿En que le puedo servir?
-- Te lo dire nuevamente, <get name>, mi nombre es Sofia. ¿En que le puedo ayudar?
+* <get name> == undefined => Mi nombre es Sofia y soy su asistente personal. Puedo responder preguntas respecto a Pago de Nóminas
 
 //Necesito ayuda
 + (@need) [*] (@help)
-- Puedo ayudarte en todo lo que necesites. Solo preguntame claramente y con gusto te respondere. :)
+- Dime en qué te puedo ayudar. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
 
 //Hola
 //(@welcome) [*]
@@ -56,36 +57,18 @@
 //chau
 
 + [*] (@goodbye) [*]
-* <get name> != undefined => Hasta pronto, <get name>! 
-* <get name> != undefined => Nos vemos, <get name>! 
-* <get name> != undefined => Adios, <get name>! 
-* <get name> != undefined => Hasta la vuelta, <get name>!
-* <get name> != undefined => Hasta luego, <get name>! en que me
 - Hasta pronto! 
 - Nos vemos! 
 - Adios! 
 - Hasta la vuelta! 
 - Hasta luego!
 
+//chau
 
-> topic ask_name
-
-  + #
-  - ¿Tu nombre es un numero?
-  - Vamos, dime tu nombre.
-
-   + *
-  - Solo necesito tu primer nombre o como quieras que te llame.
-  - Vamos, dime tu nombre.
-
-  
-  + (@myname) *
-  - <set name={formal}<star2>{/formal}>Encantado de conocerte, <get name>! ¿En que le puedo ayudar?{topic=random}
-  - <set name={formal}<star2>{/formal}>Bienvenido, <get name>! ¿En que le puedo ayudar?{topic=random}
-
-  + _
-  - <set name=<formal>>Encantado de conocerte, <get name>! ¿En que te puedo ayudar?{topic=random}
-  - <set name=<formal>>Bienvenido, <get name>! ¿En que te puedo ayudar?{topic=random}
++ [*] (que eres capaz de responder|en que me puedes ayudar|para que servis|para que serbis|para que te hicieron|para que te crearon|que es esto)
+- Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
 
 
-< topic
++ [*] (que debo hacer|que tengo que hacer|que deberia hacer|que se supone que haga|que tendria que hacer|y ahora|y esto|esto no sirve|esto no sirbe|mierda|porqueria|maldita)
+- Debes escribir tu pregunta respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+
