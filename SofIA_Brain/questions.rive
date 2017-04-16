@@ -119,6 +119,22 @@
 //Cómo cargo una nómina manualmente? 
 //Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.
 
++ [*] (@upload) [*] (@file) [*] (@manual) [*] (@sign) [*]
+- <bot respuesta9>
+
++ [*] (@upload) [*] (@file) [*] (@sign) [*] (@manual) [*]
+- <bot respuesta9>
+
++ [*] (@upload) [*] (@manual) [*] (@file) [*] (@sign) [*]
+- <bot respuesta9>
+
++ [*] (@upload) [*] (@manual) [*] (@sign) [*] (@file) [*]
+- <bot respuesta9>
+
+
+//Cómo cargo una nómina manualmente? 
+//Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.
+
 + [*] (@upload) [*] (@file) [*] (@manual) [*]
 - <bot respuesta8>
 
@@ -868,6 +884,25 @@
 + [*] (@file) [*] (@delay) [*] (@validate) [*]
 - <bot respuesta20>
 
+//ingrese una nomina la semana pasada para firma y no esta disponible
+
++ [*] (@past) [*] (@file) [*] (@novalidate) [*]
+- <bot respuesta75>
+
++ [*] (@past) [*] (@novalidate) [*] (@file) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@novalidate) [*] (@past) [*]
+- <bot respuesta75>
+
++ [*] (@file) [*] (@past) [*] (@novalidate) [*] 
+- <bot respuesta75>
+
++ [*] (@novalidate) [*] (@file) [*] (@past) [*] 
+- <bot respuesta75>
+
++ [*] (@novalidate) [*] (@past) [*] (@file) [*]  
+- <bot respuesta75>
 
 //ingrese una nomina la semana pasada para firma y hoy no aparece
 
@@ -1478,6 +1513,27 @@
 + [*] (@get) [*] (@file) [*] (@format) [*]
 - <bot respuesta79>
 
+//se crean automaticamente los destinatarios de una nomina?
+
++ [*] (@register) [*] (@automated) [*] (@beneficiary) [*]
+- <bot respuesta104>
+
++ [*] (@register) [*] (@beneficiary) [*] (@automated) [*]
+- <bot respuesta104>
+
++ [*] (@beneficiary) [*] (@register) [*] (@automated) [*]
+- <bot respuesta104>
+
++ [*] (@beneficiary) [*] (@automated) [*] (@register) [*]
+- <bot respuesta104>
+
++ [*] (@automated) [*] (@beneficiary) [*] (@register) [*]
+- <bot respuesta104>
+
++ [*] (@automated) [*] (@register) [*] (@beneficiary) [*]
+- <bot respuesta104>
+
+
 // continua 
 // //Ingrese una nómina y me aparece con Observaciones. Necesito saber  cual es el error?
 //Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta.
@@ -1825,6 +1881,26 @@
 - <bot respuesta85>
 
 //Cuanto tarda en cargar una nomina
++ [*] (@howlong) [*] (@account) [*] (@beneficiary) [*]
+- <bot respuesta103>
+
++ [*] (@howlong) [*] (@beneficiary) [*] (@account) [*]
+- <bot respuesta103>
+
++ [*] (@beneficiary) [*] (@account) [*] (@howlong) [*]
+- <bot respuesta103>
+
++ [*] (@beneficiary) [*] (@howlong) [*] (@account) [*]
+- <bot respuesta103>
+
++ [*] (@account) [*] (@beneficiary) [*] (@howlong) [*]
+- <bot respuesta103>
+
++ [*] (@account) [*] (@howlong) [*] (@beneficiary) [*]
+- <bot respuesta103>
+
+
+//Cuanto tarda en cargar una nomina
 + [*] (@howlong) [*] (@file) [*] (@upload) [*]
 - <bot respuesta20>
 
@@ -1993,6 +2069,26 @@
 - <bot respuesta100>
 
 + [*] (@upload) [*] (@cant) [*] (@file)
+- <bot respuesta100>
+
+
+
++ [*] (@need) [*] (@help) [*] (@file)
+- <bot respuesta100>
+
++ [*] (@need) [*] (@file) [*] (@help)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@need) [*] (@help)
+- <bot respuesta100>
+
++ [*] (@file) [*] (@help) [*] (@need)
+- <bot respuesta100>
+
++ [*] (@help) [*] (@file) [*] (@need)
+- <bot respuesta100>
+
++ [*] (@help) [*] (@need) [*] (@file)
 - <bot respuesta100>
 
 //Hasta que hora se peude subir una nomina
@@ -2461,19 +2557,6 @@
 
 
 
-//error subiendo archivo
-
-+ [*] (@error) [*] (@file) [*]
-- <bot respuesta54>
-
-+ [*] (@file) [*] (@error) [*]
-- <bot respuesta54>
-
-+ [*] (@problems) [*] (@file) [*]
-- <bot respuesta54>
-
-+ [*] (@file) [*] (@problems) [*]
-- <bot respuesta54>
 
 
 //Problemas de Multipass
@@ -2510,10 +2593,10 @@
 
 //no me aparece beneficiario
 
-+ [*] (@dontshow) [*] (@beneficiary) [*]
++ [*] (@notfound) [*] (@beneficiary) [*]
 - <bot respuesta54>
 
-+ [*] (@beneficiary) [*] (@dontshow) [*]
++ [*] (@beneficiary) [*] (@notfound) [*]
 - <bot respuesta54>
 
 //necesito modificar datos de contadora no puedo
@@ -2604,6 +2687,29 @@
 
 + [*] (@file) [*] (@where) [*] (@upload) [*]
 - <bot respuesta61>
+
+
+//Error Monto no numericp
+
+
++ [*] (@file) [*] (@notnumericamount) [*] (@error) [*] 
+- <bot respuesta10>
+
++ [*] (@file) [*] (@error) [*] (@notnumericamount) [*] 
+- <bot respuesta10>
+
++ [*] (@notnumericamount) [*] (@file) [*] (@error) [*] 
+- <bot respuesta10>
+
++ [*] (@notnumericamount) [*] (@error) [*] (@file) [*] 
+- <bot respuesta10>
+
++ [*] (@error) [*] (@notnumericamount) [*] (@file) [*] 
+- <bot respuesta10>
+
++ [*] (@error) [*] (@file) [*] (@notnumericamount) [*] 
+- <bot respuesta10>
+
 
 
 
@@ -2726,6 +2832,30 @@
 + [*] (@notnumericamount) [*] (@file) [*]
 - <bot respuesta10>
 
+//Error monto no numericp
+
+
++ [*] (@error) [*] (@notnumericamount) [*] 
+- <bot respuesta10>
+
++ [*] (@notnumericamount) [*] (@error) [*]
+- <bot respuesta10>
+
+//error subiendo archivo
+
++ [*] (@error) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@error) [*]
+- <bot respuesta54>
+
++ [*] (@problems) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@problems) [*]
+- <bot respuesta54>
+
+
 //Donde esta la nomina
 
 + [*] (@view) [*] (@file) [*] 
@@ -2798,6 +2928,7 @@
 
 + [*] (@file) [*] (@problems) [*]
 - <bot respuesta54>
+
 
 
 

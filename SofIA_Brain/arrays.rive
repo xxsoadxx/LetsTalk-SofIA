@@ -12,13 +12,13 @@
 
 ! array need        = no estan|tengo que|debo|puedo|pueden|necesito|quiero|como|probando|preciso|imploro|ruego|deseo|anhelo|quisiera|quisioera|desearia|necesitaria|precisaria|cual es|indicar
 
-! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|agrega|creo|crea|anexar|se ingresa|poner|insertarlas|insertar|pongo
+! array register    = nuevo|nuevos|generar|ingresar|integrarlos|registrar|registrarlos|registrados|registro|agrego|agregar|agregarlos|sumar|sumarlos|dar de alta|doy de alta|darlos de alta|ingresarlos|almacenarlos|insertarlos|adherirlos|adherir|ingreso|ingresar|inscribir|nvo|ingresado|creando|crear|agrega|creo|crea|anexar|se ingresa|poner|insertarlas|insertar|pongo|crean
 
 ! array authorize    = autorizar|autorizo|autorizados|autorizarlos|autorizarlo|autorizacion|permitir|permitirlos|permitirlo|permiso|permisos|aprobar|aprobarlos|aprobarlo|autorizado|autoriada|autorizadas|autoriza|apruebo|aprueban
 
 ! array consortiumbank = banco consorcio|consorcio bancos|bancos consorcios|bancos consorcio
 
-! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando
+! array activate    = activar|activo|activando|activarlo|activarla|activarlos|activarlas|habilitar|habilitarlos|habilitarlo|habilitarlas|habilitarla|habilitando|activan
 
 ! array beneficiary = destinarios|destinarias|destinatarios|destinatario|beneficiario|beneficiarios|persona en mi nomina|personas en mi nomina|personas en mi nominas|persona en mi nominas|nombre|personas ingresadas en la nomina|persona ingresada en la nomina|personas ingresadas en la nomina|persona que esta en la nomina|personas que estan en la nomina|personas que estan ingresadas en la nomina|persona que esta ingresada en la nomina|destinario|destinaria|personas para ingresar|persona para ingresar|empleados|empleado|empleada|empleadas|trabajadores|trabajadoras|trabajador|trabajadora|asalariado|asalariada|asalariadas|asalariados|laburante|laburantes|laburador|cuenta nueva|cuentas nuevas|nuevas cuentas|nueva cuenta
 
@@ -104,7 +104,7 @@
 
 ! array repeat=repetida|repetido|repetir|repitio|reiterar|reitera|reiterado|duplicado|duplicada|duplicar|duplica|reiterada
 
-! array error=error errores equivocacion equivocada equivocado falla fallar fallido problema problemas erronea
+! array error=error errores equivocacion equivocada equivocado falla fallar fallido problema problemas erronea erro
 
 ! array composition= estructura|estructurado|estructuras|estructurar|composicion|composicionado|componer|compone|composiciones|esqueleto|esqueletos
 
@@ -183,7 +183,7 @@
 
 ! array motive= motivo|motivos|razones|razon|causa|causas
 
-! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|rechazaron|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos|rechazan|rechazadas|rechazados
+! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|rechazaron|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos|rechazan|rechazadas|rechazados|devuelta|devolucion
 
 ! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea|no entiendo
 
@@ -220,13 +220,11 @@
 
 ! array receivedpayment= pago recibido|pagos recibidos|pago recibidos|pagos recibido|pagos que me han efectuados|pagos que he recibido
 
-! array automated= automatico|automatica|automaticos|automaticas|automaticamente
-
 ! array again= otra vez|de vuelta|de nuevo|nuevamente|denuevo|devuelta
 
 ! array user= usuario usuaria usuarios usuarias
 
-! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision|no validan
+! array novalidate = no valida|aun esta en validacion|sigue en validacion|aun no valida|no se valida|no esta valida|no disponible|en revision|no validan|no esta disponible
 
 ! array massive= masivo|masivos|masiva|masivas
 
@@ -248,7 +246,7 @@
 
 ! array paymenttype= tipo de pago|tipos de pago|tipos de pagos|tipo pago|tipos pagos|tipo pagos|tipos pago
 
-! array howlong = cuanto demora|cuanto tarda|cuanto se demora|cuanto se tarda|cuanto demoraria|cuanto tardaria|cuanto se tardaria|cuanto se demoraria|cuanto dura|duracion
+! array howlong = cuanto demora|cuanto tarda|cuanto se demora|cuanto se tarda|cuanto demoraria|cuanto tardaria|cuanto se tardaria|cuanto se demoraria|cuanto dura|duracion|cuanto tiempo
 
 ! array waiting = esperando|aguardando|aguardo|espero|esperar|aguardar|aguantar|permanecer
 
@@ -276,7 +274,7 @@
 
 ! array service = servicio|servicios
 
-! array notnumericamount = monto no numerico|montos no numericos|montos no numerico|monto no numericos|monto no es numerico|montos no es numericos|monto no son numericos
+! array notnumericamount = monto no numerico|montos no numericos|montos no numerico|monto no numericos|monto no es numerico|montos no es numericos|monto no son numericos|no es numero
 
 
 //! array filerow = registro|linea|persona|beneficiario|destinatario
