@@ -32,7 +32,7 @@
 
 ! array no          = no nah nope no none na 
 
-! array cant        = no puedo|no estoy pudiendo lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no pude|no pudimos lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no lo puedo|no estoy pudiendo|no pude|fracase|no lo logre|no logro|no logre|no lo consegui|no estoy consiguiendo|no lo estoy consiguiendo|no estoy logrando|no lo estoy logrando|no me es posible|no me deja
+! array cant        = no puedo|no estoy pudiendo lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no pude|no pudimos lograr|no estoy pudiendo conseguir|no estoy pudiendo lograrlo|no estoy pudiendo conseguirlo|no lo puedo|no estoy pudiendo|no pude|fracase|no lo logre|no logro|no logre|no lo consegui|no estoy consiguiendo|no lo estoy consiguiendo|no estoy logrando|no lo estoy logrando|no me es posible|no me deja|no me permite|no me estaria permitiendo|no me permitiria|no me permitio|no me esta permitiendo|no permite|no permitio
 
 ! array recover     = recuperar|restaurar|restauro|recuperaria|recupere|recuperare|restaurare|restauraria|recobrar|restablecer|recobrare|restablecere|restablezco|restableci
 
@@ -51,6 +51,8 @@
 ! array file   = archivo|archivos|planilla|planillas|documento|documentos|nomina|nominas|transferencia masiva|transferencias masivas|anticipos|anticipo|nomima|a la vez
 
 ! array program = programar|agendar|agendare|programare|planear|planificar|planificaria|programaria|agendaria|programado|agendado|programados|agendados|planificado|programo|programa|programas|planee|agendo|programada|reutilizar|reutilizarlas|reutilizarlos
+
+! array future= mañana|otro dia|futuro
 
 ! array manual = manualmente|manual|casero
 
@@ -136,6 +138,8 @@
 
 ! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13|m|cuenta inscrita como
 
+! array contact= contacto|contactar|hablar|comunicar|comunicarme|contactarme|contacteme
+
 ! array column= columna|columnas|col
 
 ! array howyoufeel= como estas|como te sientes|todo bien|todo en orden|como tu estas|como te va|como va
@@ -157,7 +161,7 @@
 ! array pay= pago pagos pagado pagados paga pagada pagadas pagas saldado
 ! array payment= pago|pagar|pague|pagos
 
-! array past = ayer|antes de ayer|otro dia|hace unos dias|semana pasada|dias atras|pasado|atras|anterior|hace dias|vieja|hace un tiempo|antiguos|antiguo|viejas|vieja
+! array past = ayer|antes de ayer|otro dia|hace unos dias|semana pasada|dias atras|pasado|atras|anterior|hace dias|vieja|hace un tiempo|antiguos|antiguo|viejas|vieja|rango de fechas|rango de fecha
 
 ! array month = enero|febrero|marzo|abril|mayo|junio|julio|agosto|setiembre|septiembre|octubre|noviembre|diciembre|feb
 
@@ -193,6 +197,7 @@
 
 ! array where= donde|adonde|en donde|en que lugar|en que ubicacion|en que lugares|en que ubicaciones
 
+! array works= funciona opera trabaja trabajan operan funcionan 
 
 ! array paymentservices = pagos y servicios|pago y servicio|pagos y servicio|pago y servicios
 
@@ -200,7 +205,7 @@
 
 ! array nomoney= sin saldo|saldo 0|no tengo saldo|no aparece saldo|no figura saldo|sin saldos|saldos 0|no tengo saldos|no aparece saldo
 
-! array cost = cuesta|sale|vale|costaria|saldria|valdria|costo|precio|valor
+! array cost = cuesta|sale|vale|costaria|saldria|valdria|costo|precio|valor|costos
 
 ! array automated= automatico|automatica|automaticos|automaticas|automaticamente
 
@@ -275,6 +280,8 @@
 ! array service = servicio|servicios
 
 ! array notnumericamount = monto no numerico|montos no numericos|montos no numerico|monto no numericos|monto no es numerico|montos no es numericos|monto no son numericos|no es numero
+
+! array contract= integrar contratar contratan contratamos contratariamos adquirir adquirimos
 
 
 //! array filerow = registro|linea|persona|beneficiario|destinatario

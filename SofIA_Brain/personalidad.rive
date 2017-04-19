@@ -63,9 +63,21 @@
 - Hasta la vuelta! 
 - Hasta luego!
 
-//chau
++ [*] (quien eres|quien sos|que sos|quien esta|tu eres|tu sos|con quien tengo el gusto|con quien hablo|con quien estoy) [*]
+- Soy Sofía un asistente virtual capaz de responder preguntas respecto a Pago de Nóminas. Trata ser claro y no escribir con saltos de línea.
 
-+ [*] (que eres capaz de responder|en que me puedes ayudar|para que servis|para que serbis|para que te hicieron|para que te crearon|que es esto)
++ [*] (a que te dedicas|de que trabajas|que haces|cual es tu tarea|cual es tu ocupacion|cual es tu trabajo|que trabajo haces|que rol cumples) [*]
+- Soy un asistente virtual capaz de responder preguntas respecto a Pago de Nóminas. Trata ser claro y no escribir con saltos de línea.
+
++ [*] (@contact) [*] (ejecutivo|agente|ejecutivos|agentes) [*]
+- <bot respuesta54>
+
++ [*] (ejecutivo|agente|ejecutivos|agentes) [*] (@contact) [*]
+- <bot respuesta54>
+
+
+
++ [*] (que eres capaz de responder|me puedes ayudar|puedes ayudarme|para que servis|para que serbis|para que te hicieron|para que te crearon|que es esto)
 - Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
 
 

@@ -39,22 +39,62 @@
 //puedo programar transferencias?
 
 + [*] (@need) [*] (@program) [*] (@transfers) [*]
-- <bot respuesta86>
+- <bot respuesta7>
 
 + [*] (@program) [*] (@need) [*] (@transfers) [*]
-- <bot respuesta86>
+- <bot respuesta7>
 
 + [*] (@program) [*] (@transfers) [*] (@need) [*]
-- <bot respuesta86>
+- <bot respuesta7>
 
 + [*] (@transfers) [*] (@program) [*] (@need) [*]
-- <bot respuesta86>
+- <bot respuesta7>
 
 + [*] (@transfers) [*] (@need) [*] (@program) [*]
-- <bot respuesta86>
+- <bot respuesta7>
 
 + [*] (@need) [*] (@transfers) [*] (@program) [*]
-- <bot respuesta86>
+- <bot respuesta7>
+
+//puedo programar transferencias?
+
++ [*] (@need) [*] (@program) [*] (@file) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@need) [*] (@file) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@file) [*] (@need) [*]
+- <bot respuesta7>
+
++ [*] (@file) [*] (@program) [*] (@need) [*]
+- <bot respuesta7>
+
++ [*] (@file) [*] (@need) [*] (@program) [*]
+- <bot respuesta7>
+
++ [*] (@need) [*] (@file) [*] (@program) [*]
+- <bot respuesta7>
+
+
++ [*] (@need) [*] (@program) [*] (@upload) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@need) [*] (@upload) [*]
+- <bot respuesta7>
+
++ [*] (@program) [*] (@upload) [*] (@need) [*]
+- <bot respuesta7>
+
++ [*] (@upload) [*] (@program) [*] (@need) [*]
+- <bot respuesta7>
+
++ [*] (@upload) [*] (@need) [*] (@program) [*]
+- <bot respuesta7>
+
++ [*] (@need) [*] (@upload) [*] (@program) [*]
+- <bot respuesta7>
+
 
 //Como activo a un Destinatario Nuevo
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.
@@ -1045,6 +1085,45 @@
 + [*] (@past) [*] (@view) [*] (@upload) [*]
 - <bot respuesta19>
 
++ [*] (@get) [*] (@file) [*] (@past) [*]
+- <bot respuesta19>
+
++ [*] (@get) [*] (@past) [*] (@file) [*]
+- <bot respuesta19>
+
++ [*] (@file) [*] (@get) [*] (@past) [*]
+- <bot respuesta19>
+
++ [*] (@file) [*] (@past) [*] (@get) [*]
+- <bot respuesta19>
+
++ [*] (@past) [*] (@file) [*] (@get) [*]
+- <bot respuesta19>
+
++ [*] (@past) [*] (@get) [*] (@file) [*]
+- <bot respuesta19>
+
++ [*] (@get) [*] (@upload) [*] (@past) [*]
+- <bot respuesta19>
+
++ [*] (@get) [*] (@past) [*] (@upload) [*]
+- <bot respuesta19>
+
++ [*] (@upload) [*] (@get) [*] (@past) [*]
+- <bot respuesta19>
+
++ [*] (@upload) [*] (@past) [*] (@get) [*]
+- <bot respuesta19>
+
++ [*] (@past) [*] (@upload) [*] (@get) [*]
+- <bot respuesta19>
+
++ [*] (@past) [*] (@get) [*] (@upload) [*]
+- <bot respuesta19>
+
+//------
+
+
 + [*] (@month) [*] (@upload) [*] (@view) [*]
 - <bot respuesta19>
 
@@ -1182,6 +1261,19 @@
 
 //Cómo programar un pago de nóminas. Tengo adelantos quincenalmente, mismas personas y monto.
 //Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.
+
++ [*] (@upload) [*] (@future) [*]
+- <bot respuesta105>
+
++ [*] (@future) [*] (@upload) [*]
+- <bot respuesta105>
+
++ [*] (@file) [*] (@future) [*]
+- <bot respuesta105>
+
++ [*] (@future) [*] (@file) [*]
+- <bot respuesta105>
+
 
 + [*] (@file) [*] (@program) [*]
 - <bot respuesta7>
@@ -1577,6 +1669,47 @@
  
 + [*] (@upload) [*] (@ticket) [*] (@file) [*]
 - <bot respuesta19>
+
+
+
++ [*] (@need) [*] (@contract) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@need) [*] (@file) [*] (@contract) [*]
+- <bot respuesta54>
+
++ [*] (@contract) [*] (@need) [*] (@file) [*]
+- <bot respuesta54>
+
++ [*] (@contract) [*] (@file) [*] (@need) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@contract) [*] (@need) [*]
+- <bot respuesta54>
+
++ [*] (@file) [*] (@need) [*] (@contract) [*]
+- <bot respuesta54>
+
+
++ [*] (@need) [*] (@contract) [*] (@service) [*]
+- <bot respuesta54>
+
++ [*] (@need) [*] (@service) [*] (@contract) [*]
+- <bot respuesta54>
+
++ [*] (@contract) [*] (@need) [*] (@service) [*]
+- <bot respuesta54>
+
++ [*] (@contract) [*] (@service) [*] (@need) [*]
+- <bot respuesta54>
+
++ [*] (@service) [*] (@contract) [*] (@need) [*]
+- <bot respuesta54>
+
++ [*] (@service) [*] (@need) [*] (@contract) [*]
+- <bot respuesta54>
+
+
 
 
 //como pagar remuneraciones en forma masiva
@@ -2151,8 +2284,6 @@
 + [*] (@offline) [*] (@beneficiary) [*] (@validate)
 - <bot respuesta57>
 
-
-
 //ATENCION!!!! esta se va para abajo porque es demasiado generica
 
 //aun me salen los pagos pendientes
@@ -2166,16 +2297,16 @@
 //envié una nómina y dos pagos dicen \"en proceso de pago\"
 
 + [*] (@file) [*] (@payprocess) [*]
-- <bot respuesta20>
+- <bot respuesta40>
 
 + [*] (@payprocess) [*] (@file) [*]
-- <bot respuesta20>
+- <bot respuesta40>
 
 + [*] (@upload) [*] (@payprocess) [*]
-- <bot respuesta20>
+- <bot respuesta40>
 
 + [*] (@payprocess) [*] (@upload) [*]
-- <bot respuesta20>
+- <bot respuesta40>
 
 
 //hola. donde puedo getar los pagos que me han efectuado por nomina?
@@ -2213,12 +2344,10 @@
 
 //Buenos dias. Si dejo una nómina cargada hoy; puedo firmarla desde el extranjero el día Martes
 + [*] (@file) [*] (@sign) [*] (@days) [*]
+- <bot respuesta75>
 
-
-
-
-
-
++ [*] (@file) [*] (@days) [*] (@sign) [*]
+- <bot respuesta75>
 
 + [*] (@sign) [*] (@file)  [*] (@days) [*]
 - <bot respuesta75>
@@ -2234,6 +2363,21 @@
 
 + [*] (@sign) [*] (@days)  [*] (@file) [*]
 - <bot respuesta75>
+
+//////////////////////////////////////////
++ [*] (@activate) [*] (@beneficiary) [*]
+- <bot respuesta2>
+
++ [*] (@beneficiary) [*] (@activate) [*]
+- <bot respuesta2>
+
+
++ [*] (@register) [*] (@beneficiary) [*]
+- <bot respuesta1>
+
++ [*] (@beneficiary) [*] (@register) [*]
+- <bot respuesta1>
+
 
 //pagar a trabajadores
 + [*] (@upload) [*] (@beneficiary) [*]
@@ -2262,11 +2406,6 @@
 //Estoy ingresando una nómina de pago pero hay destinatarios que no estan registrados. Como puedo registrarlos? 
 //Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.
 
-+ [*] (@register) [*] (@beneficiary) [*]
-- <bot respuesta1>
-
-+ [*] (@beneficiary) [*] (@register) [*]
-- <bot respuesta1>
 
 //Estoy intentando autorizar un Beneficiario y no puedo
 //El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa
@@ -2287,12 +2426,7 @@
 + [*] (@account) [*] (@authorize) [*]
 - <bot respuesta71>
 
-//////////////////////////////////////////
-+ [*] (@activate) [*] (@beneficiary) [*]
-- <bot respuesta2>
 
-+ [*] (@beneficiary) [*] (@activate) [*]
-- <bot respuesta2>
 /////////////////////////////////////////
 + [*] (@payprocess) [*]
 - <bot respuesta40> 
@@ -2404,6 +2538,13 @@
 - <bot respuesta20> 
 
 //Costo del servicio
++ [*] (@service) [*] (@cost) [*]
+- <bot respuesta62>
+
++ [*] (@cost) [*] (@service) [*]
+- <bot respuesta62>
+
+/Costo del servicio
 + [*] (@need) [*] (@cost) [*]
 - <bot respuesta62>
 
@@ -2419,6 +2560,9 @@
 
 + [*] (@upload) [*] (@cost) [*]
 - <bot respuesta62>
+
+
+
 + [*] (@upload) [*] (@file) [*]
 - <bot respuesta6> 
 
@@ -2769,6 +2913,7 @@
 
 
 
+
 + [*] (@validate) [*] (@file) 
 - <bot respuesta20>
 
@@ -2781,6 +2926,24 @@
 + [*] (@transfers) [*] (@reject) 
 - <bot respuesta54>
 
+
++ [*] (@contract) [*] (@file) [*]
+- <bot respuesta54> 
+
++ [*] (@file) [*] (@contract) [*]
+- <bot respuesta54> 
+
++ [*] (@contract) [*] (@service) [*]
+- <bot respuesta54> 
+
++ [*] (@service) [*] (@contract) [*]
+- <bot respuesta54> 
+
++ [*] (@contract) [*] (@upload) [*]
+- <bot respuesta54> 
+
++ [*] (@upload) [*] (@contract) [*]
+- <bot respuesta54> 
 
 
 + [*] (@upload) [*] (@file) [*]
@@ -2952,6 +3115,20 @@
 
 + [*] (@upload) [*] (@reject) [*]
 - <bot respuesta102>
+
++ [*] (@need) [*] (@works) [*]
+- <bot respuesta6>
+
++ [*] (@works) [*] (@need) [*]
+- <bot respuesta6>
+
+
+
++ [*] (@cant) [*] (@authorize) [*] 
+- <bot respuesta100>
+
++ [*] (@authorize) [*] (@cant) [*]
+- <bot respuesta100>
 
 
 //Nomina rechazada
