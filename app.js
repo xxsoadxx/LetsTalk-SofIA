@@ -12,7 +12,7 @@ bot.setSubroutine('myFunction', function(rs, args){
 
 //Accents
 function accents(text) {
-    var dict = {"+":" ","À":"a","É":"e","Ì":"i","Ò":"o","Ù":"u","à":"a","è":"e","ì":"i","ò":"o","ù":"u","á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u","Á":"a","É":"e","Í":"i","Ó":"o","Ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" " , ":":" "  , "\\":" ", "\"":" "  ,"$":" monto ","(":" ", ")":" " }
+    var dict = {"+":" ","À":"a","È":"e","Ì":"i","Ò":"o","Ù":"u","à":"a","è":"e","ì":"i","ò":"o","ù":"u","á":"a", "é":"e", "í":"i", "ó":"o", "ú":"u","Á":"a","É":"e","Í":"i","Ó":"o","Ú":"u", "?":" ", "¿":" ", ".":" ", ",":" ", ";":" " , ":":" "  , "\\":" ", "\"":" "  ,"$":" monto ","(":" ", ")":" " }
     
     text = text.replace(/[^\w ]/g, function(char) {
         var val = dict[char] || char;
@@ -57,10 +57,23 @@ function InitPubNub(){
                 //Estoy Conectado
                 console.log("Conectado!");
             }
+            if (statusEvent.category === "PNTimeoutCategory") {
+                console.log("abruptly terminated!");
+            }
+            if (statusEvent.category === "PNNetworkIssuesCategory") {
+                console.log("abruptly terminated!");
+            }
+            if (statusEvent.category === "PNUnexpectedDisconnectCategory") {
+                console.log("abruptly terminated!");
+            }
+            if (statusEvent.category === "PNTLSConnectionFailedCategory") {
+                console.log("abruptly terminated!");
+            }      
+            
         },
         message: function(message) {
-            console.log("->> Tipo =" + message.message.namespace);
-            console.log("->> Destinatarios =" + JSON.stringify(message.message.recipients));
+            //console.log("->> Tipo =" + message.message.namespace);
+            //console.log("->> Destinatarios =" + JSON.stringify(message.message.recipients));
             //console.log("->> Data =" + JSON.stringify(message.message.data));
             //notifications.create y messages.create se ejecutan juntos cuando cierro la ventana  "content":"closed","type":"SYSTEM"
 
