@@ -132,9 +132,9 @@
 
 ! array ten= diez|decimo|dieces|decima|decimos|decimas|10ma|10mo|10|j|tipo pago|tipo de pago
 
-! array eleven= once|onces|undecimo|undecimos|onceavo|onceavos|11mo|11mos|11|k|mensaje
+! array eleven= once|onces|undecimo|undecima|undecimos|onceavo|onceavos|11mo|11mos|11|k|mensaje
 
-! array twelve= doce|doces|duodecimo|doceavo|decimosegundo|12vo|12vos|12|l|email
+! array twelve= doce|doces|duodecimo|duodecima|doceavo|decimosegundo|12vo|12vos|12|l|email
 
 ! array thirdteen= trece|treces|treceavo|treceavos|decimotercero|decimoterceros|decimotercer|13vo|13vos|13|m|cuenta inscrita como
 
@@ -154,7 +154,7 @@
 
 ! array beneficiaryMessage = mensaje de destinatario|mensaje de destinatarios|mensajes de destinatarios
 
-! array validate = validando|valide|valida|validaba|validar|validacion|validan
+! array validate = validando|valide|valida|validaba|validar|validacion|validan|validen
 
 ! array payprocess = en proceso de pago|proceso de pago
 
@@ -215,13 +215,13 @@
 
 ! array find = encuentro|encontro|encontrar|hallo|hallar|hallamos|encontramos|localizar|localizamos|ubicar|ubicamos|ubicacion
 
-! array sametime= a la vez|en el mismo tiempo|a la misma vez|en este momento|en el mismo momento|en este instante
+! array sametime= a la vez|en el mismo tiempo|a la misma vez|en este momento|en el mismo momento|en este instante|mismo tiempo
 
 ! array pending = pendiente|pendientes
 
 ! array tosign= por firmar
 
-! array who= quien es|quien son|quienes son|quienes es|quien son
+! array who= quien es|quien son|quienes son|quienes es|quien son|quienes
 
 ! array receivedpayment= pago recibido|pagos recibidos|pago recibidos|pagos recibido|pagos que me han efectuados|pagos que he recibido
 

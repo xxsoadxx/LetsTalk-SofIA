@@ -944,25 +944,6 @@
 + [*] (@novalidate) [*] (@past) [*] (@file) [*]  
 - <bot respuesta75>
 
-//ingrese una nomina la semana pasada para firma y hoy no aparece
-
-+ [*] (@past) [*] (@file) [*] (@notfound) [*]
-- <bot respuesta75>
-
-+ [*] (@past) [*] (@notfound) [*] (@file) [*]
-- <bot respuesta75>
-
-+ [*] (@file) [*] (@notfound) [*] (@past) [*]
-- <bot respuesta75>
-
-+ [*] (@file) [*] (@past) [*] (@notfound) [*] 
-- <bot respuesta75>
-
-+ [*] (@notfound) [*] (@file) [*] (@past) [*] 
-- <bot respuesta75>
-
-+ [*] (@notfound) [*] (@past) [*] (@file) [*]  
-- <bot respuesta75>
 
 //Acabo de subir una nómina, posteriormente me pide autorizar algunas cuentas y luego desaparece la nómina para firmar
 
@@ -1528,7 +1509,7 @@
 + [*] (@file) [*] (@nomoney) [*] (@view) [*]
 - <bot respuesta72>
 
-//cargo la nomina pero se visualiza con saldo $0
+//Quiero que me validen como apoderado de la cuenta
 + [*] (@owner) [*] (@validate) [*] (@account) [*]
 - <bot respuesta73>
 
@@ -1636,18 +1617,7 @@
 
 
 
-//
-+ [*] (@file) [*] (@warnings) [*]
-- <bot respuesta10>
 
-+ [*] (@warnings) [*] (@file) [*]
-- <bot respuesta10>
-
-+ [*] (@upload) [*] (@warnings) [*]
-- <bot respuesta10>
-
-+ [*] (@warnings) [*] (@upload) [*]
-- <bot respuesta10>
 
 
 //Necesito un comprobante de pago
@@ -1710,31 +1680,6 @@
 - <bot respuesta54>
 
 
-
-
-//como pagar remuneraciones en forma masiva
-
-+ [*] (@need) [*] (@upload) [*] (@file) [*]
-- <bot respuesta6>
-
-+ [*] (@need) [*] (@upload) [*] (@salary) [*]
-- <bot respuesta6>
-
-+ [*] (@upload) [*] (@need) [*] (@salary) [*]
-- <bot respuesta6>
-
-+ [*] (@upload) [*] (@salary) [*] (@need) [*]
-- <bot respuesta6>
-
-+ [*] (@salary) [*] (@upload) [*] (@need) [*]
-- <bot respuesta6>
-
-+ [*] (@salary) [*] (@need) [*] (@upload) [*]
-- <bot respuesta6>
-
-+ [*] (@need) [*] (@salary) [*] (@upload) [*]
-- <bot respuesta6>
-
 //puedo subir una nomina y firmar luego
 
 + [*] (@upload) [*] (@sign) [*] (@after) [*]
@@ -1754,6 +1699,9 @@
 
 + [*] (@upload) [*] (@after) [*] (@sign) [*]
 - <bot respuesta60>
+
+
+
 
 //HOLA me puedes ayudar realice una trasnferencia y me dice pendiente  
 
@@ -1794,8 +1742,31 @@
 
 + [*] (@file) [*] (@fix) [*] (@notfound) [*]
 - <bot respuesta91>
-//Donde subo una nomina
 
+
+//hola. donde puedo consultar los pagos que me han efectuado por nomina?
+
++ [*] (@where) [*] (@get) [*] (@file) [*]
+- <bot respuesta81>
+
++ [*] (@where) [*] (@file) [*] (@get) [*]
+- <bot respuesta81>
+
++ [*] (@get) [*] (@where) [*] (@file) [*]
+- <bot respuesta81>
+
++ [*] (@get) [*] (@file) [*] (@here) [*]
+- <bot respuesta81>
+
++ [*] (@file) [*] (@where) [*] (@get) [*]
+- <bot respuesta81>
+
++ [*] (@file) [*] (@get) [*] (@here) [*]
+- <bot respuesta81>
+
+
+
+//Donde subo una nomina
 
 
 + [*] (@file) [*] (@upload) [*] (@where) [*]
@@ -1812,6 +1783,30 @@
 
 + [*] (@upload) [*] (@where) [*] (@file) [*]
 - <bot respuesta61>
+
+//como pagar remuneraciones en forma masiva
+
++ [*] (@need) [*] (@upload) [*] (@file) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@upload) [*] (@salary) [*]
+- <bot respuesta6>
+
++ [*] (@upload) [*] (@need) [*] (@salary) [*]
+- <bot respuesta6>
+
++ [*] (@upload) [*] (@salary) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@salary) [*] (@upload) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@salary) [*] (@need) [*] (@upload) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@salary) [*] (@upload) [*]
+- <bot respuesta6>
+
 
 //donde buscar nomina pendiente
 
@@ -1911,6 +1906,22 @@
 
 + [*] (@file) [*] (@filestate) [*] (@notfound) [*]
 - <bot respuesta20>
+
+//Buen dia, geta en que formato viene el reporte de nomina?
+
++ [*] (@file) [*] (@format) [*]
+- <bot respuesta52>
+
++ [*] (@format) [*] (@file) [*]
+- <bot respuesta52>
+
++ [*] (@upload) [*] (@format) [*]
+- <bot respuesta52>
+
++ [*] (@format) [*] (@upload) [*]
+- <bot respuesta52>
+
+
 
 + [*] (@need) [*] (@filestate) [*]
 - <bot respuesta9>
@@ -2497,19 +2508,7 @@
 + [*] (@file) [*] (@offline) [*]
 - <bot respuesta57> 
 
-//Buen dia, geta en que formato viene el reporte de nomina?
 
-+ [*] (@file) [*] (@format) [*]
-- <bot respuesta52>
-
-+ [*] (@format) [*] (@file) [*]
-- <bot respuesta52>
-
-+ [*] (@upload) [*] (@format) [*]
-- <bot respuesta52>
-
-+ [*] (@format) [*] (@upload) [*]
-- <bot respuesta52>
 
 //pago de nomina demorando
 
@@ -2544,7 +2543,7 @@
 + [*] (@cost) [*] (@service) [*]
 - <bot respuesta62>
 
-/Costo del servicio
+//Costo del servicio
 + [*] (@need) [*] (@cost) [*]
 - <bot respuesta62>
 
@@ -2743,7 +2742,7 @@
 + [*] (@beneficiary) [*] (@notfound) [*]
 - <bot respuesta54>
 
-//necesito modificar datos de contadora no puedo
+//necesito modificar datos de un usuario
 
 + [*] (@modify) [*] (@user) [*]
 - <bot respuesta80>
@@ -3035,7 +3034,7 @@
 + [*] (@format) [*] (@need) [*] 
 - <bot respuesta79>
 
-//Como transfiero personas
+//Quiero ver una nomina de enero
 
 + [*] (@file) [*] (@month) [*]
 - <bot respuesta19>
@@ -3093,6 +3092,12 @@
 - <bot respuesta54>
 
 
++  [*] (@composition)  [*] (@file)
+- <bot respuesta23>
+
++  [*] (@file)  [*] (@composition)
+- <bot respuesta23>
+
 
 
 //
@@ -3116,12 +3121,30 @@
 + [*] (@upload) [*] (@reject) [*]
 - <bot respuesta102>
 
+//
++ [*] (@file) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@file) [*]
+- <bot respuesta10>
+
++ [*] (@upload) [*] (@warnings) [*]
+- <bot respuesta10>
+
++ [*] (@warnings) [*] (@upload) [*]
+- <bot respuesta10>
+
 + [*] (@need) [*] (@works) [*]
 - <bot respuesta6>
 
 + [*] (@works) [*] (@need) [*]
 - <bot respuesta6>
 
++ [*] (@file) [*] (@where) [*] 
+- <bot respuesta63>
+
++ [*] (@where) [*] (@file) [*] 
+- <bot respuesta63>
 
 
 + [*] (@cant) [*] (@authorize) [*] 
@@ -3130,6 +3153,12 @@
 + [*] (@authorize) [*] (@cant) [*]
 - <bot respuesta100>
 
+
++ [*] (@who) [*] (@receivedpayment) [*]
+- <bot respuesta66>
+
++ [*] (@receivedpayment) [*] (@who) [*]
+- <bot respuesta66>
 
 //Nomina rechazada
 
