@@ -1200,6 +1200,27 @@
 + [*] (@need) [*] (@service) [*] (@use) [*]
 - <bot respuesta6>
 
+//necesito conocer más de esta herramienta
+
++ [*] (@need) [*] (@know) [*] (@tool) [*]
+- <bot respuesta6>
+
++ [*] (@need) [*] (@tool) [*] (@know) [*]
+- <bot respuesta6>
+
++ [*] (@know) [*] (@need) [*] (@tool) [*]
+- <bot respuesta6>
+
++ [*] (@know) [*] (@tool) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@tool) [*] (@know) [*] (@need) [*]
+- <bot respuesta6>
+
++ [*] (@tool) [*] (@need) [*] (@know) [*]
+- <bot respuesta6>
+
+
 
 //Deseo cambiar mi correo electrónico
 //En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”
@@ -1209,6 +1230,14 @@
 
 + [*] (@change) [*] (@mail) [*]
 - <bot respuesta5>
+
+//Cual es el código de notificación?
+
++ [*] (@what) [*] (@authcode) [*] 
+- <bot respuesta108>
+
++ [*] (@authcode) [*] (@what) [*] 
+- <bot respuesta108>
 
 //Generé un nuevo beneficiario y no me llegó el código. Como puedo recuperar Código de Autorización?
 //Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama "Por autorizar con código Generado".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”
@@ -1408,25 +1437,106 @@
 + [*] (@need) [*] (@upload) [*] (@authorize) [*]
 - <bot respuesta2>
 
+// TENGO UN PAGO RECHAZADO DE L DIA 2 DE NOVIEMBRE POR MEDIO DE NOMINA
+
++ [*] (@file) [*] (@past) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@past) [*] (@file) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@past) [*] (@reject) [*] (@file) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@past) [*] (@file) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@file) [*] (@past) [*]
+- <bot respuesta109>
+
++ [*] (@file) [*] (@reject) [*] (@past) [*]
+- <bot respuesta109>
+
+// TENGO UN PAGO RECHAZADO DE L DIA 2 DE NOVIEMBRE POR MEDIO DE NOMINA
+
++ [*] (@past) [*] (@upload) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@upload) [*] (@past) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@upload) [*] (@reject) [*] (@past) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@upload) [*] (@past) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@past) [*] (@upload) [*]
+- <bot respuesta109>
+
++ [*] (@past) [*] (@reject) [*] (@upload) [*]
+- <bot respuesta109>
+
+// TENGO UN PAGO RECHAZADO DE L DIA 2 DE NOVIEMBRE POR MEDIO DE NOMINA
+
++ [*] (@file) [*] (@month) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@month) [*] (@file) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@month) [*] (@reject) [*] (@file) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@month) [*] (@file) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@file) [*] (@month) [*]
+- <bot respuesta109>
+
++ [*] (@file) [*] (@reject) [*] (@month) [*]
+- <bot respuesta109>
+
+// TENGO UN PAGO RECHAZADO DE L DIA 2 DE NOVIEMBRE POR MEDIO DE NOMINA
+
++ [*] (@month) [*] (@upload) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@upload) [*] (@month) [*] (@reject) [*]
+- <bot respuesta109>
+
++ [*] (@upload) [*] (@reject) [*] (@month) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@upload) [*] (@month) [*]
+- <bot respuesta109>
+
++ [*] (@reject) [*] (@month) [*] (@upload) [*]
+- <bot respuesta109>
+
++ [*] (@month) [*] (@reject) [*] (@upload) [*]
+- <bot respuesta109>
+
+
 // se realizo pago de nomina y me rechazo un deposito donde puedo ver por que es el rechazo?
 
 + [*] (@file) [*] (@upload) [*] (@reject) [*]
-- <bot respuesta54>
+- <bot respuesta107>
 
 + [*] (@upload) [*] (@file) [*] (@reject) [*]
-- <bot respuesta54>
+- <bot respuesta107>
 
 + [*] (@upload) [*] (@reject) [*] (@file) [*]
-- <bot respuesta54>
+- <bot respuesta107>
 
 + [*] (@reject) [*] (@upload) [*] (@file) [*]
-- <bot respuesta54>
+- <bot respuesta107>
 
 + [*] (@reject) [*] (@file) [*] (@upload) [*]
-- <bot respuesta54>
+- <bot respuesta107>
 
 + [*] (@file) [*] (@reject) [*] (@upload) [*]
-- <bot respuesta54>
+- <bot respuesta107>
 
 // Necesito saber la razón por la cual me rechazan el pago de un trabajador
 
@@ -2375,6 +2485,46 @@
 + [*] (@sign) [*] (@days)  [*] (@file) [*]
 - <bot respuesta75>
 
+
++ [*] (@no) [*] (@multipass) [*] (@beneficiary) [*]
+- <bot respuesta15>
+
++ [*] (@no) [*] (@beneficiary) [*] (@multipass) [*]
+- <bot respuesta15>
+
++ [*] (@multipass) [*] (@no) [*] (@beneficiary) [*]
+- <bot respuesta15>
+
++ [*] (@multipass) [*] (@beneficiary) [*] (@no) [*]
+- <bot respuesta15>
+
++ [*] (@beneficiary) [*] (@multipass) [*] (@no) [*]
+- <bot respuesta15>
+
++ [*] (@beneficiary) [*] (@no) [*] (@multipass) [*]
+- <bot respuesta15>
+
+//tengo problemas para ingresar la cuenta de una persona, ya que me dice que fue ingresada por nómina y está en espera de autorización sin embargo no veo a nadie por autorizar
+
++ [*] (@authorize) [*] (@account) [*] (@problems)
+- <bot respuesta54>
+
++ [*] (@authorize) [*] (@problems) [*] (@account)
+- <bot respuesta54>
+
++ [*] (@account) [*] (@authorize) [*] (@problems)
+- <bot respuesta54>
+
++ [*] (@account) [*] (@problems) [*] (@authorize)
+- <bot respuesta54>
+
++ [*] (@problems) [*] (@account) [*] (@authorize)
+- <bot respuesta54>
+
++ [*] (@problems) [*] (@authorize) [*] (@account)
+- <bot respuesta54>
+
+
 //////////////////////////////////////////
 + [*] (@activate) [*] (@beneficiary) [*]
 - <bot respuesta2>
@@ -2486,6 +2636,10 @@
 + [*] (@file) [*] (@find) [*] (@where) [*]
 - <bot respuesta9>
 
+
+
+
+
 // donde encuentro la planilla para subir al banco
 
 + [*] (@find) [*] (@file) [*]
@@ -2574,8 +2728,13 @@
 + [*] (@register) [*] (@file) [*]
 - <bot respuesta6> 
 
-+ [*] (@multipass) [*]
-- <bot respuesta15> 
+
++ [*] (@multipass) [*] (@delay) [*]
+- <bot respuesta110> 
+
++ [*] (@delay) [*] (@multipass) [*]
+- <bot respuesta110> 
+
 
 //Donde esta pagos y servicios
 
@@ -2810,6 +2969,24 @@
 - <bot respuesta9>
 
 
++ [*] (@delete) [*] (@sign) [*] (@file) [*]
+- <bot respuesta106>
+
++ [*] (@delete) [*] (@file) [*] (@sign) [*]
+- <bot respuesta106>
+
++ [*] (@sign) [*] (@delete) [*] (@file) [*]
+- <bot respuesta106>
+
++ [*] (@sign) [*] (@file) [*] (@delete) [*]
+- <bot respuesta106>
+
++ [*] (@file) [*] (@delete) [*] (@sign) [*]
+- <bot respuesta106>
+
++ [*] (@file) [*] (@sign) [*] (@delete) [*]
+- <bot respuesta106>
+
 
 //Donde subo una nomina
 
@@ -2908,6 +3085,26 @@
 
 + [*] (@error) [*] (@file) [*] (@upload)
 - <bot respuesta100>
+
+//Como puedo modificar el nombre de un nuevo destinatario
+
++ [*] (@change) [*] (nombre) [*] (@beneficiary)
+- <bot respuesta112>
+
++ [*] (@change) [*] (@beneficiary) [*] (nombre)
+- <bot respuesta112>
+
++ [*] (@beneficiary) [*] (nombre) [*] (@change)
+- <bot respuesta112>
+
++ [*] (@beneficiary) [*] (@change) [*] (nombre)
+- <bot respuesta112>
+
++ [*] (nombre) [*] (@change) [*] (@beneficiary)
+- <bot respuesta112>
+
++ [*] (nombre) [*] (beneficiary) [*] (@change)
+- <bot respuesta112>
 
 
 
@@ -3154,11 +3351,26 @@
 - <bot respuesta100>
 
 
++ [*] (@change) [*] (@beneficiary) [*]
+- <bot respuesta113>
+
++ [*] (@beneficiary) [*] (@change) [*]
+- <bot respuesta113>
+
+
 + [*] (@who) [*] (@receivedpayment) [*]
 - <bot respuesta66>
 
 + [*] (@receivedpayment) [*] (@who) [*]
 - <bot respuesta66>
+
+//Hola. como suscribimos este servicio?
+
++ [*] (@submit) [*] (@service) [*]
+- <bot respuesta111>
+
++ [*] (@service) [*] (@submit) [*]
+- <bot respuesta111>
 
 //Nomina rechazada
 

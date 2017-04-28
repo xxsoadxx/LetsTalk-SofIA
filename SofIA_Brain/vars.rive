@@ -169,10 +169,26 @@
 
 ! var respuesta101= Al ingresar un pago de nómina puede firmarse hasta las 23:50 pm ya que si no es firmada por apoderados caduca automáticamente.
 
-! var respuesta102= Consulte en Estado de Nóminas, ahí le aparecerán las nóminas rechazadas y el motivo de forma detallada.
+! var respuesta102= Consulte en Estado de Nóminas, ahí le aparecerán las nóminas rechazadas y el motivo de forma detallada. Sin embargo si requiere el motivo, lo invito a contactarse al 2 692 85 55 opción 2
 
 ! var respuesta103= Estimado el proceso de pago no debería demorar más de 15 minutos una vez firmada la nómina. Considerando que no existe algún reparo con dichas cuentas como por ejemplo alguna restricción de abono.
 
 ! var respuesta104= Estimado le informo que la inscripción no es automática. Mediante el servicio Pago de nómina en línea usted podria pagar en forma masiva. Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es?
 
 ! var respuesta105=Estimado, el pago debe ser procesado en el día, por lo cual no puede programarse.
+
+! var respuesta106=Debe ingresar a Estado de nómina hacer clic en Identificador de la nómina-> en la parte superior aparece el icono para eliminar la nómina, su símbolo es un basurero. Existe la opción de eliminar una a una (en la misma grilla) o eliminar la nómina completa en la parte superior de esa ventana, aparece la opción de eliminar nómina completa.
+
+! var respuesta107=Si la nómina queda rechazada, en el momento inmediato de la carga, se sugiere enviar el archivo cargado al correo apoyoempresarios@bci.cl, para la revisión.
+
+! var respuesta108=Es el código que llega a su correo electrónico cada vez que inscribe un destinatario de transferencias nuevo.
+
+! var respuesta109=Puede realizar consulta en la opción Consulta de pagos.
+
+! var respuesta110=Si ha intentado la opción Bci Multipass / Sincronización Bci Multipass y no ha resultado. Pudiera ser inconveniente de navegador, se sugiere realizar limpieza de éste.
+
+! var respuesta111=La opción Pago de nóminas en línea, ya está activa, y puede ver un manual de uso en la opción Pagos y Servicios -> pago de nóminas en línea -> Que es?
+
+! var respuesta112=Este campo se modifica ingresando al Menu -> Transferencias -> Mis destinatarios -> debe seleccionar el icono editar.
+
+! var respuesta113=Este campo se modifica ingresando al Menu -> Transferencias -> Mis destinatarios -> debe seleccionar el icono editar. Los campos modificables son : Nombre, Alias y Email, si requiere modificar otro campo, debe eliminar y volver a crear al destinatario.
