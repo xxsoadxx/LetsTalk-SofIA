@@ -192,3 +192,9 @@
 ! var respuesta112=Este campo se modifica ingresando al Menu -> Transferencias -> Mis destinatarios -> debe seleccionar el icono editar.
 
 ! var respuesta113=Este campo se modifica ingresando al Menu -> Transferencias -> Mis destinatarios -> debe seleccionar el icono editar. Los campos modificables son : Nombre, Alias y Email, si requiere modificar otro campo, debe eliminar y volver a crear al destinatario.
+
+! var respuesta114= Podría detallarme el error que le muestra, por favor.
+
+! var respuesta115= Podría detallarme cual es el problema? Copieme el mensaje de error que le muestra.
+
+! var respuesta116= Al momento de mostrarle el rechazo, podría copiarme el mensaje exactamente como se muestra, por favor.

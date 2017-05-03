@@ -1541,22 +1541,22 @@
 // Necesito saber la razón por la cual me rechazan el pago de un trabajador
 
 + [*] (@beneficiary) [*] (@upload) [*] (@reject) [*]
-- <bot respuesta54>
+- <bot respuesta102>
 
 + [*] (@upload) [*] (@beneficiary) [*] (@reject) [*]
-- <bot respuesta54>
+- <bot respuesta102>
 
 + [*] (@upload) [*] (@reject) [*] (@beneficiary) [*]
-- <bot respuesta54>
+- <bot respuesta102>
 
 + [*] (@reject) [*] (@upload) [*] (@beneficiary) [*]
-- <bot respuesta54>
+- <bot respuesta102>
 
 + [*] (@reject) [*] (@beneficiary) [*] (@upload) [*]
-- <bot respuesta54>
+- <bot respuesta102>
 
 + [*] (@beneficiary) [*] (@reject) [*] (@upload) [*]
-- <bot respuesta54>
+- <bot respuesta102>
 
 
 
@@ -2507,22 +2507,24 @@
 //tengo problemas para ingresar la cuenta de una persona, ya que me dice que fue ingresada por nómina y está en espera de autorización sin embargo no veo a nadie por autorizar
 
 + [*] (@authorize) [*] (@account) [*] (@problems)
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@authorize) [*] (@problems) [*] (@account)
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@account) [*] (@authorize) [*] (@problems)
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@account) [*] (@problems) [*] (@authorize)
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@problems) [*] (@account) [*] (@authorize)
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@problems) [*] (@authorize) [*] (@account)
-- <bot respuesta54>
+- <bot respuesta115>
+
+
 
 
 //////////////////////////////////////////
@@ -3117,10 +3119,10 @@
 - <bot respuesta20>
 
 + [*] (@reject) [*] (@transfers) 
-- <bot respuesta54>
+- <bot respuesta116>
 
 + [*] (@transfers) [*] (@reject) 
-- <bot respuesta54>
+- <bot respuesta116>
 
 
 + [*] (@contract) [*] (@file) [*]
@@ -3203,16 +3205,16 @@
 //error subiendo archivo
 
 + [*] (@error) [*] (@file) [*]
-- <bot respuesta54>
+- <bot respuesta114>
 
 + [*] (@file) [*] (@error) [*]
-- <bot respuesta54>
+- <bot respuesta114>
 
 + [*] (@problems) [*] (@file) [*]
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@file) [*] (@problems) [*]
-- <bot respuesta54>
+- <bot respuesta115>
 
 
 //Donde esta la nomina
@@ -3277,16 +3279,16 @@
 //error subiendo archivo
 
 + [*] (@error) [*] (@file) [*]
-- <bot respuesta54>
+- <bot respuesta114>
 
 + [*] (@file) [*] (@error) [*]
-- <bot respuesta54>
+- <bot respuesta114>
 
 + [*] (@problems) [*] (@file) [*]
-- <bot respuesta54>
+- <bot respuesta115>
 
 + [*] (@file) [*] (@problems) [*]
-- <bot respuesta54>
+- <bot respuesta115>
 
 
 +  [*] (@composition)  [*] (@file)
