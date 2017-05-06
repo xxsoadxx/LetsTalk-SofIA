@@ -1,3 +1,15 @@
++ [*] (@need) [*] (@help) [*]
+- Especifíqueme que tipo de ayuda necesitas. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- ¿Qué tipo de ayuda necesitas? Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- ¿En qué te puedo ayudar? Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+
++ [*] (@help) [*] (@need) [*]
+- Especifíqueme que tipo de ayuda necesitas. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- ¿Qué tipo de ayuda necesitas? Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- ¿En qué te puedo ayudar? Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+
+
+
 + (@welcome) [*] (sofia|sofi)
 - Hola ¿Le puedo ayudar en algo?
 
@@ -84,3 +96,15 @@
 + [*] (que debo hacer|que tengo que hacer|que deberia hacer|que se supone que haga|que tendria que hacer|y ahora|y esto|esto no sirve|esto no sirbe|mierda|porqueria|maldita)
 - Debes escribir tu pregunta respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
 
++ [*] (@help) [*]
+- Especifíqueme que tipo de ayuda necesitas.
+- ¿Qué tipo de ayuda necesitas?
+- ¿En qué te puedo ayudar?
+
++ [*] (@warnings) [*]
+- Especifíqueme que tipo de observación le aparece, copieme exactamente el mensaje como se le muestra.
+- Podría, por favor, copiarme el mensaje como se le muestra.
+
++ [*] (@dontknow) [*]
+- Podría describirme exactamente que no comprende. Si tiene un error escríbamelo que intentaré resolverlo.
+- Dígame que no comprende, intentaré ayudarlo. Sería de utilidad que si dispone de mensaje de error me lo escriba.

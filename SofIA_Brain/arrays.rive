@@ -189,7 +189,7 @@
 
 ! array reject= rechazado|rechazo|rechazar|rechazada|denegada|desaprobada|no procesada|no procesado|no procesados|rechazaron|no procesadas|rechazos|incorrecta|incorrecto|incorrectas|incorrectos|rechazan|rechazadas|rechazados|devuelta|devolucion
 
-! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea|no entiendo
+! array dontknow= no se|no conozco|desconozco|no tengo idea|ni idea|no entiendo|no comprendo|no puedo comprender|no puedo entender|no logro comprender|no logro entender|dificil de entender|dificil de comprender|no lo entiendo|no lo comprendo|no lo puedo comprender|no lo puedo entender|no lo logro entender|no lo logro comprender
 
 ! array badregister = mal registrado|mal ingresado|mal anadidos|mal registrados|mal ingresados|mal anadido|mal ingresadio
 

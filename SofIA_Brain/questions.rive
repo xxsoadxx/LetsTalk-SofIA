@@ -3157,32 +3157,32 @@
 - <bot respuesta6> 
 
 + [*] (@problems) [*] (@file)
-- <bot respuesta100>
+- <bot respuesta115>
 
 + [*] (@problems) [*] (@upload) 
-- <bot respuesta100>
+- <bot respuesta115>
 
 + [*] (@upload) [*] (@problems)
-- <bot respuesta100>
+- <bot respuesta115>
 
 + [*] (@file) [*] (@problems) 
-- <bot respuesta100>
+- <bot respuesta115>
 
 + [*] (@error) [*] (@file)
-- <bot respuesta100>
+- <bot respuesta114>
 
 + [*] (@error) [*] (@upload) 
-- <bot respuesta100>
+- <bot respuesta114>
 
 
 + [*] (@file) [*] (@error)
-- <bot respuesta100>
+- <bot respuesta114>
 
 + [*] (@upload) [*] (@error) 
-- <bot respuesta100>
+- <bot respuesta114>
 
 + [*] (@problems) [*] (@warning) 
-- <bot respuesta100>
+- <bot respuesta115>
 
 //Monto no numericp
 
@@ -3374,6 +3374,8 @@
 + [*] (@service) [*] (@submit) [*]
 - <bot respuesta111>
 
+
+
 //Nomina rechazada
 
 +  [*] (@reject)  [*] (@file) [*]
@@ -3397,6 +3399,15 @@
 
 + [*] (@file) [*] (@get) [*]
 - <bot respuesta81>
+
++ [*] (@what) [*] (@file) [*]
+- <bot respuesta6>
+
++ [*] (@file) [*] (@what) [*]
+- <bot respuesta6>
+
+
+
 
 + *
 - Unknown
