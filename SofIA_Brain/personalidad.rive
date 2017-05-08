@@ -101,6 +101,14 @@
 - ¿Qué tipo de ayuda necesitas?
 - ¿En qué te puedo ayudar?
 
++ [*] (@activate) [*]
+- Especifíqueme que quiere activar. Escriba completamente lo que quiera realizar
+- ¿Qué tipo de activacion quiere hacer? Escriba completamente lo que quiera realizar
+
++ [*] (@upload) [*]
+- Especifíqueme que quiere pagar. Escriba completamente lo que quiera realizar
+- ¿Qué tipo de pago quiere hacer? Escriba completamente lo que quiera realizar
+
 + [*] (@warnings) [*]
 - Especifíqueme que tipo de observación le aparece, copieme exactamente el mensaje como se le muestra.
 - Podría, por favor, copiarme el mensaje como se le muestra.
@@ -108,3 +116,12 @@
 + [*] (@dontknow) [*]
 - Podría describirme exactamente que no comprende. Si tiene un error escríbamelo que intentaré resolverlo.
 - Dígame que no comprende, intentaré ayudarlo. Sería de utilidad que si dispone de mensaje de error me lo escriba.
+
++ [*] (@cant) [*]
+- Podría describirme exactamente que no esta pudiendo realizar. Si tiene un error escríbamelo que intentaré resolverlo.
+- Dígame que no puede realizar, intentaré ayudarlo. Sería de utilidad que si dispone de mensaje de error me lo escriba.
+
++ [*] (@badwords) [*]
+- Calma, intentaré ayudarlo. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- No se altere, estoy para servirle. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
+- No se enoje, estoy aqui para ayudarle. Soy capaz de responder preguntas respecto a Pago de Nóminas. Trata de ser claro y no escribir con saltos de linea.
